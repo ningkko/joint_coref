@@ -5,9 +5,11 @@ import json
 import logging
 import argparse
 import xml.etree.ElementTree as ET
-sys.path.append("/shared/")
+import sys
 
-from classes import Token, MentionData
+sys.path.append("shared/")
+
+from classes import MentionData
 
 # This file parses ecb data
 
@@ -28,6 +30,21 @@ out_dir = args.output_dir
 if not os.path.exists(out_dir):
     os.makedirs(out_dir)
 
+class Token(object):
+    def __init__(self, text, sent_id, tok_id, rel_id=None):
+        '''
+
+        :param text: The token text
+        :param sent_id: The sentence id
+        :param tok_id: The token id
+        :param rel_id: The relation id
+        '''
+
+        self.text = text
+        self.sent_id = sent_id
+        self.tok_id = tok_id
+        self.rel_id = rel_id
+        
 def read_selected_sentences(filename):
     '''
     ## This function selects sentences based on the suggestion of Cy, etc.
@@ -282,7 +299,7 @@ def read_ecb_plus_doc(docs,file_obj):
                 if 'plus' in doc_id:
                     if sent_id > 0:
                         sent_id -= 1
-                print(tokens_str)
+                # print(tokens_str)
 
                 mention_obj = MentionData(doc_id, sent_id, token_numbers, ' '.join(tokens_str),
                                            coref_chain, mention_type,is_continuous=is_continuous,
