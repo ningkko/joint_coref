@@ -9,21 +9,18 @@ import spacy
 import stanza
 # stanza.download('en') # download English model
 
-nlp = "stanza"
+nlp_tag = "spacy"
 
-for pack in os.listdir("src"):
-    sys.path.append(os.path.join("src", pack))
-
-sys.path.append("shared/")
+sys.path.append("../shared/")
 
 from classes import Document, Sentence, Token, EventMention, EntityMention
 from extraction_utils import *
 
 # model used by the paper
-if nlp = "stanza":
+if nlp_tag == "stanza":
     nlp = stanza.Pipeline(lang='en', processors='tokenize,mwt,pos,lemma,depparse')
 else:
-    nlp = spacy.load('en')
+    nlp = spacy.load('en_core_web_sm')
 
 
 parser = argparse.ArgumentParser(description='Feature extraction (predicate-argument structures,'
@@ -37,6 +34,7 @@ parser.add_argument('--output_path', type=str,
 args = parser.parse_args()
 
 out_dir = args.output_path
+
 if not os.path.exists(out_dir):
     os.makedirs(out_dir)
 
@@ -131,21 +129,23 @@ def find_head(x):
     :param x: A mention object, e.g. "first-degree murder"
     :return: the head word and
     '''
-    # ------- using stanza --------
-    x_parsed = stanza_nlp(x).sentences[0]
-    for tok in x_parsed:
-        if tok.head == 0:
-            if tok.upos == "PRON":
-                return tok.text, tok.text.lower()
-            return tok.text,tok.lemma
 
-    # -------  using spacy --------
-    # x_parsed = nlp(x)
-    # for tok in x_parsed:
-    #     if tok.head == tok:
-    #         if tok.lemma_ == u'-PRON-':
-    #             return tok.text, tok.text.lower()
-    #         return tok.text,tok.lemma_
+    if nlp_tag == "stanza":
+        # ------- using stanza --------
+        x_parsed = nlp(x).sentences[0]
+        for tok in x_parsed.words:
+            if tok.head == 0:
+                if tok.upos == "PRON":
+                    return tok.text, tok.text.lower()
+                return tok.text,tok.lemma
+    else:
+        # -------  using spacy --------
+        x_parsed = nlp(x)
+        for tok in x_parsed:
+            if tok.head == tok:
+                if tok.lemma_ == u'-PRON-':
+                    return tok.text, tok.text.lower()
+                return tok.text,tok.lemma_
 
 
 def find_topic_gold_clusters(topic):
@@ -179,7 +179,7 @@ def find_topic_gold_clusters(topic):
     return event_gold_tag_to_cluster, entity_gold_tag_to_cluster, event_mentions, entity_mentions
 
 
-def write_dataset_statistics(split_name, dataset, check_predicted):
+def write_dataset_statistics(split_name, dataset):
     '''
     Prints the split statistics
     :param split_name: the split name (a string)
@@ -193,11 +193,6 @@ def write_dataset_statistics(split_name, dataset, check_predicted):
     event_chains_count = 0
     entity_chains_count = 0
     topics_count = len(dataset.topics.keys())
-    predicted_events_count = 0
-    predicted_entities_count = 0
-    matched_predicted_event_count = 0
-    matched_predicted_entity_count = 0
-
 
     for topic_id, topic in dataset.topics.items():
         event_gold_tag_to_cluster, entity_gold_tag_to_cluster, \
@@ -223,22 +218,6 @@ def write_dataset_statistics(split_name, dataset, check_predicted):
         event_chains_count += len(event_chains)
         entity_chains_count += len(entity_chains)
 
-        if check_predicted:
-            for doc_id, doc in topic.docs.items():
-                for sent_id, sent in doc.sentences.items():
-                    pred_events = sent.pred_event_mentions
-                    pred_entities = sent.pred_entity_mentions
-
-                    predicted_events_count += len(pred_events)
-                    predicted_entities_count += len(pred_entities)
-
-                    for pred_event in pred_events:
-                        if pred_event.has_compatible_mention:
-                            matched_predicted_event_count += 1
-
-                    for pred_entity in pred_entities:
-                        if pred_entity.has_compatible_mention:
-                            matched_predicted_entity_count += 1
 
     with open(os.path.join(args.output_path, '{}_statistics.txt'.format(split_name)), 'w') as f:
         f.write('Number of topics - {}\n'.format(topics_count))
@@ -246,16 +225,6 @@ def write_dataset_statistics(split_name, dataset, check_predicted):
         f.write('Number of sentences - {}\n'.format(sent_count))
         f.write('Number of event mentions - {}\n'.format(event_mentions_count))
         f.write('Number of entity mentions - {}\n'.format(entity_mentions_count))
-
-        if check_predicted:
-            f.write('Number of predicted event mentions  - {}\n'.format(predicted_events_count))
-            f.write('Number of predicted entity mentions - {}\n'.format(predicted_entities_count))
-            f.write('Number of predicted event mentions that match gold mentions- '
-                    '{} ({}%)\n'.format(matched_predicted_event_count,
-                                        (matched_predicted_event_count/float(event_mentions_count)) *100 ))
-            f.write('Number of predicted entity mentions that match gold mentions- '
-                    '{} ({}%)\n'.format(matched_predicted_entity_count,
-                                        (matched_predicted_entity_count / float(entity_mentions_count)) * 100))
 
 
 def main(args):
@@ -268,27 +237,37 @@ def main(args):
         processed data ready to use in training and inference(saved in ../processed).
     """
     logger.info('Training data - loading event and entity mentions')
+
+    print("loading training data")
     training_data = load_gold_data(config_dict["train_text_file"],config_dict["train_event_mentions"],
                                    config_dict["train_entity_mentions"])
 
     logger.info('Dev data - Loading event and entity mentions ')
+    print("loading dev data")
     dev_data = load_gold_data(config_dict["dev_text_file"],config_dict["dev_event_mentions"],
                               config_dict["dev_entity_mentions"])
 
     logger.info('Test data - Loading event and entity mentions')
+    print("loading testing data")
     test_data = load_gold_data(config_dict["test_text_file"], config_dict["test_event_mentions"],
                                config_dict["test_entity_mentions"])
+
+    print("ordering")
 
     train_set = order_docs_by_topics(training_data)
     dev_set = order_docs_by_topics(dev_data)
     test_set = order_docs_by_topics(test_data)
 
-    write_dataset_statistics('train', train_set, check_predicted=False)
+    print("writing")
 
-    write_dataset_statistics('dev', dev_set, check_predicted=False)
+    write_dataset_statistics('train', train_set)
+
+    write_dataset_statistics('dev', dev_set)
 
     # check_predicted = True if config_dict["load_predicted_mentions"] else False
-    write_dataset_statistics('test', test_set, check_predicted=check_predicted)
+    write_dataset_statistics('test', test_set)
+
+    print("finding args")
 
 
     logger.info('Augmenting predicate-arguments structures using dependency parser')

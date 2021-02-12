@@ -1,0 +1,14 @@
+{
+  "train_text_file":"../output/ECB_Train_corpus.txt",
+  "dev_text_file":"../output/ECB_Dev_corpus.txt",
+  "test_text_file":"../output/ECB_Test_corpus.txt",
+
+  "train_event_mentions":"../output/ECB_Train_Event_gold_mentions.json",
+  "dev_event_mentions":"../output/ECB_Dev_Event_gold_mentions.json",
+  "test_event_mentions":"../output/ECB_Test_Event_gold_mentions.json",
+
+  "train_entity_mentions":"../output/ECB_Train_Entity_gold_mentions.json",
+  "dev_entity_mentions":"../output/ECB_Dev_Entity_gold_mentions.json",
+  "test_entity_mentions":"../output/ECB_Test_Entity_gold_mentions.json"
+
+}
