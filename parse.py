@@ -6,7 +6,9 @@ import logging
 import argparse
 import xml.etree.ElementTree as ET
 from mention_data import MentionData
-from _token import Token 
+sys.path.append("/shared/")
+
+from classes import Token 
 
 # This file parses ecb data
 
