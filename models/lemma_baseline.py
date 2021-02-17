@@ -24,10 +24,6 @@ args = parser.parse_args()
 with open(args.config_path, 'r') as js_file:
     config_dict = json.load(js_file)
 
-# Saves json configuration file in the experiment's folder
-with open(os.path.join(args.out_dir,'lemma_baseline_config.json'), "w") as js_file:
-    json.dump(config_dict, js_file, indent=4, sort_keys=True)
-
 from classes import *
 from model_utils import *
 from eval_utils import *
@@ -63,7 +59,7 @@ def run_same_lemmma_baseline(test_set):
     :param test_set: A Corpus object representing the test set.
     '''
     topics_counter = 0
-    topics = load_predicted_topics(test_set,config_dict)
+    topics = test_set.topics
     topics_keys = topics.keys()
 
     for topic_id in topics_keys:

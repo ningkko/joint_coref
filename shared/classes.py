@@ -80,58 +80,26 @@ class Document(object):
     It contains the document ID and a dictionary of sentence objects.
     '''
     def __init__(self,doc_name):
-        '''
-        A c'tor for a document object.
-        set the document name, and create an empty sentences dictionary
-        :param doc_name: the document name (also used as an ID)
-        '''
         self.doc_id = doc_name
         self.sentences = {}
 
     def get_sentences(self):
-        '''
-        A getter for the sentences dictionary
-        :return: a dictionary of sentence objects
-        '''
         return self.sentences
 
     def add_sentence(self,sent_id,sent):
-       '''
-        This function gets a sentence object and its ID and adds it to the sentences dictionary
-       :param sent_id: the sentence id (its ordinal number in the document)
-       :param sent: a sentence object
-       '''
        if sent_id not in self.sentences:
            self.sentences[sent_id] = sent
 
     def add_mention(self,sent_id,mention):
-        '''
-         This function gets a mention object and its sentence id and adds it to the sentences dictionary
-        :param sent_id: the sentence id (its ordinal number in the document)
-        :param mention: a mention object to add
-        '''
         self.sentences[sent_id].add_mention(mention)
 
     def fetch_mention_string(self,sent_id,start_offset,end_offset):
-        '''
-        This function gets a sentence id, start offset of the mention and an end offset of
-        the mention and finds the mention's string
-        :param sent_id: the sentence id (its ordinal number in the document)
-        :param start_offset: the start index of the mention's span
-        :param end_offset: the end index of the mention's span
-        :return: the mention string and a list of token objects
-        '''
         if sent_id in self.sentences:
             return self.sentences[sent_id].fetch_mention_string(start_offset,end_offset)
         else:
             return None
 
     def get_raw_doc(self, add_boundary):
-        '''
-        Returns the document's text.
-        :param add_boundary: whether or not to add a boundary sign between sentences
-        :return: a string contains the  document's text.
-        '''
         raw_doc = []
         for sent_id, sent in self.sentences.items():
             raw_doc.append(sent.get_raw_sentence())
@@ -142,10 +110,6 @@ class Document(object):
             return ' '.join(raw_doc)
 
     def get_all_tokens(self):
-        '''
-        Returns the document's tokens (Token objects).
-        :return: list of Token objects.
-        '''
         tokens = []
         for sent_id, sent in self.sentences.items():
             tokens.extend(sent.tokens)
@@ -173,34 +137,18 @@ class Sentence(object):
         self.pred_entity_mentions = []  # predicted entity mentions
 
     def add_token(self, token):
-        '''
-        This function gets a token object and append it to the token objects list
-        :param token: a token object
-        '''
         self.tokens.append(token)
 
     def get_tokens(self):
-        '''
-        A getter for the tokens list
-        :return:
-        '''
         return self.tokens
 
     def get_raw_sentence(self):
-        '''
-        This function returns the string of the sentence by concatenating the tokens with spaces
-        :return: the string of the sentence
-        '''
         toks = []
         for tok in self.tokens:
             toks.append(tok.get_token())
         return ' '.join(toks)
 
     def get_tokens_strings(self):
-        '''
-        Returns a list of the tokens' text
-        :return:
-        '''
         toks = []
         for tok in self.tokens:
             toks.append(tok.get_token())
@@ -208,29 +156,12 @@ class Sentence(object):
         return toks
 
     def add_gold_mention(self, mention, is_event):
-        '''
-        This function gets a mention object and adds it to the gold event mentions list if the
-        flag is_event = True. Otherwise the mention object will be added to the gold entity mentions list
-        :param mention: a mention object
-        :param is_event: a flag that indicates whether the mention is an event mention or an
-         entity mention
-        '''
         if is_event:
             self.gold_event_mentions.append(mention)
         else:
             self.gold_entity_mentions.append(mention)
 
     def add_predicted_mention(self, mention, is_event, relaxed_match):
-        '''
-        This function gets a predicted mention object and adds it to the predicted event mentions list if the
-        flag is_event = True. Otherwise the mention object will be added to the predicted entity mentions list.
-        The function also tries to match between the predicted mention and a gold mention (match is based on an exact
-        string match, head match or boundary match - one mention contains the other mention)
-        :param mention: a mention object
-        :param is_event: a flag that indicates whether the mention is an event mention or an
-         entity mention
-         :return True if the predicted mention have a match with a gold mention, and False otherwise.
-        '''
         if is_event:
             self.pred_event_mentions.append(mention)
         else:
@@ -302,9 +233,6 @@ class Sentence(object):
 
     def same_head(self, mention_i, mention_j):
         '''
-        Checks whether mention_i and mention_j have the same head
-        :param mention_i: the first Mention object
-        :param mention_j: the second Mention object
         :return: True if they have a head match, and False otherwise.
         '''
         if mention_i.mention_head == mention_j.mention_head and \
@@ -314,11 +242,6 @@ class Sentence(object):
 
     def find_nearest_entity_mention(self, event, is_left, is_gold):
         '''
-        Finds for a given event mention its closest left/right entity mention
-        :param event: an EventMention object
-        :param is_left: whether to extract entity mention from the left side of the
-        event mention or from its right side.
-        :param is_gold: whether to look for gold or predicted entity mention.
         :return: the closest entity if it was found, and None otherwise.
         '''
         sent_entities = self.gold_entity_mentions if is_gold else self.pred_entity_mentions
@@ -340,10 +263,6 @@ class Sentence(object):
 
     def fetch_mention_string(self, start_offset, end_offset):
         '''
-        This function gets a start offset of the mention and an end offset of
-        the mention and finds the mention's string
-        :param start_offset: the start index of the mention's span
-        :param end_offset: the end index of the mention's span
         :return: the mention string and a list of token objects
         '''
         mention_tokens = []
@@ -355,9 +274,6 @@ class Sentence(object):
 
     def find_mention_tokens(self, token_numbers):
         '''
-        Given a list of token ids, the function finds the corresponding Token objects in
-        the sentence and returns them in a list.
-        :param token_numbers:
         :return: a list of token objects
         '''
         tokens = []
@@ -411,10 +327,6 @@ class Mention(object):
 
 
     def get_tokens(self):
-        '''
-        Returns the mention's tokens
-        :return: a list of Token objects
-        '''
         return [tok.get_token() for tok in self.tokens]
 
     def get_head_index(self):
@@ -433,6 +345,26 @@ class Mention(object):
     def get_comparator_function(cls):
         return lambda mention: (mention.doc_id, int(mention.sent_id) ,int(mention.start_offset))
 
+class EntityMention(Mention):
+    '''
+    A class that represents an entity mention.
+    '''
+    def __init__(self, doc_id, sent_id, tokens_numbers,tokens,mention_str, head_text, head_lemma,
+                 is_singleton, is_continuous, coref_chain, mention_type):
+        super(EntityMention, self).__init__(doc_id, sent_id, tokens_numbers, tokens,
+                                            mention_str, head_text, head_lemma, is_singleton,
+                                            is_continuous, coref_chain)
+        self.mention_type = mention_type
+
+class EventMention(Mention):
+    '''
+    A class that represents an event mention.
+    '''
+    def __init__(self, doc_id, sent_id, tokens_numbers,tokens,mention_str, head_text, head_lemma,
+                 is_singleton, is_continuous, coref_chain):
+        super(EventMention, self).__init__(doc_id, sent_id, tokens_numbers,tokens,mention_str, head_text, head_lemma,
+                 is_singleton, is_continuous, coref_chain)
+
 
 class Token(object):
     '''
@@ -440,22 +372,12 @@ class Token(object):
      (its ordinal number in the sentence), the token's string, its coreference gold chain and its predicted coreference chains
     '''
     def __init__(self, token_id,token,gold_coref_chain):
-        '''
-        A c'tor for a mention object, it sets the below parameters
-        :param token_id: the token ID (its ordinal number in the sentence)
-        :param token: the token's string
-        :param gold_coref_chain: the token's coreference gold chain
-        '''
         self.token_id = token_id
         self.token = token
         self.gold_event_coref_chain = []
         self.gold_entity_coref_chain = []
 
     def get_token(self):
-        '''
-        A getter for the token's string
-        :return: the token's string
-        '''
         return self.token
 
 

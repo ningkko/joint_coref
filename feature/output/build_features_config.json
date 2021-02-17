@@ -7,8 +7,5 @@
     "test_text_file": "../output/ECB_Test_corpus.txt",
     "train_entity_mentions": "../output/ECB_Train_Entity_gold_mentions.json",
     "train_event_mentions": "../output/ECB_Train_Event_gold_mentions.json",
-    "train_text_file": "../output/ECB_Train_corpus.txt",
-    "pred_event_mentions":"",
-    "pred_entity_mentions":"",
-
+    "train_text_file": "../output/ECB_Train_corpus.txt"
 }

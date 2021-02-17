@@ -3,3 +3,7 @@ Number of documents - 206
 Number of sentences - 457
 Number of event mentions - 1780
 Number of entity mentions - 2055
+Number of predicted event mentions  - 0
+Number of predicted entity mentions - 0
+Number of predicted event mentions that match gold mentions- 0 (0.0%)
+Number of predicted entity mentions that match gold mentions- 0 (0.0%)

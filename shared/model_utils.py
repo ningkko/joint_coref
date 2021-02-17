@@ -10,7 +10,7 @@ import collections
 import numpy as np
 from scorer import *
 from eval_utils import *
-import _pickle as cPickle
+import pickle
 from bcubed_scorer import *
 import matplotlib.pyplot as plt
 from spacy.lang.en import English
@@ -29,12 +29,10 @@ analysis_pair_dict = {}
 
 def topic_to_mention_list(topic, is_gold):
     '''
-    Gets a Topic object and extracts its event/entity mentions (depends on the is_event flag)
+    Gets a Topic object and extracts its event/entity mentions
     :param topic: a Topic object
-    :param is_event: a flag that denotes whether event mentions will be extracted or
-    entity mention will be extracted (True for event extraction, False for entity extraction)
     :param is_gold: a flag that denotes whether to extract gold mention or predicted mentions
-    :return: list of the topic's mentions (EventMention or EntityMention objects)
+    :return: list of the topic's mentions
     '''
     event_mentions = []
     entity_mentions = []
@@ -194,4 +192,35 @@ def create_gold_clusters(mentions):
     return wd_clusters
 
 
+def load_predicted_topics(test_set, path):
+    '''
+    Loads the document clusters that were predicted by a document clustering algorithm and
+    organize the test's documents to topics according to document clusters.
+    :param test_set: A Corpus object represents the test set
+    :param path: path to the predicted topic file
+    stores the results of the document clustering algorithm.
+    :return:  a dictionary contains the documents ordered according to the predicted topics
+    '''
+    new_topics = {}
+    with open(config_dict["predicted_topics_path"], 'rb') as f:
+        predicted_topics = pickle.load(f)
+    all_docs = []
+    for topic in test_set.topics.values():
+        all_docs.extend(topic.docs.values())
 
+    all_doc_dict = {doc.doc_id:doc for doc in all_docs }
+
+    topic_counter = 1
+    for topic in predicted_topics:
+        topic_id = str(topic_counter)
+        new_topics[topic_id] = Topic(topic_id)
+
+        for doc_name in topic:
+            print(topic_id)
+            print(doc_name)
+            if doc_name in all_doc_dict:
+                new_topics[topic_id].docs[doc_name] = all_doc_dict[doc_name]
+        topic_counter += 1
+
+    print(len(new_topics))
+    return new_topics
