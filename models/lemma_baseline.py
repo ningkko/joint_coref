@@ -2,12 +2,12 @@ import os
 import gc
 import sys
 import json
-
-sys.path.append("../")
-
 import pickle
 import logging
 import argparse
+
+sys.path.append("../shared")
+
 from classes import *
 from model_utils import *
 
@@ -15,8 +15,6 @@ parser = argparse.ArgumentParser(description='Run same lemma baseline')
 
 parser.add_argument('--config_path', type=str,
                     help=' The path configuration json file')
-parser.add_argument('--out_dir', type=str,
-                    help=' The directory to the output folder')
 
 args = parser.parse_args()
 
@@ -66,22 +64,22 @@ def run_same_lemmma_baseline(test_set):
         topic = topics[topic_id]
         topics_counter += 1
 
-        event_mentions, entity_mentions = topic_to_mention_list(topic, is_gold=config_dict["test_use_gold_mentions"])
+        event_mentions, entity_mentions = topic_to_mention_list(topic)
 
         event_clusters = get_clusters_by_head_lemma(event_mentions, is_event=True)
         entity_clusters = get_clusters_by_head_lemma(entity_mentions, is_event=False)
 
-        with open(os.path.join(args.out_dir,'entity_clusters.txt'), 'a') as entity_file_obj:
+        with open(os.path.join(config_dict["output_path"],'entity_clusters.txt'), 'a') as entity_file_obj:
             write_clusters_to_file(entity_clusters, entity_file_obj, topic_id)
 
-        with open(os.path.join(args.out_dir, 'event_clusters.txt'), 'a') as event_file_obj:
+        with open(os.path.join(config_dict["output_path"], 'event_clusters.txt'), 'a') as event_file_obj:
             write_clusters_to_file(event_clusters, event_file_obj, topic_id)
 
         set_coref_chain_to_mentions(event_clusters)
         set_coref_chain_to_mentions(entity_clusters)
 
-    write_event_coref_results(test_set, args.out_dir, config_dict)
-    write_entity_coref_results(test_set, args.out_dir, config_dict)
+    write_event_coref_results(test_set, config_dict["output_path"])
+    write_entity_coref_results(test_set, config_dict["output_path"])
 
 
 def main():
@@ -90,12 +88,14 @@ def main():
     its predicted clusters.
     '''
     logger.info('Loading test data...')
+    print("loading data")
     with open(config_dict["test_path"], 'rb') as f:
         test_data = pickle.load(f)
 
     logger.info('Test data have been loaded.')
 
     logger.info('Running same lemma baseline...')
+    print("running baseline model")
     run_same_lemmma_baseline(test_data)
     logger.info('Done.')
 

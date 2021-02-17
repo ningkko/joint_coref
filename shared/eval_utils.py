@@ -4,10 +4,6 @@ import logging
 import operator
 import collections
 
-for pack in os.listdir("src"):
-    sys.path.append(os.path.join("src", pack))
-
-sys.path.append("/src/shared/")
 
 written_mentions = 0
 cd_clusters_count = 10000
@@ -128,7 +124,7 @@ def write_mention_based_wd_clusters(corpus, is_event, is_gold, out_file):
     out_coref.close()
 
 
-def write_event_coref_results(corpus, out_dir, config_dict):
+def write_event_coref_results(corpus, out_dir):
     '''
     Writes to a file (in a CoNLL format) the predicted event clusters (for evaluation).
     :param corpus: A Corpus object
@@ -142,7 +138,7 @@ def write_event_coref_results(corpus, out_dir, config_dict):
     write_mention_based_wd_clusters(corpus, is_event=True, is_gold=False, out_file=out_file)
 
 
-def write_entity_coref_results(corpus, out_dir,config_dict):
+def write_entity_coref_results(corpus, out_dir):
     '''
     Writes to a file (in a CoNLL format) the predicted entity clusters (for evaluation).
     :param corpus: A Corpus object

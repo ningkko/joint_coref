@@ -1,6 +1,4 @@
 {
-  "test_path":"data/processed/kian_split/full/test_data",
-  "test_use_gold_mentions": true,
-  "load_predicted_topics": true,
-  "predicted_topics_path": "data/external/document_clustering/predicted_topics"
+  "test_path":"../feature/output/test_data",
+  "output_path":"baseline/"
 }
