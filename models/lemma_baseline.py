@@ -3,12 +3,9 @@ import gc
 import sys
 import json
 
-for pack in os.listdir("src"):
-    sys.path.append(os.path.join("src", pack))
+sys.path.append("../")
 
-sys.path.append("shared/")
-
-import pickle as cPickle
+import pickle
 import logging
 import argparse
 from classes import *
@@ -60,45 +57,13 @@ def get_clusters_by_head_lemma(mentions, is_event):
     return clusters
 
 
-def merge_all_topics(test_set):
-    '''
-    Merges all topics and sub-topics to a single topic
-    :param test_set: a Corpus object represents the test set
-    :return: a topics dictionary contains a single topic
-    '''
-    new_topics = {}
-    new_topics['all'] = Topic('all')
-    topics_keys = test_set.topics.keys()
-    for topic_id in topics_keys:
-        topic = test_set.topics[topic_id]
-        new_topics['all'].docs.update(topic.docs)
-    return new_topics
-
-def write_event_coref_results(corpus, out_dir, config_dict):
-    '''
-    Writes to a file (in a CoNLL format) the predicted event clusters (for evaluation).
-    :param corpus: A Corpus object
-    :param out_dir: output directory
-    :param config_dict: configuration dictionary
-    '''
-
-    out_file = os.path.join(out_dir, 'CD_test_event_mention_based.response_conll')
-    write_mention_based_cd_clusters(corpus, is_event=True, is_gold=False, out_file=out_file)
-
-    out_file = os.path.join(out_dir, 'WD_test_event_mention_based.response_conll')
-    write_mention_based_wd_clusters(corpus, is_event=True, is_gold=False, out_file=out_file)
-
-
-
 def run_same_lemmma_baseline(test_set):
     '''
     Runs the head lemma baseline and writes its predicted clusters.
     :param test_set: A Corpus object representing the test set.
     '''
     topics_counter = 0
-    topics = merge_all_topics(test_set)
-    # elif config_dict["load_predicted_topics"]:
-
+    topics = load_predicted_topics(test_set,config_dict)
     topics_keys = topics.keys()
 
     for topic_id in topics_keys:
@@ -107,13 +72,8 @@ def run_same_lemmma_baseline(test_set):
 
         event_mentions, entity_mentions = topic_to_mention_list(topic, is_gold=config_dict["test_use_gold_mentions"])
 
-        # list of clusters with same head lemmas  
         event_clusters = get_clusters_by_head_lemma(event_mentions, is_event=True)
         entity_clusters = get_clusters_by_head_lemma(entity_mentions, is_event=False)
-
-        # if config_dict["eval_mode"] == 1:
-        #     event_clusters = separate_clusters_to_sub_topics(event_clusters, is_event=True)
-        #     entity_clusters = separate_clusters_to_sub_topics(entity_clusters, is_event=False)
 
         with open(os.path.join(args.out_dir,'entity_clusters.txt'), 'a') as entity_file_obj:
             write_clusters_to_file(entity_clusters, entity_file_obj, topic_id)
@@ -121,12 +81,8 @@ def run_same_lemmma_baseline(test_set):
         with open(os.path.join(args.out_dir, 'event_clusters.txt'), 'a') as event_file_obj:
             write_clusters_to_file(event_clusters, event_file_obj, topic_id)
 
-        set_coref_chain_to_mentions(event_clusters, is_event=True,
-                                    is_gold=config_dict["test_use_gold_mentions"],intersect_with_gold=True
-                                    ,remove_singletons=config_dict["remove_singletons"])
-        set_coref_chain_to_mentions(entity_clusters, is_event=False,
-                                    is_gold=config_dict["test_use_gold_mentions"],intersect_with_gold=True
-                                    ,remove_singletons=config_dict["remove_singletons"])
+        set_coref_chain_to_mentions(event_clusters)
+        set_coref_chain_to_mentions(entity_clusters)
 
     write_event_coref_results(test_set, args.out_dir, config_dict)
     write_entity_coref_results(test_set, args.out_dir, config_dict)
@@ -139,7 +95,7 @@ def main():
     '''
     logger.info('Loading test data...')
     with open(config_dict["test_path"], 'rb') as f:
-        test_data = cPickle.load(f)
+        test_data = pickle.load(f)
 
     logger.info('Test data have been loaded.')
 
@@ -152,4 +108,4 @@ if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
     logger = logging.getLogger(__name__)
     main()
-data/processed/kian_split/full/test_data
+

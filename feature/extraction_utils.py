@@ -32,6 +32,7 @@ def findSVOs(parsed_sent, sent):
     for v in verbs:
         subs, pass_subs = getAllSubs(v)
         v, objs = getAllObjs(v)
+
         if len(subs) > 0 or len(objs) > 0 or len(pass_subs) > 0:
             for sub in subs:
                 match_subj_with_event(verb_text=v.orth_,
@@ -52,97 +53,63 @@ def findSVOs(parsed_sent, sent):
 def getAllSubs(v):
     '''
     Finds all possible subjects of an extracted verb
+    @TODO: because SVO?
     :param v: an extracted verb
     :return: all possible subjects of the verb
     '''
+    def getSubsFromConjunctions(subs):
+        '''
+        Finds subjects in conjunctions (and)
+        :param subs: found subjects so far
+        :return: additional subjects, if exist
+        '''
+        moreSubs = []
+        for sub in subs:
+            rights = list(sub.rights)
+            rightDeps = {tok.lower_ for tok in rights}
+            if "and" in rightDeps:
+                moreSubs.extend([tok for tok in rights if tok.dep_ in SUBJECTS or tok.pos_ == "NOUN"])
+                if len(moreSubs) > 0:
+                    moreSubs.extend(getSubsFromConjunctions(moreSubs))
+        return moreSubs
+
     subs = [tok for tok in v.lefts if tok.dep_ in SUBJECTS and tok.pos_ != "DET"]
     pass_subs = [tok for tok in v.lefts if tok.dep_ in PASS_SUBJ and tok.pos_ != "DET"]
     if len(subs) > 0:
         subs.extend(getSubsFromConjunctions(subs))
     return subs, pass_subs
-
-def getObjsFromConjunctions(objs):
-    '''
-    Finds objects in conjunctions (and)
-    :param objs: found objects so far
-    :return: additional objects, if exist
-    '''
-    moreObjs = []
-    for obj in objs:
-        # rights is a generator
-        rights = list(obj.rights)
-        rightDeps = {tok.lower_ for tok in rights}
-        if "and" in rightDeps:
-            moreObjs.extend([tok for tok in rights if tok.dep_ in OBJECTS or tok.pos_ == "NOUN"])
-            if len(moreObjs) > 0:
-                moreObjs.extend(getObjsFromConjunctions(moreObjs))
-    return moreObjs
-
-
-def getSubsFromConjunctions(subs):
-    '''
-    Finds subjects in conjunctions (and)
-    :param subs: found subjects so far
-    :return: additional subjects, if exist
-    '''
-    moreSubs = []
-    for sub in subs:
-        rights = list(sub.rights)
-        rightDeps = {tok.lower_ for tok in rights}
-        if "and" in rightDeps:
-            moreSubs.extend([tok for tok in rights if tok.dep_ in SUBJECTS or tok.pos_ == "NOUN"])
-            if len(moreSubs) > 0:
-                moreSubs.extend(getSubsFromConjunctions(moreSubs))
-    return moreSubs
-
-def getAllSubs(v):
-    '''
-    Finds all possible subjects of an extracted verb
-    :param v: an extracted verb
-    :return: all possible subjects of the verb
-    '''
-    subs = [tok for tok in v.lefts if tok.dep_ in SUBJECTS and tok.pos_ != "DET"]
-    pass_subs = [tok for tok in v.lefts if tok.dep_ in PASS_SUBJ and tok.pos_ != "DET"]
-    if len(subs) > 0:
-        subs.extend(getSubsFromConjunctions(subs))
-    return subs, pass_subs
-
-def getObjsFromPrepositions(deps):
-    '''
-    Finds objects in prepositions
-    :param deps: dependencies extracted by spaCy parser
-    :return: objects extracted from prepositions
-    '''
-    objs = []
-    for dep in deps:
-        if dep.pos_ == "ADP" and dep.dep_ == "prep":
-            objs.extend([tok for tok in dep.rights if tok.dep_  in OBJECTS])
-    return objs
-
-
-def getObjFromXComp(deps):
-    '''
-     Finds objects in XComp phrases (X think that [...])
-    :param deps: dependencies extracted by spaCy parser
-    :return: objects extracted from XComp phrases
-    '''
-    for dep in deps:
-        if dep.pos_ == "VERB" and dep.dep_ == "xcomp":
-            v = dep
-            rights = list(v.rights)
-            objs = [tok for tok in rights if tok.dep_ in OBJECTS]
-            objs.extend(getObjsFromPrepositions(rights))
-            if len(objs) > 0:
-                return v, objs
-    return None, None
-
 
 def getAllObjs(v):
     '''
-     Finds all the objects of an extracted verb
     :param v: an extracted verb
     :return: all possible objects of the verb
     '''
+    def getObjsFromPrepositions(deps):
+        '''
+        Finds objects in prepositions
+        '''
+        objs = []
+        for dep in deps:
+            if dep.pos_ == "ADP" and dep.dep_ == "prep":
+                objs.extend([tok for tok in dep.rights if tok.dep_  in OBJECTS])
+        return objs
+
+    def getObjsFromConjunctions(objs):
+        '''
+        Finds objects in conjunctions (and)
+        '''
+        moreObjs = []
+        for obj in objs:
+            # rights is a generator
+            rights = list(obj.rights)
+            rightDeps = {tok.lower_ for tok in rights}
+            if "and" in rightDeps:
+                moreObjs.extend([tok for tok in rights if tok.dep_ in OBJECTS or tok.pos_ == "NOUN"])
+                if len(moreObjs) > 0:
+                    moreObjs.extend(getObjsFromConjunctions(moreObjs))
+        return moreObjs
+
+
     rights = list(v.rights)
     objs = [tok for tok in rights if tok.dep_ in OBJECTS]
     objs.extend(getObjsFromPrepositions(rights))
@@ -154,7 +121,6 @@ def getAllObjs(v):
     if len(objs) > 0:
         objs.extend(getObjsFromConjunctions(objs))
     return v, objs
-
 
 def find_nominalizations_args(parsed_sent, sent):
     '''
@@ -172,6 +138,7 @@ def find_nominalizations_args(parsed_sent, sent):
                 match_subj_with_event(verb_text=n.orth_,
                                       verb_index=n.i, subj_text=sub.orth_,
                                       subj_index=sub.i, sent=sent)
+
 
 def match_subj_with_event(verb_text, verb_index, subj_text, subj_index, sent):
     '''
@@ -240,7 +207,7 @@ def match_event(verb_text, verb_index, sent):
                 if verb_index == int(tok.token_id):
                     matched_events_same_ix += 1
                 return event
-    return None
+
 
 def match_entity(entity_text, entity_index, sent):
     '''
@@ -261,7 +228,6 @@ def match_entity(entity_text, entity_index, sent):
                 if entity_index == int(tok.token_id):
                     matched_args_same_ix += 1
                 return entity
-    return None
 
 '''
 Borrowed with modifications from https://github.com/NSchrading/intro-spacy-nlp/blob/master/subject_object_extraction.py
@@ -277,6 +243,7 @@ def find_args_by_dependency_parsing(dataset,nlp):
     '''
     Runs dependency parser on the split's sentences and augments the predicate-argument structures
     :param dataset: an object represents the split (Corpus object)
+    :param nlp: a parser
     '''
     global matched_args, matched_args_same_ix, matched_events,matched_events_same_ix
     matched_args = 0

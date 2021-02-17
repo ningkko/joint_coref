@@ -409,13 +409,6 @@ class Mention(object):
         self.gold_start = None
         self.gold_end = None
 
-        self.span_rep = None
-        self.arg0_vec = None
-        self.arg1_vec = None
-        self.loc_vec = None
-        self.time_vec = None
-
-        self.head_elmo_embeddings = None
 
     def get_tokens(self):
         '''
@@ -439,106 +432,6 @@ class Mention(object):
     @classmethod
     def get_comparator_function(cls):
         return lambda mention: (mention.doc_id, int(mention.sent_id) ,int(mention.start_offset))
-
-
-class EventMention(Mention):
-    '''
-    A class that represents an event mention.
-    This class inherits the Mention class and it contains also variables for
-    the mention's arguments.
-    '''
-    def __init__(self, doc_id, sent_id, tokens_numbers,tokens,mention_str, head_text, head_lemma,
-                 is_singleton, is_continuous, coref_chain):
-        '''
-        A c'tor for an event mention object, it sets the below parameters and initializes
-        the mention's arguments
-        :param doc_id: the document ID
-        :param sent_id: the sentence ID (its ordinal number in the document)
-        :param start_offset: a start index of the mention's span
-        :param end_offset: a end index of the mention's span
-        :param mention_str: the string of the mention's span
-        :param head_text: a string that represents mention's head
-        :param head_lemma:  a string that represents mention's head lemma
-        :param is_singleton: a boolean indicates whether the mention belongs to a singleton class
-        :param is_continuous: a boolean indicates whether the mention span is continuous or not
-        :param coref_chain: the mention's gold coreference chain
-
-        '''
-        super(EventMention, self).__init__(doc_id, sent_id, tokens_numbers,tokens,mention_str, head_text, head_lemma,
-                 is_singleton, is_continuous, coref_chain)
-        ''' The following attributes consist of a tuple contains two elements - the first is the 
-        entity mention's (which plays the role) text and the second one is its mention ID  '''
-
-        self.arg0 = None
-        self.arg1 = None
-        self.amtmp = None
-        self.amloc = None
-
-    def __str__(self):
-        a0 = self.arg0[0] if self.arg0 is not None else '-'
-        a1 = self.arg1[0] if self.arg1 is not None else '-'
-        atmp = self.amtmp[0] if self.amtmp is not None else '-'
-        aloc = self.amloc[0] if self.amloc is not None else '-'
-
-        return '{}_a0: {}_a1: {}_loc: {}_tmp: {}_{}'.format(super(EventMention, self).__str__(),a0, a1,aloc, atmp,self.mention_id)
-
-
-class EntityMention(Mention):
-    '''
-    A class that represents an entity mention.
-    This class inherits from the Mention class and it contains also the predicates of
-    the entity mention and the entity mention type (Human/Non-human/Location/Time) .
-    '''
-    def __init__(self, doc_id, sent_id, tokens_numbers,tokens,mention_str, head_text, head_lemma,
-                 is_singleton, is_continuous, coref_chain, mention_type):
-        '''
-        A c'tor for an entity mention object, it sets the below parameters and sets an "empty" predicate
-        :param doc_id: the document ID
-        :param sent_id: the sentence ID (its ordinal number in the document)
-        :param start_offset: a start index of the mention's span
-        :param end_offset: a end index of the mention's span
-        :param mention_str: the string of the mention's span
-        :param head_text: a string that represents mention's head
-        :param head_lemma:  a string that represents mention's head lemma
-        :param is_singleton: a boolean indicates whether the mention belongs to a singleton class
-        :param is_continuous: a boolean indicates whether the mention span is continuous or not
-        :param coref_chain: the mention's gold coreference chain (string)
-        :param mention_type: the entity mention type - Human/Non-human/Location/Time(string)
-
-        '''
-        super(EntityMention, self).__init__(doc_id, sent_id, tokens_numbers, tokens,
-                                            mention_str, head_text, head_lemma, is_singleton,
-                                            is_continuous, coref_chain)
-        self.predicates = {}  # a dictionary contains the entity mention's predicates, key is a predicate's mention id and value is the argument name
-        self.mention_type = mention_type
-
-    def add_predicate(self, predicate_id, relation_to_predicate):
-        '''
-        Adds an event mention to the predicates dictionary
-        :param predicate_id: the mention id of the event mention
-        :param relation_to_predicate: the argument name, i.e. which role the
-         entity mention plays for that predicate (aka event mention) - Arg0/Arg1/Location/Time
-        '''
-        self.predicates[predicate_id] = relation_to_predicate
-
-    def __str__(self):
-        a0_pred = '-'
-        a1_pred = '-'
-        aloc_pred = '-'
-        atmp_pred = '-'
-        for pred, rel in self.predicates.items():
-            if rel == 'A0':
-                a0_pred += pred[0]+'-'
-            elif rel == 'A1':
-                a1_pred += pred[0]+'-'
-            elif rel == 'AM-TMP':
-                atmp_pred += pred[0]+'-'
-            elif rel == 'AM-LOC':
-                aloc_pred += pred[0]+'-'
-
-        return '{}_a0-pred: {}_a1-pred: {}_loc-pred: {}_tmp-pred:' \
-               ' {}_{}'.format(super(EntityMention, self).__str__(), a0_pred,
-                               a1_pred, aloc_pred, atmp_pred,self.mention_id)
 
 
 class Token(object):
@@ -566,7 +459,6 @@ class Token(object):
         return self.token
 
 
-
 class Cluster(object):
     '''
     A class represents a coreference cluster
@@ -576,11 +468,6 @@ class Cluster(object):
         self.mentions = {}  # mention's dictionary, key is a mention id and value is a Mention object (either event or entity)
         self.is_event = is_event
         self.merged = False
-        self.lex_vec = None
-        self.arg0_vec = None
-        self.arg1_vec = None
-        self.loc_vec = None
-        self.time_vec = None
 
     def __repr__(self):
         mentions_strings = []

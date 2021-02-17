@@ -126,3 +126,32 @@ def write_mention_based_wd_clusters(corpus, is_event, is_gold, out_file):
                     out_coref.write('{}\t({})\n'.format(generic,coref_chain))
     out_coref.write('#end document\n')
     out_coref.close()
+
+
+def write_event_coref_results(corpus, out_dir, config_dict):
+    '''
+    Writes to a file (in a CoNLL format) the predicted event clusters (for evaluation).
+    :param corpus: A Corpus object
+    :param out_dir: output directory
+    :param config_dict: configuration dictionary
+    '''
+    out_file = os.path.join(out_dir, 'CD_test_event_mention_based.response_conll')
+    write_mention_based_cd_clusters(corpus, is_event=True, is_gold=False, out_file=out_file)
+
+    out_file = os.path.join(out_dir, 'WD_test_event_mention_based.response_conll')
+    write_mention_based_wd_clusters(corpus, is_event=True, is_gold=False, out_file=out_file)
+
+
+def write_entity_coref_results(corpus, out_dir,config_dict):
+    '''
+    Writes to a file (in a CoNLL format) the predicted entity clusters (for evaluation).
+    :param corpus: A Corpus object
+    :param out_dir: output directory
+    :param config_dict: configuration dictionary
+    '''
+    out_file = os.path.join(out_dir, 'CD_test_entity_mention_based.response_conll')
+    write_mention_based_cd_clusters(corpus, is_event=False, is_gold=False, out_file=out_file)
+
+    out_file = os.path.join(out_dir, 'WD_test_entity_mention_based.response_conll')
+    write_mention_based_wd_clusters(corpus, is_event=False, is_gold=False, out_file=out_file)
+

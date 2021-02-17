@@ -27,33 +27,6 @@ clusters_count = 1
 analysis_pair_dict = {}
 
 
-def get_topic(id):
-    '''
-    Extracts the topic id from the document ID.
-    Note that this function doesn't extract the sub-topic ID (including the ecb/ecbplus notation)
-    :param id: document id (string)
-    :return: the topic id (string)
-    '''
-    return id.split('_')[0]
-
-
-def merge_sub_topics_to_topics(test_set):
-    '''
-    Merges the test's sub-topics sub-topics to their topics (for experimental use).
-    :param test_set: A Corpus object represents the test set
-    :return: a dictionary contains the merged topics
-    '''
-    new_topics = {}
-    topics_keys = test_set.topics.keys()
-    for topic_id in topics_keys:
-        topic = test_set.topics[topic_id]
-        if get_topic(topic_id) not in new_topics:
-            new_topics[get_topic(topic_id)] = Topic(get_topic(topic_id))
-        new_topics[get_topic(topic_id)].docs.update(topic.docs)
-
-    return new_topics
-
-
 def topic_to_mention_list(topic, is_gold):
     '''
     Gets a Topic object and extracts its event/entity mentions (depends on the is_event flag)
@@ -111,18 +84,25 @@ def load_entity_wd_clusters(config_dict):
                                                         mention_str, coref_chain))
     return doc_to_entity_mentions
 
-def get_sub_topics(doc_id):
+
+def merge_sub_topics_to_topics(test_set):
     '''
-    Extracts the sub-topic id from the document ID.
-    :param doc_id: document id (string)
-    :return: the sub-topic id (string)
+    Merges the test's sub-topics sub-topics to their topics (for experimental use).
+    :param test_set: A Corpus object represents the test set
+    :return: a dictionary contains the merged topics
     '''
-    topic = doc_id.split('_')[0]
-    if 'ecbplus' in doc_id:
-        category = 'ecbplus'
-    else:
-        category = 'ecb'
-    return '{}_{}'.format(topic, category)
+    def get_topic(id):
+        return id.split('_')[0]
+
+    new_topics = {}
+    topics_keys = test_set.topics.keys()
+    for topic_id in topics_keys:
+        topic = test_set.topics[topic_id]
+        if get_topic(topic_id) not in new_topics:
+            new_topics[get_topic(topic_id)] = Topic(get_topic(topic_id))
+        new_topics[get_topic(topic_id)].docs.update(topic.docs)
+
+    return new_topics
 
 
 def separate_clusters_to_sub_topics(clusters, is_event):
@@ -132,6 +112,21 @@ def separate_clusters_to_sub_topics(clusters, is_event):
     :param is_event: Clusters' type (event/entity)
     :return: new list of clusters, after spurious cross sub-topics coreference link were removed.
     '''
+
+    def get_sub_topics(doc_id):
+        '''
+        Extracts the sub-topic id from the document ID.
+        :param doc_id: document id (string)
+        :return: the sub-topic id (string)
+        '''
+        topic = doc_id.split('_')[0]
+        if 'ecbplus' in doc_id:
+            category = 'ecbplus'
+        else:
+            category = 'ecb'
+        return '{}_{}'.format(topic, category)
+
+
     new_clusters = []
     for cluster in clusters:
         sub_topics_to_clusters = {}
@@ -148,18 +143,28 @@ def separate_clusters_to_sub_topics(clusters, is_event):
 
     return new_clusters
 
+def write_clusters_to_file(clusters, file_obj, topic):
+    '''
+    Write the clusters to a text file (used for analysis)
+    :param clusters: list of Cluster objects
+    :param file_obj: file to write the clusters
+    :param topic - topic name
+    '''
+    i = 0
+    file_obj.write('Topic - ' + topic +'\n')
+    for cluster in clusters:
+        i += 1
+        file_obj.write('cluster #' + str(i) + '\n')
+        mentions_list = []
+        for mention in cluster.mentions.values():
+            mentions_list.append('{}_{}'.format(mention.mention_str,mention.gold_tag))
+        file_obj.write(str(mentions_list) + '\n\n')
 
-def set_coref_chain_to_mentions(clusters, is_event, is_gold, intersect_with_gold,):
+
+def set_coref_chain_to_mentions(clusters):
     '''
     Sets the predicted cluster id to all mentions in the cluster
     :param clusters: predicted clusters (a list of Corpus objects)
-    :param is_event: True, if clusters are event clusters, False otherwise - currently unused.
-    :param is_gold: True, if the function sets gold mentions and false otherwise
-     (it sets predicted mentions) - currently unused.
-    :param intersect_with_gold: True, if the function sets predicted mentions that were matched
-    with gold mentions (used in setting that requires to match predicted mentions with gold
-    mentions - as in Yang's setting) , and false otherwise - currently unused.
-    :param remove_singletons: True if the function ignores singleton clusters (as in Yang's setting)
     '''
     global clusters_count
     for cluster in clusters:
@@ -189,41 +194,4 @@ def create_gold_clusters(mentions):
     return wd_clusters
 
 
-
-def write_event_coref_results(corpus, out_dir, config_dict):
-    '''
-    Writes to a file (in a CoNLL format) the predicted event clusters (for evaluation).
-    :param corpus: A Corpus object
-    :param out_dir: output directory
-    :param config_dict: configuration dictionary
-    '''
-    if not config_dict["test_use_gold_mentions"]:
-        out_file = os.path.join(out_dir, 'CD_test_event_span_based.response_conll')
-        write_span_based_cd_coref_clusters(corpus, out_file, is_event=True, is_gold=False,
-                                           use_gold_mentions=config_dict["test_use_gold_mentions"])
-    else:
-        out_file = os.path.join(out_dir, 'CD_test_event_mention_based.response_conll')
-        write_mention_based_cd_clusters(corpus, is_event=True, is_gold=False, out_file=out_file)
-
-        out_file = os.path.join(out_dir, 'WD_test_event_mention_based.response_conll')
-        write_mention_based_wd_clusters(corpus, is_event=True, is_gold=False, out_file=out_file)
-
-
-def write_entity_coref_results(corpus, out_dir,config_dict):
-    '''
-    Writes to a file (in a CoNLL format) the predicted entity clusters (for evaluation).
-    :param corpus: A Corpus object
-    :param out_dir: output directory
-    :param config_dict: configuration dictionary
-    '''
-    if not config_dict["test_use_gold_mentions"]:
-        out_file = os.path.join(out_dir, 'CD_test_entity_span_based.response_conll')
-        write_span_based_cd_coref_clusters(corpus, out_file, is_event=False, is_gold=False,
-                                           use_gold_mentions=config_dict["test_use_gold_mentions"])
-    else:
-        out_file = os.path.join(out_dir, 'CD_test_entity_mention_based.response_conll')
-        write_mention_based_cd_clusters(corpus, is_event=False, is_gold=False, out_file=out_file)
-
-        out_file = os.path.join(out_dir, 'WD_test_entity_mention_based.response_conll')
-        write_mention_based_wd_clusters(corpus, is_event=False, is_gold=False, out_file=out_file)
 

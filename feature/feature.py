@@ -51,8 +51,6 @@ def load_mentions_from_json(mentions_json_file, docs, is_event):
     :param mentions_json_file: the JSON file contains the mentions
     :param docs:  set of document objects
     :param is_event: a boolean indicates whether the function extracts event or entity mentions
-    :param is_gold_mentions: a boolean indicates whether the function extracts gold or predicted
-    mentions
     '''
     with open(mentions_json_file, 'r') as js_file:
         js_mentions = json.load(js_file)
@@ -96,7 +94,8 @@ def load_mentions_from_json(mentions_json_file, docs, is_event):
 
         if is_event:
             mention = EventMention(doc_id, sent_id, tokens_numbers,token_objects,mention_str, head_text,
-                                   head_lemma, is_singleton, is_continuous, coref_chain)
+                                   head_lemma, is_singleton, is_continuous, 
+                                   )
         else:
             mention = EntityMention(doc_id, sent_id, tokens_numbers,token_objects, mention_str, head_text,
                                     head_lemma, is_singleton, is_continuous, coref_chain, mention_type)
@@ -116,7 +115,9 @@ def load_gold_data(split_txt_file, events_json, entities_json):
     '''
     logger.info('Loading gold mentions...')
     docs = load_ECB_plus(split_txt_file)
+    ## events
     load_mentions_from_json(events_json,docs,is_event=True)
+    ## entities
     load_mentions_from_json(entities_json,docs,is_event=False)
 
     return docs
@@ -257,6 +258,7 @@ def main(args):
     train_set = order_docs_by_topics(training_data)
     dev_set = order_docs_by_topics(dev_data)
     test_set = order_docs_by_topics(test_data)
+
 
     print("writing")
 
