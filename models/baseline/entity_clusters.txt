@@ -1,0 +1,5032 @@
+Topic - 36_ecb
+cluster #1
+['leaders_HUM17642655532934542', 'leaders_HUM17642655532934542', 'leaders_HUM17642655532934542', 'leaders_HUM17642655532934542', 'leaders_HUM17642655532934542', 'leaders_HUM17642655532934542', 'leaders_HUM17642655532934542']
+
+cluster #2
+['in Canada_LOC17642835073942721', 'in western Canada_LOC17642835073942721', 'in Canada_LOC17642835073942721', 'in Bountiful , British Columbia_LOC17642819306422986', 'in Bountiful , B.C._LOC17642819306422986', 'in Cranbrook , B.C._Singleton_LOC_50_36_3ecb', 'in Canada_LOC17642835073942721', 'in Canada_LOC17642835073942721', 'in Canada_LOC17642835073942721']
+
+cluster #3
+['polygamist group_HUM18520763746825423', 'groups_HUM18520763746825423']
+
+cluster #4
+['attorney general_HUM17720489125766418']
+
+cluster #5
+['Wednesday_TIM17720510666890266', 'Wednesday_TIM17720510666890266', 'Wednesday_TIM17720510666890266', 'Wednesday_TIM17720510666890266']
+
+cluster #6
+['community_HUM18520763746825423']
+
+cluster #7
+['authorities_Singleton_HUM_31_36_2ecb']
+
+cluster #8
+['factions_HUM18520763746825423']
+
+cluster #9
+['RCMP_HUM18264694756319567', 'RCMP_HUM18264694756319567', 'RCMP_HUM18264694756319567', 'RCMP_HUM18264694756319567', 'RCMP_HUM18264694756319567', 'RCMP_HUM18264694756319567']
+
+cluster #10
+['men_HUM17642655532934542', 'two men_HUM17642655532934542']
+
+cluster #11
+['Sgt. Tim Shields_HUM17720479085668575']
+
+cluster #12
+['this morning_TIM17720499285731832', 'this morning_Singleton_TIM_40_36_3ecb', 'Wednesday morning_Singleton_TIM_41_36_6ecb']
+
+cluster #13
+['sect_HUM18520763746825423']
+
+cluster #14
+['Winston Blackmore_HUM17642625776844813', 'Winston Blackmore_HUM17642625776844813', 'Winston Blackmore_HUM17642625776844813', 'Winston K. Blackmore_HUM17642625776844813']
+
+cluster #15
+['James Oler_HUM17642639895581929', 'James Oler_HUM17642639895581929', 'James Oler_HUM17642639895581929']
+
+cluster #16
+['Wally Oppal_HUM17720489125766418', 'Wally Oppal_HUM17720489125766418', 'Wally Oppal_HUM17720489125766418']
+
+cluster #17
+['Shields_Singleton_HUM_47_36_3ecb', 'Shields_HUM17720479085668575']
+
+cluster #18
+['detachment_Singleton_LOC_42_36_3ecb']
+
+cluster #19
+['last September_Singleton_TIM_44_36_3ecb']
+
+cluster #20
+['Vancouver Sun_Singleton_HUM_21_36_4ecb']
+
+cluster #21
+['member_HUM17642639895581929']
+
+cluster #22
+['on its website_Singleton_LOC_19_36_4ecb', 'on Tuesday_TIM17720499285731832']
+
+cluster #23
+['documents_Singleton_NON_23_36_4ecb']
+
+cluster #24
+['court_Singleton_NON_24_36_4ecb']
+
+cluster #25
+['law_Singleton_NON_17_36_4ecb']
+
+cluster #26
+['Fundamentalist Church of Jesus Christ of Latter Day Saints ( FLDS_HUM18576970734387733']
+
+cluster #27
+['Tim Shields_HUM17720479085668575']
+
+cluster #28
+['residents_HUM17642655532934542']
+
+cluster #29
+['officers_Singleton_HUM_38_36_6ecb']
+
+cluster #30
+['both_HUM17642655532934542']
+
+cluster #31
+['Oler_HUM17642639895581929']
+
+cluster #32
+['Blackmore_HUM17642625776844813']
+
+cluster #33
+['vehicles_Singleton_NON_52_36_6ecb']
+
+cluster #34
+['COMMUNITY_HUM18520763746825423', 'COMMUNITY_HUM18520763746825423']
+
+cluster #35
+['POLICE_Singleton_HUM_48_36_7ecb']
+
+cluster #36
+['MEN_HUM17642655532934542', 'MEN_HUM17642655532934542']
+
+cluster #37
+['BOUNTIFUL IN THE BC INTERIOR_LOC17642819306422986']
+
+cluster #38
+['JAMES OLER_HUM17642639895581929']
+
+cluster #39
+['WALLY OPAL_HUM17720489125766418']
+
+cluster #40
+['WINSTON BLACKMORE_HUM17642625776844813']
+
+cluster #41
+['CRIMINAL CODE_Singleton_NON_40_36_7ecb']
+
+cluster #42
+['TODAY_TIM17720510666890266']
+
+cluster #43
+['passports_Singleton_NON_26_36_8ecb']
+
+cluster #44
+['Utah_HUM18576970734387733']
+
+Topic - 37_ecb
+cluster #1
+['hundreds_HUM17739224604793838']
+
+cluster #2
+['five people_HUM17739236267669980', 'five people_HUM17739236267669980', '40 people_HUM27406821766795272', 'over 14,000 people_HUM17646075769109447', 'four people_HUM27406926439159871']
+
+cluster #3
+['buildings_INTRA_UNK_35421_37_1ecb', 'buildings_LOC17644758675058598', 'buildings_Singleton_LOC_80_37_3ecb', 'buildings_LOC17644758675058598', 'buildings_LOC17644758675058598']
+
+cluster #4
+["Indonesia 's West Papua province_LOC17646095226265936", "Indonesia 's West Papua province_LOC17646095226265936"]
+
+cluster #5
+['region_LOC17646095226265936', 'region_LOC17646095226265936']
+
+cluster #6
+['magnitude 6.1_Singleton_NON_87_37_1ecb', '6.1-magnitude_Singleton_NON_95_37_2ecb']
+
+cluster #7
+['at the weekend_INTRA_UNK_35434_37_1ecb', 'at 7:48 a.m. local time_TIM17646128498402712', 'at 7 : 48 am ( 2248 GMT Tuesday_Singleton_TIM_66_37_2ecb', 'at home_Singleton_LOC_42_37_4ecb']
+
+cluster #8
+['today_TIM17646128498402712', 'today_Singleton_TIM_42_37_3ecb']
+
+cluster #9
+['off the coast_LOC17646095226265936', 'off the coast_Singleton_LOC_64_37_2ecb']
+
+cluster #10
+["75 kilometers ( 50 miles ) west of the region 's main city of Manokwari_LOC17733173649106099"]
+
+cluster #11
+['U.S. Geological Survey_HUM18264038380520801', 'United States Geological Survey_HUM18264038380520801']
+
+cluster #12
+['UN_INTRA_UNK_35432_37_1ecb']
+
+cluster #13
+['250_HUM17739224604793838']
+
+cluster #14
+['800 homes_INTRA_UNK_35421_37_1ecb']
+
+cluster #15
+['one person_HUM27406926439159871', 'one person_HUM27406926439159871', 'person_HUM27406926439159871']
+
+cluster #16
+['Wednesday_TIM17739285491302214', 'Wednesday_TIM17739285491302214']
+
+cluster #17
+['Manokwari_Singleton_LOC_55_37_2ecb', 'Manokwari_Singleton_LOC_18_37_6ecb']
+
+cluster #18
+['on Sunday_TIM17646128498402712', 'early on Sunday_TIM17646128498402712', 'on Monday_Singleton_TIM_35_37_5ecb', 'on Sunday_TIM17646128498402712', 'on Sunday_TIM17646128498402712']
+
+cluster #19
+['75 kilometres ( 50 miles ) west of Manokwari_Singleton_LOC_63_37_2ecb']
+
+cluster #20
+['residents_HUM17646062449983851']
+
+cluster #21
+['makeshift refugee camps_LOC17644911974776344']
+
+cluster #22
+["in Indonesia 's West Papua province_LOC17646095226265936", 'in 2002_Singleton_TIM_66_37_3ecb', 'in Papua_LOC17646095226265936', 'in remote eastern Indonesia_LOC17646095226265936', 'in 2004_Singleton_TIM_28_37_7ecb']
+
+cluster #23
+['city_LOC17646095226265936']
+
+cluster #24
+['power_Singleton_NON_73_37_3ecb']
+
+cluster #25
+['girl_HUM27406926439159871', 'girl_HUM27406926439159871', 'girl_HUM27406926439159871', 'girl_HUM27406926439159871']
+
+cluster #26
+['Atururi_Singleton_HUM_69_37_3ecb']
+
+cluster #27
+['town_LOC17646095226265936']
+
+cluster #28
+['dozens of others_HUM27406821766795272', 'dozens_HUM27406821766795272', 'dozens_HUM27406821766795272']
+
+cluster #29
+["into Japan 's southeastern coast_Singleton_LOC_46_37_4ecb"]
+
+cluster #30
+['Hengky Tewu_Singleton_HUM_60_37_4ecb']
+
+cluster #31
+['her_HUM27406926439159871']
+
+cluster #32
+['head_Singleton_NON_64_37_4ecb']
+
+cluster #33
+['wall_Singleton_NON_65_37_4ecb']
+
+cluster #34
+['disaster management agency_Singleton_HUM_25_37_5ecb']
+
+cluster #35
+['dozens others_HUM27406821766795272']
+
+cluster #36
+['tents_Singleton_NON_29_37_5ecb']
+
+cluster #37
+['Indonesia_LOC17643572389027482']
+
+cluster #38
+['West Papua_LOC17646095226265936']
+
+cluster #39
+['country_Singleton_HUM_15_37_7ecb']
+
+cluster #40
+['Sunday_TIM17646128498402712']
+
+Topic - 38_ecb
+cluster #1
+['in Sonoma County_LOC17741443930390371']
+
+cluster #2
+['near The Geysers_LOC17741455869640677', 'near The Geysers_LOC17741455869640677']
+
+cluster #3
+['magnitude of 4.4_NON17744321889668675', 'magnitude of 2.0_NON17741341463467290', 'magnitude_Singleton_NON_19_38_3ecb', '4.2-magnitude_NON17744499621591408', '4.4-magnitude_NON17744321889668675']
+
+cluster #4
+['this morning_TIM17741429727050444', 'Earlier this morning_TIM17741416263472285']
+
+cluster #5
+['U.S. Geological Survey_HUM18264038380520801', 'U.S. Geological Survey_HUM18264038380520801', 'US Geological Survey_HUM18264038380520801', 'U.S. Geological Survey_HUM18264038380520801']
+
+cluster #6
+['at about 9:30 a.m._TIM17741429727050444', 'at about 7:30 a.m._TIM17741416263472285', 'at 9:27 a.m._TIM17741429727050444', 'at approximately 9:27 a.m. Sunday_TIM17741429727050444']
+
+cluster #7
+['USGS_HUM18264038380520801', 'USGS_HUM18264038380520801', 'USGS_HUM18264038380520801']
+
+cluster #8
+['depth of 2.7 miles_LOC17741376978715248', 'depth of 1.4 miles_LOC17741388231761400']
+
+cluster #9
+['remote area of eastern Sonoma County_LOC17741443930390371']
+
+cluster #10
+['over the weekend_Singleton_TIM_41_38_2ecb']
+
+cluster #11
+['on Sunday morning_TIM17741429727050444', 'on Sunday at 9:27 a.m._TIM17741429727050444']
+
+cluster #12
+['more than 20 power plants_Singleton_LOC_42_38_2ecb']
+
+cluster #13
+['where_LOC17741455869640677']
+
+cluster #14
+['13 miles east of Cloverdale and 2 miles southeast of The Geysers_LOC17741455869640677']
+
+cluster #15
+['several North Bay counties_Singleton_LOC_43_38_2ecb']
+
+cluster #16
+['energy_Singleton_NON_36_38_2ecb']
+
+cluster #17
+['4.4_NON17744321889668675']
+
+cluster #18
+['which_HUM18264038380520801']
+
+cluster #19
+['Northern California_Singleton_LOC_29_38_4ecb']
+
+cluster #20
+['23 miles north of Santa Rosa_Singleton_LOC_24_38_4ecb']
+
+cluster #21
+['two miles from The Geysers_LOC17741455869640677']
+
+Topic - 39_ecb
+cluster #1
+['David Tennant_HUM17744886235161547', 'David Tennant_HUM17744886235161547', 'David Tennant_HUM17744886235161547', 'David Tennant_HUM17744886235161547']
+
+cluster #2
+['Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694']
+
+cluster #3
+['BBC show_NON17744952423311022', 'show_NON17744952423311022', 'television show_NON17744952423311022', 'show_NON17744952423311022']
+
+cluster #4
+['time_INTRA_UNK_35719_39_10ecb']
+
+cluster #5
+['until the end of 2009_INTRA_UNK_35719_39_10ecb']
+
+cluster #6
+['Doctor Who_HUM17744937293310517', '11th Doctor Who_HUM17744980524113734', 'who_HUM17744886235161547', 'who_HUM17744873373187694', 'who_Singleton_HUM_39_39_14ecb', 'Doctor Who_NON17744952423311022', 'Doctor Who_NON17744952423311022', 'Doctor Who_NON17744952423311022', 'Doctor Who_NON17744952423311022', 'Doctor Who_HUM17744980524113734', 'who_HUM17744886235161547']
+
+cluster #7
+['Smith_HUM17744873373187694', 'Smith_HUM17744873373187694']
+
+cluster #8
+['in 2010_TIM17752007271859796', 'in 2010_TIM17752007271859796', 'in 45 years_Singleton_TIM_40_39_6ecb', 'in 2010_Singleton_TIM_33_39_6ecb']
+
+cluster #9
+['time lord_HUM17744937293310517', '11th time lord_HUM17744980524113734']
+
+cluster #10
+['time traveller_Singleton_HUM_6_39_11ecb']
+
+cluster #11
+['face_HUM17744980524113734']
+
+cluster #12
+['TV_NON17745413236512401', 'TV_NON17745413236512401', 'TV_NON17745413236512401']
+
+cluster #13
+['eleventh Doctor_HUM17744980524113734', 'eleventh Doctor_HUM17744980524113734']
+
+cluster #14
+['actor_HUM17744873373187694', '10 actors_Singleton_HUM_13_39_2ecb', 'actor_HUM17744873373187694']
+
+cluster #15
+['On Saturday_TIM17752021552455108', 'On Saturday_TIM17752021552455108', 'on Saturday evening_TIM17752021552455108']
+
+cluster #16
+['26-year-old_HUM17744873373187694']
+
+cluster #17
+['he_HUM17744873373187694', 'he_HUM17744873373187694', 'him_HUM17744873373187694', 'him_HUM17744873373187694']
+
+cluster #18
+['Tardis_NON17745059789240063', 'Tardis_NON17745059789240063']
+
+cluster #19
+['later this year_Singleton_TIM_31_39_13ecb']
+
+cluster #20
+['Matt_HUM17744873373187694']
+
+cluster #21
+['stage_Singleton_NON_36_39_13ecb']
+
+cluster #22
+['role_HUM17744980524113734', 'role_HUM17744980524113734', 'role_HUM17744937293310517', 'role_HUM17744937293310517', 'role_HUM17744937293310517', 'role_Singleton_NON_32_39_5ecb', 'role_HUM17744980524113734']
+
+cluster #23
+['fans_Singleton_HUM_24_39_14ecb']
+
+cluster #24
+['This weekend_TIM17752021552455108', 'this weekend_TIM17752021552455108']
+
+cluster #25
+['fifth season_Singleton_NON_33_39_14ecb']
+
+cluster #26
+['its_NON17744952423311022']
+
+cluster #27
+['universe_Singleton_NON_38_39_14ecb', 'universe_Singleton_NON_41_39_6ecb']
+
+cluster #28
+['series_NON17744952423311022']
+
+cluster #29
+['TARDIS_NON17745059789240063']
+
+cluster #30
+['BBC_HUM18520722147007898']
+
+cluster #31
+['Wired.com_Singleton_HUM_18_39_2ecb']
+
+cluster #32
+['title_Singleton_NON_16_39_2ecb', 'title_Singleton_NON_15_39_4ecb', 'title_Singleton_NON_36_39_6ecb']
+
+cluster #33
+['hero_HUM17744937293310517']
+
+cluster #34
+['Tennant_HUM17744886235161547']
+
+cluster #35
+['one_HUM17744886235161547']
+
+cluster #36
+['Doctors_Singleton_HUM_36_39_3ecb', '11th Doctor_HUM17744980524113734', '11th Doctor_HUM17744980524113734', '11th Doctor_HUM17744980524113734', 'Doctor_HUM17744980524113734', 'Doctor_HUM17744937293310517']
+
+cluster #37
+['sonic screwdriver_NON17745072709322229']
+
+cluster #38
+['of all time_Singleton_TIM_37_39_3ecb']
+
+cluster #39
+['legend_HUM17744873373187694']
+
+cluster #40
+['character_Singleton_HUM_22_39_4ecb']
+
+cluster #41
+['entertainment_NON17745413236512401']
+
+cluster #42
+['all_Singleton_HUM_27_39_5ecb']
+
+cluster #43
+['researcher_Singleton_HUM_18_39_5ecb']
+
+cluster #44
+['star_HUM17744873373187694', 'star_HUM17745370356466063']
+
+cluster #45
+['bit_Singleton_NON_34_39_5ecb']
+
+cluster #46
+['unknown_HUM17744873373187694', 'unknown_HUM17744873373187694']
+
+cluster #47
+['his_HUM17744873373187694', 'his_HUM17744873373187694']
+
+cluster #48
+['at the end of this year_TIM17752007271859796']
+
+cluster #49
+['viewers_Singleton_HUM_10_39_7ecb']
+
+cluster #50
+['hours_Singleton_TIM_24_39_8ecb']
+
+cluster #51
+['BBC Wales_HUM18520722147007898']
+
+cluster #52
+['incarnation_HUM17744980524113734']
+
+cluster #53
+['guy_HUM17744873373187694']
+
+cluster #54
+['skeptics_Singleton_HUM_14_39_9ecb']
+
+cluster #55
+['right person_Singleton_HUM_15_39_9ecb']
+
+Topic - 40_ecb
+cluster #1
+['we_Singleton_HUM_24_40_10ecb']
+
+cluster #2
+['many_Singleton_HUM_23_40_10ecb']
+
+cluster #3
+['in San Francisco_LOC18089929016207027', 'in Cupertino , Calif_Singleton_LOC_18_40_6ecb']
+
+cluster #4
+['MacBook Pro_NON17764301847213442', 'MacBook Pro_NON17764301847213442', 'MacBook Pro_NON17764301847213442', 'MacBook Pro_NON17764301847213442', 'MacBook Pro_NON17764301847213442', 'MacBook Pro_NON17764301847213442', 'Pro_NON17764301847213442', 'MacBook Pro_NON17764301847213442', 'MacBook Pro_NON17764301847213442']
+
+cluster #5
+['details_Singleton_NON_18_40_10ecb']
+
+cluster #6
+['Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631']
+
+cluster #7
+['iTunes_Singleton_NON_18_40_1ecb']
+
+cluster #8
+['iLife_Singleton_NON_19_40_1ecb']
+
+cluster #9
+['software_Singleton_NON_20_40_1ecb']
+
+cluster #10
+['what_Singleton_NON_24_40_1ecb']
+
+cluster #11
+['on Tuesday_TIM17764371982729811', 'on Tuesday_TIM17764371982729811', 'on Tuesday ( Jan 6_TIM17764371982729811']
+
+cluster #12
+['weeks_Singleton_TIM_13_40_1ecb']
+
+cluster #13
+['Apple Inc._HUM17764075735414631']
+
+cluster #14
+['case_NON18091750052171020']
+
+cluster #15
+['battery_NON18091738476849080', 'batteries_Singleton_NON_26_40_7ecb', 'battery_NON18091738476849080']
+
+cluster #16
+['eight hours_TIM18091777727683545', 'eight-hour_TIM18091777727683545', 'eight hours_TIM18091777727683545', 'eight-hour_TIM18091777727683545']
+
+cluster #17
+['firm_HUM17764075735414631', 'firm_HUM17764075735414631']
+
+cluster #18
+['its_HUM17764075735414631']
+
+cluster #19
+['laptop_Singleton_NON_16_40_3ecb', 'laptop_NON18091727886806765', 'laptop_NON18091727886806765']
+
+cluster #20
+['processor_Singleton_NON_17_40_3ecb']
+
+cluster #21
+['company_HUM17764075735414631', 'company_HUM17764075735414631']
+
+cluster #22
+['Intel_HUM17764318691647091']
+
+cluster #23
+['line_NON17764360665649011', 'line_NON17764360665649011']
+
+cluster #24
+['Mac portables_Singleton_NON_10_40_4ecb']
+
+cluster #25
+['today_TIM17764371982729811', 'today_TIM17764371982729811']
+
+cluster #26
+['hardware_Singleton_NON_26_40_5ecb', 'hardware_Singleton_NON_16_40_8ecb']
+
+cluster #27
+['0.98 inches_Singleton_NON_23_40_5ecb']
+
+cluster #28
+['6.6 pounds_Singleton_NON_24_40_5ecb']
+
+cluster #29
+['unibody enclosure_Singleton_NON_28_40_5ecb', 'enclosure_Singleton_NON_20_40_7ecb']
+
+cluster #30
+['lightest_NON17764301847213442']
+
+cluster #31
+['notebook_NON17764301847213442', 'notebook_NON18091727886806765']
+
+cluster #32
+['Steve Jobs_HUM17764058070519771']
+
+cluster #33
+["at Apple 's headquarters_LOC17764383711806492"]
+
+cluster #34
+['lifespan_Singleton_TIM_23_40_7ecb']
+
+cluster #35
+['Apple Inc_HUM17764075735414631']
+
+cluster #36
+['it_HUM17764075735414631']
+
+cluster #37
+['me_Singleton_HUM_5_40_9ecb']
+
+cluster #38
+['thing_NON17764301847213442']
+
+Topic - 41_ecb
+cluster #1
+['Israel_HUM18158709833087594', 'Israel_HUM18158709833087594', 'Israel_HUM18158709833087594', 'Israel_CON18513608771023792', 'Israel_HUM18158709833087594', 'Israel_HUM18158709833087594', 'Israel_HUM18158709833087594', 'Israel_HUM18158709833087594']
+
+cluster #2
+['50 people_HUM17765343385926179', 'more than 40 people_HUM17765343385926179', 'people_Singleton_HUM_64_41_1ecb', '40 people_HUM17765343385926179', '50 people_INTRA_UNK_35052_41_4ecb', '30 people_Singleton_HUM_53_41_5ecb', '40 people_HUM17765343385926179', 'around 100 people_Singleton_HUM_80_41_6ecb', 'people_INTRA_UNK_35180_41_8ecb', 'people_INTRA_UNK_35180_41_8ecb']
+
+cluster #3
+['lives_Singleton_HUM_97_41_1ecb']
+
+cluster #4
+['civilian_Singleton_HUM_98_41_1ecb', 'civilians_INTRA_UNK_35114_41_6ecb', 'civilian_Singleton_HUM_51_41_8ecb']
+
+cluster #5
+['UN schools_LOC17765313771230036', 'al-Fakhora school_LOC17765313771230036', 'school_LOC17765313771230036', 'school_LOC17765313771230036', 'school_LOC17765313771230036', 'school_LOC17765313771230036', 'third UN school_LOC17765313771230036', 'school_LOC17765313771230036', 'school_LOC17765313771230036', 'school_LOC17765313771230036', 'school in Jabaliya refugee camp_LOC17765313771230036', 'Jabalya school_LOC17765313771230036']
+
+cluster #6
+['refugee centres_Singleton_LOC_68_41_1ecb']
+
+cluster #7
+['housing_Singleton_LOC_52_41_1ecb']
+
+cluster #8
+['Gaza_LOC17765428329229262']
+
+cluster #9
+['children_Singleton_HUM_60_41_1ecb', 'children_Singleton_HUM_101_41_8ecb']
+
+cluster #10
+['Doctors_Singleton_HUM_61_41_1ecb']
+
+cluster #11
+['it_LOC17765313771230036', 'it_HUM18158709833087594']
+
+cluster #12
+['in Jabaliya refugee camp_LOC18158686346228463', 'in Gaza_LOC17765428329229262', 'in Gaza_LOC17765428329229262', 'in the Gaza school_LOC17765313771230036', 'in Gaza_LOC17765428329229262', 'in Gaza_LOC17765428329229262', 'in Gaza_LOC17765428329229262', 'in Gaza_LOC17765428329229262', 'in the Gaza Strip_LOC17765428329229262', 'in the Jabaliya refugee camp_LOC18158686346228463', 'in Jabaliya_LOC18158686346228463', 'in Gaza_LOC17765428329229262', 'in the Jabalya refugee camp in northern Gaza_LOC18158686346228463', 'in the schoolyard_Singleton_LOC_44_41_9ecb']
+
+cluster #13
+['bombs_Singleton_NON_57_41_1ecb']
+
+cluster #14
+['militants_HUM17765353234117116', 'militants_HUM17765353234117116', 'militants_HUM17765353234117116', 'militants_HUM17765353234117116', 'militants_HUM17765353234117116']
+
+cluster #15
+['Israeli forces_HUM18158709833087594', 'Israeli forces_HUM18158709833087594', 'forces_HUM18158709833087594']
+
+cluster #16
+['UN_HUM18263638298814930', 'UN_HUM18263638298814930', 'UN_HUM18263638298814930', 'UN_INTRA_UNK_35215_41_9ecb']
+
+cluster #17
+['on Wednesday_TIM18157859278220804', 'on Tuesday_TIM17772470223907566', 'on the school_LOC17765313771230036', 'on the Fakhora school_LOC17765313771230036']
+
+cluster #18
+['Israel Defense Forces_HUM18158709833087594']
+
+cluster #19
+['United Nations_HUM18263638298814930']
+
+cluster #20
+['The Age_Singleton_HUM_80_41_4ecb']
+
+cluster #21
+['Hamas_HUM18158730267727507', 'Hamas_HUM18158730267727507', 'Hamas_HUM18158730267727507']
+
+cluster #22
+['his_INTRA_UNK_35030_41_4ecb']
+
+cluster #23
+['We_Singleton_HUM_79_41_4ecb', 'We_INTRA_UNK_35119_41_6ecb']
+
+cluster #24
+['John Ging_INTRA_UNK_35030_41_4ecb', 'Mr Ging_INTRA_UNK_35030_41_4ecb', 'Mr Ging_INTRA_UNK_35030_41_4ecb', 'Mr Ging_INTRA_UNK_35030_41_4ecb', 'John Ging_Singleton_HUM_37_41_5ecb']
+
+cluster #25
+['40 Palestinians_HUM17765343385926179', '350 Palestinians_Singleton_HUM_112_41_4ecb', '40 Palestinians_HUM17765343385926179', '40 Palestinians_HUM17765343385926179']
+
+cluster #26
+['one of_LOC17765313771230036']
+
+cluster #27
+['SEVENTEEN hours_Singleton_TIM_68_41_4ecb']
+
+cluster #28
+['last night_Singleton_TIM_78_41_4ecb']
+
+cluster #29
+['Relief and Works Agency_Singleton_HUM_91_41_4ecb', 'UN Relief and Works Agency_INTRA_UNK_35149_41_7ecb']
+
+cluster #30
+['whom_INTRA_UNK_35052_41_4ecb']
+
+cluster #31
+['10_Singleton_HUM_95_41_4ecb']
+
+cluster #32
+['phone_Singleton_NON_106_41_4ecb']
+
+cluster #33
+['shelter_LOC17765313771230036']
+
+cluster #34
+['at 3.45pm on Tuesday_TIM18158073237002554', "at the perimeter of a school , which usually serves as a girls ' preparatory school , in the Jabaliya refugee camp_LOC17765313771230036", 'at about 3pm on Tuesday ( 12am yesterday )_TIM18158073237002554']
+
+cluster #35
+['Jabaliya camp_LOC18158686346228463']
+
+cluster #36
+['Ehud Olmert_Singleton_HUM_121_41_4ecb']
+
+cluster #37
+['five_Singleton_HUM_52_41_5ecb']
+
+cluster #38
+['55 others_Singleton_HUM_54_41_5ecb']
+
+cluster #39
+['them_Singleton_HUM_55_41_5ecb']
+
+cluster #40
+['artillery shells_NON18157894442491826', 'shells_Singleton_NON_58_41_8ecb', 'shells_NON18157894442491826', 'shells_NON18157894442491826']
+
+cluster #41
+['UNRWA_HUM18263638298814930']
+
+cluster #42
+['its_HUM18158709833087594', 'its_HUM18158709833087594']
+
+cluster #43
+['EU_INTRA_UNK_35119_41_6ecb', 'EU_Singleton_HUM_98_41_6ecb']
+
+cluster #44
+['image_Singleton_NON_84_41_6ecb']
+
+cluster #45
+['on Tuesday ( 6 January_TIM17772470223907566']
+
+cluster #46
+['Jabaliya_Singleton_LOC_65_41_6ecb']
+
+cluster #47
+['Cristina Gallach_Singleton_HUM_69_41_6ecb']
+
+cluster #48
+['Javier Solana_Singleton_HUM_70_41_6ecb']
+
+cluster #49
+['themselves_INTRA_UNK_35114_41_6ecb']
+
+cluster #50
+['UN Security Council_Singleton_HUM_80_41_7ecb']
+
+cluster #51
+['Tuesday_TIM17772470223907566']
+
+cluster #52
+['dead_HUM17765343385926179', 'dead_HUM17765343385926179']
+
+cluster #53
+['Israeli army_HUM18158709833087594']
+
+cluster #54
+['troops_HUM18158709833087594']
+
+cluster #55
+['outside a UN school_LOC17765313771230036']
+
+cluster #56
+['missiles_NON18157894442491826']
+
+cluster #57
+['today_TIM17772470223907566']
+
+cluster #58
+['news agency_Singleton_HUM_73_41_8ecb']
+
+cluster #59
+['inside and outside the building_LOC17765313771230036']
+
+cluster #60
+['shrapnel_Singleton_NON_59_41_8ecb']
+
+cluster #61
+['Majed Hamdan_Singleton_HUM_88_41_8ecb']
+
+cluster #62
+['to the scene_LOC17765313771230036']
+
+cluster #63
+['from the Gaza school_LOC17765313771230036']
+
+cluster #64
+['mortars_Singleton_NON_63_41_9ecb']
+
+cluster #65
+['Christopher Gunness_HUM17772411879771083']
+
+cluster #66
+['Fakhura_LOC17765313771230036']
+
+cluster #67
+['He_Singleton_HUM_42_41_9ecb']
+
+cluster #68
+['other men_Singleton_HUM_43_41_9ecb']
+
+cluster #69
+['compound_LOC17765313771230036']
+
+Topic - 42_ecb
+cluster #1
+['BlackBery Curve 8900_NON17773034882031537', 'BlackBerry Curve 8900_NON17773034882031537', 'BlackBerry Curve 8900_NON17773034882031537', 'BlackBerry Curve 8900_NON17773034882031537', 'BlackBerry Curve 8900_NON17773034882031537', 'BlackBerry Curve 8900_NON17773034882031537', 'BlackBerry Curve 8900_NON17773034882031537', 'BlackBerry Curve 8900_NON17773034882031537', 'BlackBerry Curve 8900_NON17773034882031537', 'BlackBerry Curve 8900_NON17773034882031537', 'BlackBerry Curve 8900_NON17773034882031537']
+
+cluster #2
+['sometime in mid-February_TIM18176397863910602']
+
+cluster #3
+['T-Mobile_HUM18264838847289264', 'T-Mobile_HUM18264838847289264', 'T-Mobile_HUM18264838847289264', 'T-Mobile_HUM18264838847289264', 'T-Mobile_HUM18264838847289264', 'T-Mobile_HUM18264838847289264', 'T-Mobile_HUM18264838847289264', 'T-Mobile_HUM18264838847289264', 'T-Mobile_HUM18264838847289264']
+
+cluster #4
+['they_HUM18264838847289264']
+
+cluster #5
+['BlackBerry Curve_Singleton_NON_17_42_11ecb', 'BlackBerry Curve_NON17773034882031537']
+
+cluster #6
+['model_NON17773034882031537']
+
+cluster #7
+['series_Singleton_NON_16_42_11ecb']
+
+cluster #8
+['next month_TIM18176397863910602']
+
+cluster #9
+['T-Mobile USA_HUM18264838847289264', 'T-Mobile USA_HUM18264838847289264', 'T-Mobile USA_HUM18264838847289264', 'T-Mobile USA_HUM18264838847289264', 'T-Mobile USA_HUM18264838847289264']
+
+cluster #10
+['it_HUM18264838847289264', 'it_HUM18264838847289264', 'it_HUM18264838847289264', 'it_HUM18264838847289264']
+
+cluster #11
+['we_Singleton_HUM_24_42_12ecb', 'we_Singleton_HUM_31_42_3ecb']
+
+cluster #12
+['8900_NON17773034882031537']
+
+cluster #13
+["sometime in early '09_TIM18176397863910602", 'in February_TIM18176397863910602', 'in 2009_Singleton_TIM_12_42_5ecb', 'in February_TIM18176397863910602']
+
+cluster #14
+['weeks_Singleton_TIM_23_42_12ecb']
+
+cluster #15
+['tonight_TIM27413328406462129']
+
+cluster #16
+['one_Singleton_LOC_16_42_13ecb']
+
+cluster #17
+['retail stores_Singleton_LOC_17_42_13ecb']
+
+cluster #18
+['smartphone_NON17773034882031537', 'smartphone_NON18163467332773553', 'smartphone_NON18163467332773553', 'smartphone_Singleton_NON_9_42_8ecb']
+
+cluster #19
+['one day_Singleton_TIM_13_42_13ecb']
+
+cluster #20
+['RIM_HUM18176653308471928']
+
+cluster #21
+['T-Mo_HUM18264838847289264']
+
+cluster #22
+['portfolio_NON17772698552724557']
+
+cluster #23
+['its_HUM18264838847289264', 'its_HUM18264838847289264']
+
+cluster #24
+['Research In Motion_HUM18176653308471928', 'Research In Motion_HUM18176653308471928', 'Research in Motion_HUM18176653308471928']
+
+cluster #25
+['BlackBerry_NON17773034882031537', 'BlackBerry_Singleton_NON_8_42_8ecb']
+
+cluster #26
+['February_TIM18176397863910602', 'this February_TIM18176397863910602', 'this February_TIM18176397863910602', 'February_TIM18176397863910602']
+
+cluster #27
+['product_NON17773034882031537']
+
+cluster #28
+['On Monday_Singleton_TIM_24_42_3ecb', 'on February 11 ,_TIM18176397863910602', 'on Tuesday_TIM27413328406462129']
+
+cluster #29
+['date_Singleton_TIM_26_42_3ecb']
+
+cluster #30
+['carrier_HUM18264838847289264']
+
+cluster #31
+['customers_HUM17772747022002260', 'customers_HUM17772747022002260']
+
+cluster #32
+['today_TIM27413328406462129', 'today_TIM27413328406462129', 'today_TIM27413328406462129']
+
+cluster #33
+['T-Mobile USA , Inc._HUM18264838847289264']
+
+cluster #34
+['lineup_NON17772698552724557', 'lineup_NON17772698552724557']
+
+cluster #35
+['3G_Singleton_NON_19_42_6ecb']
+
+cluster #36
+['their_HUM18264838847289264']
+
+Topic - 43_ecb
+cluster #1
+['he_INTRA_UNK_34334_43_1ecb', 'he_INTRA_UNK_53525_43_3ecb']
+
+cluster #2
+['Hector Ruiz_INTRA_UNK_34334_43_1ecb', 'Hector Ruiz_INTRA_UNK_34435_43_5ecb']
+
+cluster #3
+['Advanced Micro Devices_HUM18264819130490380', 'Advanced Micro Devices_HUM18264819130490380', 'Advanced Micro Devices ( AMD_HUM18264819130490380', 'Advanced Micro Devices_HUM18264819130490380', 'Advanced Micro Devices_HUM18264819130490380', 'Advanced Micro Devices_HUM18264819130490380']
+
+cluster #4
+['ATI Technologies_HUM18264754356648476', 'ATI Technologies_HUM18264754356648476', 'graphics technology_INTRA_UNK_34386_43_4ecb', 'ATI Technologies_HUM18264754356648476', 'ATI Technologies_HUM18264754356648476', 'ATI Technologies_HUM18264754356648476']
+
+cluster #5
+['company_HUM18264819130490380', 'companies_HUM18264819130490380', 'companies_INTRA_UNK_53550_43_3ecb', 'companies_INTRA_UNK_53550_43_3ecb', 'company_HUM18264754356648476', 'company_HUM18264819130490380', 'company_HUM18264819130490380', 'company_Singleton_HUM_60_43_6ecb']
+
+cluster #6
+['AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380']
+
+cluster #7
+['about $ 5.4 billion_Singleton_NON_120_43_1ecb', '$ 5.4 billion_Singleton_NON_50_43_2ecb', 'about $ 5.4 billion_Singleton_NON_136_43_5ecb', '$ 4.2 billion in cash_Singleton_NON_161_43_5ecb', '$ 5.4 billion_Singleton_NON_64_43_6ecb']
+
+cluster #8
+['on July 24_TIM18227275906524555', 'on July 24_TIM18227275906524555']
+
+cluster #9
+['months_Singleton_TIM_118_43_1ecb']
+
+cluster #10
+['it_HUM18264819130490380', 'it_HUM18264819130490380']
+
+cluster #11
+['Intel_HUM17764318691647091', 'Intel_HUM17764318691647091', 'Intel_HUM17764318691647091', 'Intel_HUM17764318691647091', 'Intel_HUM17764318691647091', 'Intel_HUM17764318691647091', 'Intel_HUM17764318691647091', 'Intel_HUM17764318691647091']
+
+cluster #12
+['ATI_HUM18264754356648476', 'ATI_HUM18264754356648476', 'ATI_HUM18264754356648476', 'ATI_HUM18264754356648476', 'ATI_HUM18264754356648476', 'ATI_HUM18264754356648476', 'ATI_HUM18264754356648476', 'ATI_HUM18264754356648476']
+
+cluster #13
+['Nvidia_Singleton_HUM_110_43_1ecb']
+
+cluster #14
+['two biggest rivals_Singleton_HUM_72_43_1ecb']
+
+cluster #15
+['a lot_Singleton_NON_115_43_1ecb']
+
+cluster #16
+['world_Singleton_HUM_107_43_1ecb']
+
+cluster #17
+['graphics-chipmaker_HUM17764318691647091']
+
+cluster #18
+['about $ 90 million_Singleton_NON_77_43_1ecb']
+
+cluster #19
+['revenue_Singleton_NON_93_43_1ecb']
+
+cluster #20
+['graphics chipsets_Singleton_NON_97_43_1ecb', 'chipset_Singleton_NON_136_43_7ecb']
+
+cluster #21
+['Intel-based PCs_Singleton_NON_98_43_1ecb']
+
+cluster #22
+['RBC Capital Markets_INTRA_UNK_34357_43_2ecb']
+
+cluster #23
+['its_HUM18264819130490380', 'its_HUM18264819130490380', 'its_HUM18264819130490380', 'its_HUM18264819130490380', 'its_HUM18264819130490380', 'its_HUM17764318691647091', 'its_HUM18264819130490380', 'its_HUM18264819130490380']
+
+cluster #24
+['Monday_TIM18227275906524555', 'Monday_TIM18227275906524555', 'Monday_TIM18227275906524555']
+
+cluster #25
+['chip-maker_HUM18264754356648476']
+
+cluster #26
+['RBC_INTRA_UNK_34357_43_2ecb']
+
+cluster #27
+['Steve Arthur_INTRA_UNK_34352_43_2ecb', 'Arthur_INTRA_UNK_34352_43_2ecb']
+
+cluster #28
+['his_INTRA_UNK_34352_43_2ecb']
+
+cluster #29
+['price target_Singleton_NON_48_43_2ecb']
+
+cluster #30
+['$ 21_Singleton_NON_49_43_2ecb']
+
+cluster #31
+['in the fourth quarter_Singleton_TIM_64_43_2ecb', 'in Sunnyvale , Calif_LOC18183211123813928', 'in Toronto_Singleton_LOC_133_43_3ecb', 'in Taipei_Singleton_LOC_110_43_7ecb']
+
+cluster #32
+['For now_Singleton_TIM_65_43_2ecb', 'for over a year_Singleton_TIM_54_43_4ecb', 'for another 90-120 days_Singleton_TIM_30_43_8ecb']
+
+cluster #33
+['one-year_Singleton_TIM_74_43_2ecb']
+
+cluster #34
+['ATI Technologies ( ATI )_HUM18264754356648476']
+
+cluster #35
+['yesterday_TIM18227275906524555', 'yesterday_Singleton_TIM_53_43_4ecb', 'Yesterday_TIM18227275906524555', 'yesterday_TIM18227275906524555']
+
+cluster #36
+['Intel Corp_HUM17764318691647091']
+
+cluster #37
+['analysts_Singleton_HUM_112_43_3ecb', 'analyst_Singleton_HUM_134_43_3ecb']
+
+cluster #38
+['element_Singleton_NON_115_43_3ecb']
+
+cluster #39
+['cash_Singleton_NON_120_43_3ecb']
+
+cluster #40
+['stock_Singleton_NON_121_43_3ecb', 'stock_Singleton_NON_103_43_5ecb']
+
+cluster #41
+['providers_Singleton_HUM_125_43_3ecb']
+
+cluster #42
+['chips_Singleton_NON_126_43_3ecb', 'chips_Singleton_NON_35_43_4ecb']
+
+cluster #43
+['You_Singleton_HUM_127_43_3ecb']
+
+cluster #44
+['Michelle Warren_Singleton_HUM_132_43_3ecb']
+
+cluster #45
+['tomorrow_Singleton_TIM_129_43_3ecb']
+
+cluster #46
+['benefits_INTRA_UNK_53523_43_3ecb', 'benefits_INTRA_UNK_53523_43_3ecb']
+
+cluster #47
+['executives_HUM18264754356648476']
+
+cluster #48
+['Hartog_INTRA_UNK_53525_43_3ecb']
+
+cluster #49
+['employees_Singleton_HUM_144_43_3ecb']
+
+cluster #50
+['US $ 5.4-billion_Singleton_NON_52_43_4ecb', 'US $ 5.4 billion_Singleton_NON_133_43_7ecb']
+
+cluster #51
+['Intel Corp._HUM17764318691647091', 'Intel Corp._HUM17764318691647091', 'United Microelectronics Corp._Singleton_HUM_111_43_7ecb']
+
+cluster #52
+['Advanced Micro Devices Inc._HUM18264819130490380', 'ATI Technologies Inc._HUM18264754356648476', 'ATI Technologies Inc._HUM18264754356648476', 'Advanced Micro Devices Inc._HUM18264819130490380']
+
+cluster #53
+['devices_INTRA_UNK_34386_43_4ecb']
+
+cluster #54
+['computers_Singleton_NON_36_43_4ecb']
+
+cluster #55
+['supplier_HUM17764318691647091']
+
+cluster #56
+['mobile computing_INTRA_UNK_34416_43_5ecb']
+
+cluster #57
+['commercial desktop_Singleton_NON_114_43_5ecb']
+
+cluster #58
+['we_Singleton_HUM_106_43_5ecb', 'We_Singleton_HUM_65_43_6ecb', 'We_HUM18264819130490380']
+
+cluster #59
+['powerhouse_Singleton_HUM_154_43_5ecb']
+
+cluster #60
+['57 million shares_Singleton_NON_102_43_5ecb', 'shares_Singleton_NON_47_43_6ecb']
+
+cluster #61
+['processor_Singleton_NON_85_43_6ecb', 'processor_Singleton_NON_86_43_6ecb']
+
+cluster #62
+['many_Singleton_HUM_128_43_7ecb']
+
+cluster #63
+['TSMC_INTRA_UNK_34482_43_7ecb']
+
+cluster #64
+['investors_Singleton_HUM_112_43_7ecb']
+
+cluster #65
+['Henri Richard_Singleton_HUM_76_43_7ecb']
+
+cluster #66
+['Taiwan_Singleton_HUM_89_43_7ecb']
+
+cluster #67
+['manufacturers_INTRA_UNK_34483_43_7ecb']
+
+cluster #68
+['statement_Singleton_NON_26_43_8ecb']
+
+Topic - 44_ecb
+cluster #1
+['vendor_Singleton_HUM_67_44_1ecb']
+
+cluster #2
+['companies_Singleton_HUM_41_44_1ecb', 'company_HUM18222839907738365', 'company_HUM18184954911690041', 'company_HUM18184954911690041', 'company_HUM18184954911690041']
+
+cluster #3
+['eWEEK_Singleton_HUM_44_44_1ecb', 'eWEEK_INTRA_UNK_34662_44_5ecb', 'eWEEK_INTRA_UNK_34662_44_5ecb']
+
+cluster #4
+['they_INTRA_UNK_34525_44_1ecb']
+
+cluster #5
+['analysts_INTRA_UNK_34525_44_1ecb']
+
+cluster #6
+['business lines_Singleton_NON_68_44_1ecb']
+
+cluster #7
+['$ 13.9 billion_Singleton_NON_69_44_1ecb', '$ 19 billion_Singleton_NON_64_44_2ecb', '$ 13.9 billion_Singleton_NON_45_44_4ecb', 'about $ 13 billion_Singleton_NON_43_44_5ecb', 'about $ 22 billion_Singleton_NON_68_44_5ecb', '$ 13 billion_Singleton_NON_153_44_7ecb']
+
+cluster #8
+['May 13_TIM18222883965416456', 'May 14_Singleton_TIM_49_44_5ecb', 'May 20_Singleton_TIM_125_44_7ecb']
+
+cluster #9
+['Electronic Data Systems_HUM18222839907738365', 'Electronic Data Systems_HUM18222839907738365', 'Electronic Data Systems_HUM18222839907738365', 'Electronic Data Systems_HUM18222839907738365', 'Electronic Data Systems_HUM18222839907738365', 'Electronic Data Systems_HUM18222839907738365']
+
+cluster #10
+['Hewlett-Packard_HUM18184954911690041', 'Hewlett-Packard_HUM18184954911690041', 'Hewlett-Packard_HUM18184954911690041', 'Hewlett-Packard_HUM18184954911690041', 'Hewlett-Packard_HUM18184954911690041', 'Hewlett-Packard_HUM18184954911690041', 'Hewlett-Packard_HUM18184954911690041', 'Hewlett-Packard_HUM18184954911690041']
+
+cluster #11
+['everybody else_Singleton_HUM_55_44_1ecb']
+
+cluster #12
+['IBM_Singleton_HUM_45_44_1ecb', 'IBM_INTRA_UNK_34598_44_3ecb', 'IBM_Singleton_HUM_61_44_4ecb', 'IBM_Singleton_HUM_42_44_5ecb']
+
+cluster #13
+['Sturm_Singleton_HUM_46_44_1ecb']
+
+cluster #14
+['customers_Singleton_HUM_50_44_1ecb']
+
+cluster #15
+['personal computer maker_HUM18184954911690041', 'maker_HUM18184954911690041']
+
+cluster #16
+['The Wall Street Journal_Singleton_HUM_92_44_2ecb']
+
+cluster #17
+['yesterday_Singleton_TIM_93_44_2ecb']
+
+cluster #18
+['today_Singleton_TIM_94_44_2ecb']
+
+cluster #19
+['HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041']
+
+cluster #20
+['EDS_HUM18222839907738365', 'EDS_HUM18222839907738365', 'EDS_HUM18222839907738365', 'EDS_HUM18222839907738365', 'EDS_HUM18222839907738365', 'EDS_HUM18222839907738365', 'EDS_HUM18222839907738365', 'EDS_HUM18222839907738365', 'EDS_HUM18222839907738365']
+
+cluster #21
+['stock_Singleton_NON_66_44_2ecb']
+
+cluster #22
+['its_HUM18184954911690041', 'its_INTRA_UNK_34598_44_3ecb']
+
+cluster #23
+['Compaq Computer Corp._Singleton_HUM_65_44_2ecb', 'Electronic Data Systems Corp._HUM18222839907738365']
+
+cluster #24
+['in 2002_Singleton_TIM_61_44_2ecb', 'in fiscal 2007_Singleton_TIM_57_44_2ecb', 'in March 2005_Singleton_TIM_74_44_3ecb', 'in South Charleston_Singleton_LOC_44_44_6ecb']
+
+cluster #25
+['it_HUM18184954911690041', 'it_HUM18184954911690041', 'it_HUM18184954911690041', 'it_HUM18222839907738365', 'it_HUM18184954911690041']
+
+cluster #26
+['government_Singleton_HUM_55_44_2ecb']
+
+cluster #27
+['about $ 500 million_Singleton_NON_56_44_2ecb']
+
+cluster #28
+['Mark Hurd_Singleton_HUM_51_44_3ecb', 'Mark Hurd_HUM18184954911690041', 'Hurd_Singleton_HUM_134_44_7ecb', 'Hurd_Singleton_HUM_131_44_7ecb']
+
+cluster #29
+['printers_Singleton_NON_75_44_3ecb']
+
+cluster #30
+['personal computers_Singleton_NON_54_44_3ecb']
+
+cluster #31
+['Tuesday_TIM18222883965416456', 'Tuesday_TIM18222883965416456']
+
+cluster #32
+['competition_Singleton_HUM_55_44_3ecb']
+
+cluster #33
+['10,500 Triangle employees_Singleton_HUM_80_44_3ecb']
+
+cluster #34
+['about 7 percent_Singleton_NON_56_44_3ecb']
+
+cluster #35
+['10 percent share_Singleton_NON_89_44_3ecb']
+
+cluster #36
+['Shaw Wu_Singleton_HUM_58_44_3ecb']
+
+cluster #37
+['H-P_HUM18184954911690041', 'H-P_HUM18184954911690041']
+
+cluster #38
+['anyone_Singleton_HUM_40_44_4ecb']
+
+cluster #39
+['Bob Welch_Singleton_HUM_60_44_4ecb']
+
+cluster #40
+['business card_Singleton_NON_46_44_4ecb']
+
+cluster #41
+['sources_INTRA_UNK_34651_44_5ecb', 'source_INTRA_UNK_34651_44_5ecb']
+
+cluster #42
+['Hewlett-Packard Company_HUM18184954911690041']
+
+cluster #43
+['Electronic Data Systems Corporation_HUM18222839907738365']
+
+cluster #44
+['world_Singleton_HUM_70_44_5ecb']
+
+cluster #45
+['spokesman_INTRA_UNK_34677_44_6ecb']
+
+cluster #46
+['Hewlett-Packard Co._HUM18184954911690041']
+
+cluster #47
+['Earlier this month_Singleton_TIM_42_44_6ecb']
+
+cluster #48
+['Bill Ritz_INTRA_UNK_34677_44_6ecb', 'Ritz_INTRA_UNK_34677_44_6ecb']
+
+cluster #49
+['regulators_Singleton_HUM_40_44_6ecb']
+
+cluster #50
+['stockholders_Singleton_HUM_43_44_6ecb']
+
+cluster #51
+['sometime in the second half of 2008_Singleton_TIM_41_44_6ecb']
+
+cluster #52
+['CEO_Singleton_HUM_127_44_7ecb']
+
+cluster #53
+['he_HUM18184954911690041', 'he_Singleton_HUM_129_44_7ecb', 'he_Singleton_HUM_133_44_7ecb']
+
+cluster #54
+['accounts_Singleton_NON_115_44_7ecb']
+
+cluster #55
+['reporters_Singleton_HUM_118_44_7ecb']
+
+cluster #56
+['earnings_Singleton_NON_119_44_7ecb']
+
+cluster #57
+['2008 second-quarter_Singleton_TIM_152_44_7ecb']
+
+cluster #58
+['software_Singleton_NON_91_44_7ecb']
+
+cluster #59
+['portfolio_Singleton_NON_126_44_7ecb']
+
+Topic - 45_ecb
+cluster #1
+['community_Singleton_HUM_86_45_1ecb']
+
+cluster #2
+['he_HUM18223603553098533', 'he_HUM18223603553098533', 'he_HUM18223603553098533', 'he_HUM18223603553098533', 'he_HUM18223603553098533', 'he_HUM18263541739080089', 'him_HUM18223603553098533', 'he_HUM18223603553098533', 'he_HUM18223603553098533']
+
+cluster #3
+['jurors_HUM18263555199297386', 'jurors_HUM18263555199297386', 'jurors_HUM18263555199297386']
+
+cluster #4
+['Scott Peterson_HUM18223603553098533', 'Scott Peterson_HUM18223603553098533', 'Laci Peterson_HUM18223617376775555', 'Laci Peterson_HUM18223617376775555', 'Peterson_HUM18223603553098533', 'Peterson_HUM18223603553098533', 'Scott Peterson_HUM18223603553098533', 'Laci Peterson_HUM18223617376775555', 'Scott Peterson_HUM18223603553098533', 'Scott Peterson_HUM18223603553098533', 'Laci Peterson_HUM18223617376775555', 'Peterson_HUM18223603553098533', 'Peterson_HUM18223603553098533', 'Laci Peterson_HUM18223617376775555', 'Peterson_HUM18223603553098533', 'Laci Peterson_HUM18223617376775555', 'Peterson_HUM18223603553098533', 'Peterson_HUM18223603553098533', 'Scott Peterson_HUM18223603553098533', 'Peterson_HUM18223603553098533', 'Scott Peterson_HUM18223603553098533']
+
+cluster #5
+['his_HUM18223603553098533', 'his_HUM18223603553098533', 'his_HUM18223603553098533']
+
+cluster #6
+['jury_HUM18263555199297386', 'jury_HUM18263555199297386', 'jury_HUM18263555199297386', 'jury_HUM18263555199297386', 'jury_HUM18263555199297386', 'jury_HUM18263555199297386']
+
+cluster #7
+['her_HUM18223617376775555', 'her_HUM18223617376775555']
+
+cluster #8
+['Amber Frey_Singleton_HUM_133_45_1ecb']
+
+cluster #9
+['wife_HUM18223617376775555', 'wife_HUM18223617376775555', 'wife_HUM18223617376775555', 'wife_HUM18223617376775555', 'wife_HUM18223617376775555', 'wife_HUM18223617376775555', 'wife_HUM18223617376775555', 'wife_HUM18223617376775555']
+
+cluster #10
+['Laci_HUM18223617376775555', 'Laci_HUM18223617376775555', 'Laci_HUM18223617376775555', 'Laci_HUM18223617376775555', 'Laci_HUM18223617376775555', 'Laci_HUM18223617376775555']
+
+cluster #11
+['couple_HUM18244299604814682', 'couple_HUM18244299604814682', 'couple_HUM18244299604814682']
+
+cluster #12
+['son_HUM18223746049497677', 'son_HUM18223746049497677', 'son_HUM18223746049497677', 'son_HUM18223746049497677', 'son_HUM18223746049497677']
+
+cluster #13
+['whom_HUM18223746049497677', 'whom_HUM18223746049497677']
+
+cluster #14
+['in Redwood City , California_LOC18225177436480499', 'in Modesto , California_LOC18223809435375260', 'in the San Francisco Bay_LOC18244327488606940', 'in the courtroom_Singleton_LOC_69_45_6ecb']
+
+cluster #15
+['On November 12_TIM18244288458326565', 'on Nov. 12_TIM18244288458326565', 'on Nov. 12_TIM18244288458326565']
+
+cluster #16
+['from home_LOC18223827934517334', 'from her Modesto home_LOC18223827934517334']
+
+cluster #17
+['23 months ago_TIM18223776974741639']
+
+cluster #18
+['Scott_HUM18223603553098533']
+
+cluster #19
+['police_HUM18223628183363384']
+
+cluster #20
+['Conner_HUM18223746049497677']
+
+cluster #21
+['bodies_HUM18223756004010949']
+
+cluster #22
+['near where_Singleton_LOC_74_45_2ecb']
+
+cluster #23
+['day_TIM18223776974741639', 'the day before Christmas 2002_INTRA_UNK_34845_45_6ecb']
+
+cluster #24
+['they_Singleton_HUM_16_45_3ecb', 'them_HUM18263555199297386']
+
+cluster #25
+['people_Singleton_HUM_3_45_3ecb']
+
+cluster #26
+['hometown_Singleton_LOC_12_45_3ecb']
+
+cluster #27
+['blood_Singleton_NON_13_45_3ecb']
+
+cluster #28
+['memory_Singleton_NON_14_45_3ecb']
+
+cluster #29
+['prosecutor_HUM18263541739080089']
+
+cluster #30
+['loved ones_INTRA_UNK_34809_45_4ecb']
+
+cluster #31
+['their_INTRA_UNK_34809_45_4ecb']
+
+cluster #32
+['hole_Singleton_NON_36_45_4ecb']
+
+cluster #33
+['hearts_Singleton_NON_37_45_4ecb']
+
+cluster #34
+['today_Singleton_TIM_45_45_4ecb']
+
+cluster #35
+['fetus_HUM18223746049497677']
+
+cluster #36
+['nation_INTRA_UNK_34847_45_6ecb', 'nation_Singleton_HUM_58_45_7ecb']
+
+cluster #37
+['country_INTRA_UNK_34847_45_6ecb']
+
+cluster #38
+['case_Singleton_NON_97_45_6ecb']
+
+cluster #39
+['child_HUM18223746049497677', 'child_HUM18223746049497677', 'child_HUM18223746049497677']
+
+cluster #40
+['air_Singleton_NON_71_45_6ecb']
+
+cluster #41
+['Nov. 12_TIM18244288458326565']
+
+cluster #42
+['just before Christmas 2002_INTRA_UNK_34845_45_6ecb']
+
+cluster #43
+['much_Singleton_HUM_62_45_7ecb']
+
+cluster #44
+['Friday_TIM18244288458326565']
+
+cluster #45
+['for nearly two years_Singleton_TIM_64_45_7ecb']
+
+cluster #46
+['jury box_Singleton_HUM_52_45_7ecb']
+
+cluster #47
+['foreman_Singleton_HUM_50_45_7ecb']
+
+cluster #48
+['Modesto_LOC18223809435375260']
+
+cluster #49
+['expression_Singleton_NON_12_45_8ecb']
+
+Topic - 36_ecbplus
+cluster #1
+['againJuly 23 , 2008 . 4 : 49 pm_Singleton_TIM_34_36_10ecbplus']
+
+cluster #2
+['Polygamist prophet Warren Jeffs_HUM17642391151298735', 'Warren Jeffs_HUM17642391151298735', 'Warren Jeffs_HUM17642391151298735', 'polygamist leader Warren Jeffs_HUM17642391151298735', 'Polygamist leader Warren Jeffs_HUM17642391151298735', 'Warren Jeffs , Polygamist Leader_HUM17642391151298735', 'polygamist sect leader Warren Jeffs_HUM17642391151298735', 'Warren Jeffs_HUM17642391151298735', 'Warren Jeffs_HUM17642391151298735', 'Warren Jeffs_HUM17642391151298735', 'Warren Jeffs_HUM17642391151298735', 'leader Warren Jeffs_HUM17642391151298735', 'Warren Jeffs_HUM17642391151298735', 'Warren Jeffs_HUM17642391151298735', 'leader Warren Jeffs_HUM17642391151298735']
+
+cluster #3
+['Jeffs_HUM17642391151298735', 'Jeffs_HUM17642391151298735', 'Jeffs_HUM17642391151298735', 'Jeffs_HUM17642391151298735', 'Jeffs_HUM17642391151298735']
+
+cluster #4
+['he_HUM17642391151298735', 'he_HUM17642391151298735', 'he_HUM17642391151298735', 'he_HUM17642391151298735', 'he_HUM17642391151298735', 'he_HUM17642391151298735']
+
+cluster #5
+['court_Singleton_LOC_56_36_10ecbplus']
+
+cluster #6
+['in Texas_Singleton_LOC_52_36_10ecbplus', 'in Texas_Singleton_LOC_123_36_5ecbplus', 'in Texas_LOC28676790105772771']
+
+cluster #7
+['Arizona_LOC17720123743510939']
+
+cluster #8
+['girls_HUM17642465151706006', 'two under - aged girls_HUM17642465151706006', 'girl_HUM17642436231590887', 'girl_HUM17642451761547732', 'girl_HUM17642436231590887', 'girl_HUM17642451761547732', 'girls_HUM17642465151706006', 'two girls_HUM17642465151706006']
+
+cluster #9
+['child_HUM17717071753725810', 'child_HUM28673805873878282', 'Child_HUM28673805873878282', 'child_HUM28673805873878282', 'child_HUM17717071753725810', 'child_HUM28673805873878282', 'child_HUM28673805873878282']
+
+cluster #10
+['two counts_NON28673199429936468']
+
+cluster #11
+['one_HUM17642451761547732']
+
+cluster #12
+['on Thursday_TIM17642374986764618']
+
+cluster #13
+['San Antonio jury_HUM18264005982064036', 'jury_HUM18264005982064036', 'Texas jury_HUM18264005982064036', 'Texas jury_HUM18264005982064036', 'Texas jury_HUM18264005982064036']
+
+cluster #14
+['Fundamentalist Church of Jesus Christ of Latter Day Saints_HUM18576970734387733', 'Fundamentalist Church of Jesus Christ of Latter Day Saints ( FLDS_HUM18576970734387733', 'Fundamentalist Church of Jesus Christ of Latter Day Saints_HUM18576970734387733']
+
+cluster #15
+['wives_HUM17642465151706006']
+
+cluster #16
+['leader_HUM17642391151298735', "FLDS leader's_HUM17642391151298735", 'leader_HUM17642391151298735']
+
+cluster #17
+['20 years_Singleton_TIM_23_36_2ecbplus']
+
+cluster #18
+['Case_INTRA_NON_38080_36_3ecbplus', 'case_INTRA_NON_38080_36_3ecbplus', 'case_Singleton_NON_34_36_6ecbplus']
+
+cluster #19
+['church_HUM18576970734387733', 'church_HUM18576970734387733']
+
+cluster #20
+['two young followers_HUM17642465151706006', 'two young followers_HUM17642465151706006', 'followers_Singleton_HUM_4_36_8ecbplus']
+
+cluster #21
+['brides_HUM17642465151706006', 'brides_HUM17642465151706006']
+
+cluster #22
+['Thursday_TIM17642374986764618', 'Thursday_TIM17642374986764618']
+
+cluster #23
+['sex tapes_NON17642479951120038']
+
+cluster #24
+['Prosecutors_HUM17642424086541858', 'Prosecutors_HUM17642424086541858']
+
+cluster #25
+['who_HUM17642391151298735']
+
+cluster #26
+['evidence_NON17642479951120038']
+
+cluster #27
+['Tuesday_Singleton_TIM_54_36_4ecbplus']
+
+cluster #28
+["'brides_HUM17642465151706006"]
+
+cluster #29
+['that_HUM17642465151706006']
+
+cluster #30
+['polygamist FLDS religious sect_HUM18576970734387733', 'sect_HUM18576970734387733', 'Polygamist sect_HUM18576970734387733']
+
+cluster #31
+['They_HUM17642424086541858']
+
+cluster #32
+['15 year old_HUM17642451761547732', '12 - year - old_HUM17642436231590887']
+
+cluster #33
+['audio recording_NON17642479951120038']
+
+cluster #34
+['Five years ago_Singleton_TIM_81_36_8ecbplus']
+
+cluster #35
+['where_LOC28676790105772771']
+
+cluster #36
+['to Texas_LOC28676790105772771']
+
+cluster #37
+['Wednesday_Singleton_TIM_43_36_9ecbplus']
+
+cluster #38
+['Utah_LOC17720114563425831']
+
+cluster #39
+['Texas authorities_Singleton_HUM_7_36_9ecbplus']
+
+cluster #40
+['head_HUM17642391151298735']
+
+Topic - 37_ecbplus
+cluster #1
+["Indonesia's Aceh province_LOC17643560582770468", 'Indonesian province of Aceh_LOC17643560582770468', 'northwestern Indonesian province of Aceh_LOC17643560582770468', "Indonesia's Aceh province_LOC17643560582770468", "Indonesia's Aceh province_LOC17643560582770468", "Indonesia's Aceh province_LOC17643560582770468", "Indonesia's Aceh province_LOC17643560582770468", 'northern Indonesian province of Aceh_LOC17643560582770468', 'Aceh province_LOC17643560582770468', 'Aceh province_LOC17643560582770468', 'Indonesian province of Aceh_LOC17643560582770468', "Indonesia's northwestern province of Aceh_LOC17643560582770468", "Indonesia's Aceh province_LOC17643560582770468", "Sumatra's Aceh province_LOC17643560582770468", "Indonesia's northwestern Aceh province on the island of Sumatra_LOC17643560582770468", "Indonesia's northwestern Aceh province , on the island of Sumatra_LOC17643560582770468", 'Indonesian province of Aceh_LOC17643560582770468']
+
+cluster #2
+['in region_LOC17643560582770468', "in Indonesia's Aceh province_LOC17643560582770468", 'in a region_LOC17643560582770468', 'in Indonesia_LOC17643572389027482', 'in a region_LOC17643560582770468', "in Indonesia's Aceh province_LOC17643560582770468", "in Indonesia's Aceh province_LOC17643560582770468"]
+
+cluster #3
+['hundreds_HUM17643432611577647']
+
+cluster #4
+['region_LOC17643560582770468', 'affected region_LOC17643560582770468', 'region_LOC17643560582770468']
+
+cluster #5
+['2004_TIM28680415573838899']
+
+cluster #6
+['that_LOC17643560582770468']
+
+cluster #7
+['USGS_HUM18264038380520801']
+
+cluster #8
+["Indonesia's Aceh_LOC17643560582770468", "Indonesia's Aceh_LOC17643560582770468", "Indonesia's Aceh_LOC17643560582770468", 'Indonesia Aceh_LOC17643560582770468', "Indonesia's Aceh_LOC17643560582770468"]
+
+cluster #9
+['US Geological Survey_HUM18264038380520801']
+
+cluster #10
+['people_HUM17643451258431556', 'five people_HUM17643432611577647', 'five people_HUM17728595122188917', 'three people_HUM17728595122188917', '50 people_HUM17643432611577647', '24 people_HUM17728595122188917']
+
+cluster #11
+['into the streets_Singleton_LOC_48_37_11ecbplus']
+
+cluster #12
+['on Tuesday_TIM17643622245386552', 'on Tuesday_TIM17643622245386552', 'on Tuesday_TIM17643622245386552', 'on Tuesday_TIM17643622245386552', 'on Tuesday_TIM17643622245386552', 'on Tuesday_TIM17643622245386552']
+
+cluster #13
+['One_HUM17731540958266535', 'one_HUM17731540958266535']
+
+cluster #14
+["Indonesia's Aceh Province_LOC17643560582770468"]
+
+cluster #15
+['Magnitude 6 . 1_NON28678763502485937']
+
+cluster #16
+['Associated Press_Singleton_HUM_38_37_12ecbplus']
+
+cluster #17
+['two others_HUM28679216337079704', 'two others_HUM28679216337079704']
+
+cluster #18
+['on Tuesday at 07 : 37 a . m . UTC ( 3 : 37 a . m . EDT )_TIM17643602768846527']
+
+cluster #19
+['houses_LOC17643520528410232', 'houses_LOC17731497737982880', 'houses_LOC17643520528410232']
+
+cluster #20
+["off Indonesia's Aceh province_LOC17643560582770468"]
+
+cluster #21
+['1_HUM17731540958266535']
+
+cluster #22
+['Indonesia_LOC17643572389027482']
+
+cluster #23
+['one person_HUM17731540958266535', 'one person_HUM17728595122188917']
+
+cluster #24
+['dozens of villagers_HUM17643432611577647', 'dozens_HUM17643432611577647', 'dozens_HUM17643432611577647', 'dozens_HUM17643432611577647', 'Dozens_HUM17643432611577647', 'dozens_HUM17643432611577647', 'Dozens_HUM17643432611577647', 'dozens_HUM17643432611577647', 'dozens_HUM17643432611577647', 'Dozens_HUM17643432611577647', 'Dozens_HUM17643432611577647', 'dozens_HUM17643432611577647']
+
+cluster #25
+['Five_HUM17728595122188917']
+
+cluster #26
+['buildings_LOC17643520528410232', 'buildings_LOC17643520528410232', 'buildings_LOC17643520528410232', 'buildings_LOC17643520528410232', 'buildings_LOC17643520528410232']
+
+cluster #27
+['Tuesday_TIM17643622245386552', 'early Tuesday_TIM17643622245386552']
+
+cluster #28
+['of 2004_TIM28680415573838899', 'of 2004_TIM28680415573838899', 'of 2004_TIM28680415573838899']
+
+cluster #29
+['24_HUM17728595122188917', '24_HUM17728595122188917']
+
+cluster #30
+['200_HUM17643432611577647', '200_HUM17643432611577647', '200_HUM17643432611577647']
+
+cluster #31
+['Soldiers_Singleton_HUM_37_37_3ecbplus']
+
+cluster #32
+['police_Singleton_HUM_38_37_3ecbplus']
+
+cluster #33
+['child_HUM17731540958266535', 'child_HUM17731540958266535']
+
+cluster #34
+['today_TIM17643622245386552']
+
+cluster #35
+['Officials_Singleton_HUM_33_37_6ecbplus']
+
+cluster #36
+['western tip of Sumatra island_Singleton_LOC_2_37_6ecbplus']
+
+cluster #37
+['50_HUM17643432611577647']
+
+Topic - 38_ecbplus
+cluster #1
+['Near Healdsburg_LOC17743376323445649', 'Near Healdsburg_LOC17743376323445649']
+
+cluster #2
+['U . S . Geological Survey_HUM18264038380520801', 'U . S . Geological Survey_HUM18264038380520801', 'U . S . Geological Survey_HUM18264038380520801', 'U . S . Geological Survey_HUM18264038380520801', 'U . S . Geological Survey_HUM18264038380520801', 'U . S . Geological Survey_HUM18264038380520801', 'U . S . Geological Survey_HUM18264038380520801']
+
+cluster #3
+['in the North Bay_LOC17743207703372898', 'in Sonoma County_LOC17741443930390371', 'in the North Bay_LOC17743207703372898', 'in the North Bay_LOC17743207703372898', 'in Geyserville , about 20 miles north of Santa Rosa_LOC17741455869640677', 'in the Geysers area_LOC17741455869640677', 'in the North Bay_LOC17743207703372898']
+
+cluster #4
+['this morning_TIM17741090384773320', 'this morning_TIM17741090384773320', 'early Thursday morning_TIM17741090384773320', 'this morning_TIM17741090384773320', 'Thursday morning_TIM17741090384773320']
+
+cluster #5
+['preliminary magnitude of 4 . 6_NON17741171079940822', 'magnitude of 4 . 6_NON17741171079940822', 'magnitude of 4 . 6_NON17741171079940822', 'magnitude 4 . 6_NON17741171079940822', 'magnitude of 4 . 6_NON17741171079940822']
+
+cluster #6
+['about 14 miles north - northeast of Healdsburg_LOC17743376323445649', 'about 14 miles north - northeast of Healdsburg_LOC17743376323445649', 'about 14 miles northeast of Healdsburg , on the Maacama Fault_LOC17743376323445649', 'about 14 miles north - northeast of Healdsburg_LOC17743376323445649', 'about 14 miles north - northeast of Healdsburg_LOC17743376323445649']
+
+cluster #7
+['at 2 : 09 a . m_TIM17741090384773320', 'at 2 : 09 a . m_TIM17741090384773320', 'at 2 : 09 a . m_TIM17741090384773320', 'at 2 : 09 a . m_TIM17741090384773320', 'at 2 : 09 a . m . Thursday_TIM17741090384773320', 'at 2 : 09 a . m_TIM17741090384773320', 'at 2 : 09 a . m_TIM17741090384773320']
+
+cluster #8
+['depth of 1 . 2 miles_LOC17741183590888048', 'depth of 1 . 2 miles_LOC17741183590888048', 'depth of 12 miles_LOC17741183590888048', 'depth of 1 . 2 miles_LOC17741183590888048', 'depth of 1 . 2 miles_LOC17741183590888048']
+
+cluster #9
+['Outside Sacramento_Singleton_LOC_10_38_11ecbplus']
+
+cluster #10
+['Today 2013_TIM17741090384773320', 'today 2013_TIM17741090384773320']
+
+cluster #11
+['outside Santa Rosa_LOC17741110229513558']
+
+cluster #12
+['news_HUM17741158770755189']
+
+cluster #13
+['Sonoma County_LOC17741443930390371', 'Lake County_LOC28685747056455221', "Lake County's_LOC28685747056455221"]
+
+cluster #14
+['early Thursday_TIM17741090384773320', 'early Thursday_TIM17741090384773320', 'overnight Thursday_TIM17741090384773320']
+
+cluster #15
+['Sonoma and Lake counties_LOC17741443930390371']
+
+cluster #16
+['4 . 6_NON17741171079940822']
+
+cluster #17
+['Cobb Mountain community_Singleton_HUM_14_38_3ecbplus']
+
+cluster #18
+['folks_Singleton_HUM_15_38_3ecbplus']
+
+cluster #19
+['at the California Geysers_LOC17741455869640677']
+
+cluster #20
+['Geysers_LOC17741455869640677', 'Geysers_LOC17741455869640677']
+
+cluster #21
+['Napa_INTRA_LOC_38196_38_6ecbplus']
+
+cluster #22
+['Napa Valley_INTRA_LOC_38196_38_6ecbplus']
+
+cluster #23
+['located near Clearlake in Lake County_LOC28685747056455221']
+
+cluster #24
+['residents_Singleton_HUM_19_38_7ecbplus']
+
+cluster #25
+['Northern California_LOC17741144789369948', 'Northern California_LOC17741144789369948', 'Northern California_LOC17741144789369948']
+
+cluster #26
+['from San Francisco to north of Sacramento_Singleton_LOC_16_38_7ecbplus']
+
+cluster #27
+['on Thursday morning_TIM17741090384773320']
+
+cluster #28
+['about 26 miles north of Santa Rosa_LOC17741110229513558']
+
+cluster #29
+['North Bay_LOC17743207703372898']
+
+Topic - 39_ecbplus
+cluster #1
+['Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'PETER Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276']
+
+cluster #2
+['Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', "Matt Smith's_HUM17744873373187694", 'star Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith , the Doctor_HUM17744873373187694']
+
+cluster #3
+["'Doctor Who'_NON17744952423311022", 'Doctor Who_NON17744952423311022', 'Doctor Who_HUM17744995054949769', 'Doctor Who_HUM17744995054949769', 'who_HUM17744873373187694', 'Doctor Who_NON17744952423311022', 'Doctor Who_NON17744952423311022', 'Doctor Who_NON17744952423311022', 'Doctor Who_NON17744952423311022', 'Doctor Who_HUM17744995054949769', 'Doctor Who_NON17744952423311022', 'Doctor Who_HUM17744937293310517', 'Doctor Who_NON17744952423311022', "'Doctor Who'_NON17744952423311022", 'who_HUM17744873373187694', 'Doctor Who_HUM17744995054949769', 'Doctor Who_HUM17744995054949769']
+
+cluster #4
+['star_HUM17744898912785276', 'new star_HUM17744898912785276']
+
+cluster #5
+['actor_HUM17744898912785276', 'actor_HUM17744898912785276', 'actor_HUM17744898912785276', 'actor_HUM17744898912785276', '12th actor_HUM17744898912785276']
+
+cluster #6
+['12th Doctor_HUM17744995054949769', '12th Doctor_HUM17744898912785276', 'spin doctor_INTRA_HUM_38225_39_3ecbplus', 'Doctor_HUM17744937293310517', 'Twelfth Doctor_HUM17744995054949769', '12th doctor_HUM17744995054949769', 'Doctor_HUM17744995054949769', '12th Doctor_HUM17744873373187694']
+
+cluster #7
+['sci - fi drama_NON17744952423311022']
+
+cluster #8
+["on BBC One's_HUM18520722147007898"]
+
+cluster #9
+['TV_NON17745413236512401']
+
+cluster #10
+['role_HUM17744937293310517', 'role_Singleton_NON_68_39_3ecbplus']
+
+cluster #11
+['he_HUM17744873373187694', 'He_HUM17744898912785276']
+
+cluster #12
+['sci - fi show_NON17744952423311022', 'show_NON17744952423311022']
+
+cluster #13
+['in June_Singleton_TIM_45_39_11ecbplus']
+
+cluster #14
+['later this year_Singleton_TIM_46_39_11ecbplus']
+
+cluster #15
+['BBC_HUM18520722147007898']
+
+cluster #16
+['name_HUM17744898912785276', 'name_HUM17744898912785276']
+
+cluster #17
+['boss Steven Moffat_HUM17744863322935845', 'boss Steven Moffat_HUM17744863322935845', 'Steven Moffat_HUM17744863322935845']
+
+cluster #18
+['Malcolm Tucker_INTRA_HUM_38225_39_3ecbplus']
+
+cluster #19
+['The Thick of It_NON17745170956492548']
+
+cluster #20
+['his_HUM17744898912785276']
+
+cluster #21
+['to the nation_Singleton_LOC_35_39_4ecbplus']
+
+cluster #22
+["McFly's_Singleton_HUM_49_39_5ecbplus"]
+
+cluster #23
+['Celeb_Singleton_HUM_50_39_5ecbplus']
+
+cluster #24
+['John Barrowman_Singleton_HUM_2_39_5ecbplus']
+
+cluster #25
+['Stephen Fry_Singleton_HUM_3_39_5ecbplus']
+
+cluster #26
+['Tom Fletcher_Singleton_HUM_4_39_5ecbplus']
+
+cluster #27
+['Tardis_NON17745059789240063', 'Tardis_NON17745059789240063']
+
+cluster #28
+['twelfth incarnation_HUM17744898912785276']
+
+cluster #29
+['tenant_HUM17744995054949769']
+
+cluster #30
+['Yesterday evening_TIM17745242315926224']
+
+cluster #31
+['Time Lord_HUM17744937293310517', '12th Time Lord_HUM17744995054949769']
+
+cluster #32
+['Doctor Who shoes_HUM17744937293310517']
+
+cluster #33
+['TARDIS_NON17745059789240063']
+
+cluster #34
+['Sunday_TIM17745227998616388']
+
+cluster #35
+['Doctor Who Live : The Next Doctor_NON17745006823711759']
+
+cluster #36
+['leader_HUM17744937293310517']
+
+cluster #37
+['2013 Christmas Special_NON17750096954988431']
+
+cluster #38
+['favourite_HUM17744898912785276', 'favourite_HUM17744898912785276']
+
+cluster #39
+["bookies'_HUM17745352748682866"]
+
+cluster #40
+["bookmakers'_HUM17745352748682866"]
+
+cluster #41
+['choice_HUM17744898912785276']
+
+Topic - 40_ecbplus
+cluster #1
+["Apple's_HUM17764075735414631", "Apple's_HUM17764075735414631", "Apple's_HUM17764075735414631"]
+
+cluster #2
+['Phil Schiller_HUM18089813256581682', 'Phil Schiller_HUM18089813256581682']
+
+cluster #3
+['MacBook Air lineup_NON17837773451318042']
+
+cluster #4
+['MacBook Pro_NON17764235788628565', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON18090039996916429', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON17764235788628565']
+
+cluster #5
+['today_TIM17764186666029400', 'today_TIM17764186666029400']
+
+cluster #6
+['developers_Singleton_HUM_12_40_11ecbplus']
+
+cluster #7
+['Siri_Singleton_NON_5_40_11ecbplus']
+
+cluster #8
+['stuff_Singleton_NON_6_40_11ecbplus']
+
+cluster #9
+['the stage in San Francisco_LOC18089929016207027']
+
+cluster #10
+['Apple CEO Tim Cook_HUM28688885136138789']
+
+cluster #11
+['MacBook line_NON17764218799960810', 'MacBook Pro line_NON17764218799960810', 'MacBook Air line_NON17837773451318042', 'MacBook line_NON17764218799960810']
+
+cluster #12
+['Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631']
+
+cluster #13
+['Ivy Bridge_NON17764250260582633', 'Ivy Bridge_NON17764250260582633', 'Ivy Bridge_NON17764250260582633', 'Ivy Bridge_NON17764250260582633', 'Ivy Bridge_NON17764250260582633', 'Ivy Bridge_NON17764250260582633']
+
+cluster #14
+["Intel's_HUM17764318691647091", "Intel's_HUM17764318691647091"]
+
+cluster #15
+['it_HUM17764075735414631', 'it_HUM17764075735414631', 'it_NON17764218799960810']
+
+cluster #16
+['Ivy Bridge processors_NON17764260776630536', 'Ivy Bridge processors_NON17764250260582633', 'Ivy Bridge processors_NON17764250260582633']
+
+cluster #17
+['hardware_NON17764206852917641', 'hardware_NON17764206852917641']
+
+cluster #18
+['this year_Singleton_TIM_34_40_1ecbplus', 'this year_Singleton_TIM_16_40_3ecbplus']
+
+cluster #19
+['opening day_TIM17764186666029400', 'opening day_TIM17764186666029400']
+
+cluster #20
+['MacBook Air_NON17837773451318042', 'MacBook Air_NON17837773451318042', 'MacBook Air_NON18089134250184836']
+
+cluster #21
+['models_INTRA_NON_38259_40_2ecbplus']
+
+cluster #22
+['MacBook Pros_NON17764218799960810', 'MacBook Pros_NON17764218799960810']
+
+cluster #23
+['Nvidia GeForce GT650M graphics card_Singleton_NON_25_40_4ecbplus']
+
+cluster #24
+['its_HUM17764075735414631', 'its_HUM17764075735414631']
+
+cluster #25
+['week_Singleton_TIM_28_40_5ecbplus']
+
+cluster #26
+['portions_Singleton_NON_11_40_6ecbplus']
+
+cluster #27
+['in San Francisco_LOC18089929016207027']
+
+cluster #28
+['next generation of MacBook Pro_NON18090039996916429']
+
+cluster #29
+['Macbook Pro_NON17764235788628565', 'Next Generation Macbook Pro_NON17764235788628565']
+
+cluster #30
+['laptop_NON17764235788628565']
+
+Topic - 41_ecbplus
+cluster #1
+['South Sudan_HUM18155335583688433', 'Sudan_HUM17764691853439726', 'Sudan_HUM17764691853439726', 'Sudan_HUM17764691853439726', 'Sudan_HUM17764691853439726', 'Sudan_HUM17764691853439726', 'Sudan_HUM17764691853439726', 'South Sudan_HUM18098113770775396', 'Sudan_HUM17764691853439726', 'South Sudan_HUM18155335583688433', 'Sudan_HUM17764691853439726', 'Sudan_HUM17764691853439726', 'Sudan_HUM17764691853439726', 'Sudan_HUM17764691853439726', 'Sudan_LOC18148766005050266', 'Sudan_HUM17764691853439726', 'South Sudan_HUM18155335583688433']
+
+cluster #2
+['refugee camp_LOC17764737904268597', 'South Sudan refugee camp_LOC17764737904268597', 'refugee camp_LOC17764737904268597', 'refugee camp in South Sudan_LOC17764737904268597', 'refugee camp in South Sudan_LOC17764737904268597', 'refugee camp in their territory_LOC17764737904268597', "A refugee camp in South Sudan's Unity state_LOC17764737904268597", 'a refugee camp_LOC17764737904268597', 'refugee camp"_LOC17764737904268597', "A refugee camp in South Sudan's Unity state_LOC17764737904268597", "Samaritan's Purse refugee camp in Yida , South Sudan_LOC17764737904268597"]
+
+cluster #3
+['refugees_HUM17765115908831308', "refugees'_HUM17765115908831308", 'refugees_HUM17765115908831308']
+
+cluster #4
+['officials_HUM18098113770775396', 'government official_Singleton_HUM_25_41_10ecbplus', 'South Sudanese officials_HUM18098113770775396', 'South Sudan officials_HUM18098113770775396', 'South Sudan officials_HUM18098113770775396', 'officials_HUM18098113770775396', 'government official_HUM18155825126669219']
+
+cluster #5
+['Military aircraft_HUM18148829671624267', 'Military aircraft_HUM18148829671624267']
+
+cluster #6
+['the new international border with South Sudan_Singleton_LOC_32_41_10ecbplus', 'border_LOC18149997770652692', 'the new international border with South Sudan_LOC18149997770652692']
+
+cluster #7
+['bombs_NON17765171872926716', 'bombs_NON17765171872926716', 'Four bombs_NON17765171872926716', 'two bombs_NON17765152945011656', 'four bombs_NON17765171872926716', 'bombs_NON17765171872926716']
+
+cluster #8
+['Thursday_TIM18150070512473728', 'Thursday_TIM18150070512473728', 'Thursday_TIM18150070512473728']
+
+cluster #9
+['in and around a camp_LOC17764737904268597', "in South Sudan's Unity state_LOC18148777395301609", "in neighbouring Sudan's Nuba Mountains_Singleton_LOC_17_41_2ecbplus", "in South Sudan's Unity state_LOC18148777395301609", 'in Sudan_LOC18148766005050266', 'in and around a camp_LOC17764737904268597']
+
+cluster #10
+['aid workers_HUM18149876821504272', 'aid workers_HUM18149876821504272']
+
+cluster #11
+['activist_HUM18149864601840828', 'American activist_HUM18149864601840828']
+
+cluster #12
+['who_HUM18149864601840828', 'who_Singleton_HUM_33_41_6ecbplus', 'who_HUM18149864601840828']
+
+cluster #13
+['at the camp_LOC17764737904268597', 'at 2 : 53 p . m . local time today_TIM17764757505490740', 'At Yida Refugee Camp , South Sudan_LOC17764737904268597', 'at the camp_LOC17764737904268597']
+
+cluster #14
+['witness_HUM18096236064822673', 'Reuters witness_HUM18096236064822673', 'witnesses_HUM18098097439936561', 'witnesses_HUM18098097439936561']
+
+cluster #15
+['Plane_HUM18148829671624267']
+
+cluster #16
+['less than 50 km ( 30 miles ) from the tense border with Sudan_Singleton_LOC_7_41_11ecbplus']
+
+cluster #17
+['target_Singleton_NON_27_41_11ecbplus']
+
+cluster #18
+['on Thursday_TIM18150070512473728', 'on refugee camp in South Sudan_LOC17764737904268597', 'on Friday_TIM17765210606662149', 'on refugee camp_LOC17764737904268597', 'on the South Sudanese area of Yida_LOC17764737904268597', 'on Thursday afternoon_TIM17764757505490740', 'on Thursday_TIM18150070512473728', 'on Thursday , Nov . 10_TIM18150070512473728']
+
+cluster #19
+['Yida Refugee Camp in South Sudan_LOC17764737904268597', 'the Yida Refugee Camp in South Sudan_LOC17764737904268597', 'Civilian Camp_LOC17764737904268597', 'South Sudanese Refugee Camp_LOC17764737904268597', "Samaritan's Purse Refugee Camp_LOC17764737904268597"]
+
+cluster #20
+['SAF_HUM17764691853439726']
+
+cluster #21
+['Sudan Armed Forces_HUM17764691853439726']
+
+cluster #22
+['UNHCR_HUM18264886171275717']
+
+cluster #23
+['UN refugee agency_HUM18264886171275717']
+
+cluster #24
+['20 , 000 civilians_HUM17765115908831308']
+
+cluster #25
+['Adrian Edwards_INTRA_HUM_38304_41_2ecbplus']
+
+cluster #26
+['close to the school_LOC17764769313490055']
+
+cluster #27
+['"Two_NON17765140228243111', '"Sudan_HUM17764691853439726']
+
+cluster #28
+['one_NON18098022398487840']
+
+cluster #29
+['within the Yida camp_LOC17764737904268597']
+
+cluster #30
+['On Thursday , November 10th at approximately 3 : 00 pm_TIM17764757505490740']
+
+cluster #31
+['UN helicopter_HUM17764792309978161']
+
+cluster #32
+['two_NON17765140228243111']
+
+cluster #33
+['food aid_NON17765063362590266']
+
+cluster #34
+['near the airstrip_LOC17764780520342961']
+
+cluster #35
+['where_LOC17764780520342961']
+
+cluster #36
+['inside the camp itself_LOC17764737904268597']
+
+cluster #37
+['border region_LOC18149997770652692']
+
+cluster #38
+['they_HUM17764691853439726', 'them_HUM17765115908831308', 'they_HUM17764691853439726']
+
+cluster #39
+["Sudan's armed forces_HUM17764691853439726", "Sudan's armed forces_HUM17764691853439726"]
+
+cluster #40
+['South Sudanese territory_LOC18148777395301609']
+
+cluster #41
+['21 , 000 people_HUM17765115908831308']
+
+cluster #42
+['northern Sudanese_Singleton_HUM_31_41_6ecbplus']
+
+cluster #43
+['Antonov bomber_NON18096410453086836']
+
+cluster #44
+['Sudanese Government_HUM17764691853439726', 'government of Sudan_HUM17764691853439726']
+
+cluster #45
+['nondenominational evangelical Christian organization_Singleton_HUM_19_41_9ecbplus']
+
+Topic - 42_ecbplus
+cluster #1
+['T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_LOC28695786412990029']
+
+cluster #2
+['BlackBerry Q10_NON17772718856233321', "BlackBerry Q10's_NON17772718856233321", 'BlackBerry Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'Q10_NON17772718856233321', 'BlackBerry® Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'BlackBerry� Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'Q10 smartphone_NON17772718856233321']
+
+cluster #3
+['April 29th_TIM17773189631418399', 'April 29th_TIM17773189631418399']
+
+cluster #4
+['in the US_Singleton_LOC_44_42_10ecbplus']
+
+cluster #5
+['details_Singleton_NON_7_42_10ecbplus', 'details_Singleton_NON_36_42_10ecbplus']
+
+cluster #6
+['email_Singleton_NON_35_42_10ecbplus']
+
+cluster #7
+['device_NON17772718856233321', '4G LTE devices_NON18163467332773553', 'BlackBerry Q10 smartphone device_NON17772718856233321', 'device_NON17772718856233321']
+
+cluster #8
+['next week on April 29th_TIM17773189631418399']
+
+cluster #9
+['business customers_HUM17773208834043169', 'customers_HUM17772747022002260', 'Business Customers_HUM17773208834043169', 'business customers_HUM17773208834043169']
+
+cluster #10
+['4G LTE Smartphone_NON18163467332773553', '4G LTE smartphone_NON18163467332773553', '4G LTE smartphone_NON18163467332773553', '4G LTE smartphone_NON18163467332773553', '4G LTE smartphone_NON18163467332773553', '4G LTE Smartphone_NON18163467332773553']
+
+cluster #11
+['Portfolio_NON17772698552724557', 'portfolio_NON17772698552724557', 'portfolio_NON17772698552724557', 'portfolio_NON17772698552724557', 'portfolio_NON17772698552724557', 'Portfolio_NON17772698552724557']
+
+cluster #12
+['BlackBerry_HUM18521219076628367', 'BlackBerry_Singleton_NON_19_42_3ecbplus', "BlackBerry's_HUM18521219076628367"]
+
+cluster #13
+['line - up_NON17772698552724557']
+
+cluster #14
+['T - Mobile USA_HUM18264838847289264', 'T - Mobile USA_HUM18264838847289264', 'T - Mobile USA_HUM18264838847289264']
+
+cluster #15
+['its_HUM18264838847289264', 'its_HUM18264838847289264', 'its_HUM18264838847289264', 'its_HUM18264838847289264', 'its_HUM18264838847289264']
+
+cluster #16
+['today_TIM17773173172555927', 'today_TIM17773173172555927']
+
+cluster #17
+['fans_Singleton_HUM_20_42_3ecbplus']
+
+cluster #18
+['note_Singleton_NON_16_42_3ecbplus']
+
+cluster #19
+['T - Mobile US_HUM18264838847289264']
+
+cluster #20
+['They_HUM18264838847289264', 'they_HUM18264838847289264', 'they_HUM18264838847289264']
+
+cluster #21
+['their network_NON17772698552724557']
+
+cluster #22
+['it_HUM18264838847289264', 'it_HUM18264838847289264', 'it_HUM18264838847289264']
+
+cluster #23
+['on April 29th_TIM17773189631418399', 'on April 29_TIM17773189631418399']
+
+cluster #24
+['T - Mobile . com_LOC28695786412990029']
+
+cluster #25
+['April 29_TIM17773189631418399', 'April 29_TIM17773189631418399']
+
+cluster #26
+['carrier_HUM18264838847289264']
+
+cluster #27
+["T - Mobile's website_LOC28695786412990029"]
+
+Topic - 43_ecbplus
+cluster #1
+['AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', "AMD's_HUM18264819130490380", 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', "AMD's_HUM18264819130490380", 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380']
+
+cluster #2
+['SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828']
+
+cluster #3
+['Intel - based servers_NON17773540574593056', 'server_NON17773540574593056', 'server_NON17773540574593056', 'server_NON18182598843804563', 'Server_NON18182598843804563', 'Server_NON18182598843804563', 'server_NON17773540574593056', 'dense servers_NON17773540574593056', 'server_NON18182598843804563']
+
+cluster #4
+['Server Start - Up_HUM18264803095501828']
+
+cluster #5
+['Server Innovator SeaMicro_HUM18264803095501828', 'vendor SeaMicro_HUM18264803095501828', 'vendor SeaMicro_HUM18264803095501828', 'vendor SeaMicro_HUM18264803095501828', 'upstart SeaMicro_HUM18264803095501828', 'vendor SeaMicro_HUM18264803095501828', 'Startup SeaMicro_HUM18264803095501828']
+
+cluster #6
+['microserver_NON17773540574593056', '"microserver"_NON17773540574593056', 'microserver_NON17773540574593056', 'microserver_NON17773540574593056', 'microserver_NON17773540574593056', 'microservers_NON17773540574593056', 'Microserver_NON17773540574593056', 'microservers_NON17773540574593056']
+
+cluster #7
+['$334 million_NON28696442679077092', '$334 million_NON28696442679077092', '$334 million_NON28696442679077092', '$281 million_NON28696517115277946', '$334 million_NON28696442679077092', '$334 million_NON28696442679077092', '$281 million_NON28696517115277946', '$334 million_NON28696442679077092', '$281 million_NON28696517115277946', 'US$334 million_NON28696442679077092', '$334 Million_NON28696442679077092', '$334 million_NON28696442679077092']
+
+cluster #8
+['company_HUM18264819130490380']
+
+cluster #9
+['they_HUM18183311618453753']
+
+cluster #10
+['On Wednesday afternoon_TIM17773978877927505', 'on Wednesday_TIM17773926775621442']
+
+cluster #11
+['microserver manufacturer_HUM18264803095501828']
+
+cluster #12
+['user_HUM18264803095501828']
+
+cluster #13
+['Intel chips_NON17774037923817796']
+
+cluster #14
+['Advanced Micro Devices_HUM18264819130490380', 'Advanced Micro Devices_HUM18264819130490380', 'Advanced Micro Devices_HUM18264819130490380', 'Advanced Micro Devices_HUM18264819130490380', 'Advanced Micro Devices_HUM18264819130490380']
+
+cluster #15
+['Intel_HUM17764318691647091', 'Intel_HUM17764318691647091', 'Intel_HUM17764318691647091', 'Intel_HUM17764318691647091', 'Intel_HUM17764318691647091']
+
+cluster #16
+['We_HUM18264819130490380']
+
+cluster #17
+['it_HUM18264819130490380', 'it_HUM18264819130490380']
+
+cluster #18
+['pioneer_HUM18264803095501828']
+
+cluster #19
+['cash_NON18182635433595466', 'cash_NON18182635433595466', 'cash_NON18182635433595466']
+
+cluster #20
+['today_TIM17773926775621442', 'today_TIM17773926775621442']
+
+cluster #21
+['Sea Micro_HUM18264803095501828', 'Sea Micro_HUM18264803095501828']
+
+cluster #22
+['$334M_NON28696442679077092']
+
+cluster #23
+['Server Hardware_NON18182598843804563']
+
+cluster #24
+['one_HUM18264803095501828']
+
+cluster #25
+['partners_Singleton_HUM_7_43_5ecbplus']
+
+cluster #26
+['Wednesday_TIM17773926775621442']
+
+cluster #27
+['its_HUM17764318691647091', 'its_HUM18264819130490380', 'its_HUM18264819130490380']
+
+cluster #28
+['which_HUM18264803095501828']
+
+cluster #29
+['maker_HUM18264803095501828']
+
+cluster #30
+['for $334 million_NON28696442679077092']
+
+cluster #31
+['data center fabric technology_NON28700264321413303']
+
+cluster #32
+['startup SeaMicro_HUM18264803095501828']
+
+cluster #33
+['itself_HUM18264819130490380']
+
+cluster #34
+['Nvidia_Singleton_HUM_6_43_9ecbplus']
+
+cluster #35
+['ARM - based players_Singleton_HUM_7_43_9ecbplus']
+
+Topic - 44_ecbplus
+cluster #1
+['Consultants_HUM18184966441918857']
+
+cluster #2
+['HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041']
+
+cluster #3
+['Data Center_LOC18222747617746677', 'Data Center_LOC18222747617746677', 'Data Center_LOC18222747617746677', 'Data Center_LOC18222747617746677']
+
+cluster #4
+['Hewlett - Packard_HUM18184954911690041', 'Hewlett - Packard_HUM18184954911690041', 'Hewlett - Packard_HUM18184954911690041', 'Hewlett - Packard_HUM18184954911690041', 'Hewlett - Packard_HUM18184954911690041', 'Hewlett - Packard_HUM18184954911690041', 'Hewlett - Packard_HUM18184954911690041', 'Hewlett - Packard_HUM18184954911690041']
+
+cluster #5
+['it_HUM18184954911690041', 'it_HUM18184954911690041', 'it_HUM18184954911690041', 'it_HUM18184954911690041', 'it_HUM18184954911690041', 'it_HUM18184954911690041', 'it_HUM18184954911690041', 'it_HUM18184954911690041']
+
+cluster #6
+['EYP Mission Critical Facilities_HUM18184966441918857', 'EYP Mission Critical Facilities_HUM18184966441918857', 'EYP Mission Critical Facilities_HUM18184966441918857', 'firm EYP Mission Critical Facilities_HUM18184966441918857', 'company EYP Mission Critical Facilities_HUM18184966441918857', 'Company EYP Mission Critical Facilities_HUM18184966441918857', 'EYP Mission Critical Facilities_HUM18184966441918857', 'EYP Mission Critical Facilities_HUM18184966441918857', 'EYP Mission Critical Facilities_HUM18184966441918857', 'EYP Mission Critical Facilities_HUM18184966441918857', 'EYP Mission Critical Facilities_HUM18184966441918857', 'EYP Mission Critical Facilities_HUM18184966441918857', 'EYP Mission Critical Facilities_HUM18184966441918857']
+
+cluster #7
+['company_HUM18184966441918857', 'tech company_HUM18184954911690041', 'company_HUM18184966441918857', 'company_HUM18184966441918857', 'company_HUM18184954911690041', 'company_HUM18184966441918857', 'company_HUM18184966441918857', 'company_HUM18184966441918857', 'New York company_HUM18184966441918857', 'company_HUM18184966441918857']
+
+cluster #8
+['data centers_LOC18222747617746677', 'data center_LOC18222747617746677', 'data center_LOC18222747617746677', 'data centers_LOC18222747617746677', 'data centers_LOC18222747617746677', 'data center_LOC18222747617746677', 'data centers_LOC18222747617746677', 'data center_LOC18222747617746677', 'data center_LOC18222747617746677']
+
+cluster #9
+['Tuesday_TIM18222770809051864']
+
+cluster #10
+['technology_NON28842461412218408', 'technology_NON28842461412218408', 'technology_NON28842461412218408', 'technology_NON28842461412218408', 'technology_NON28842461412218408']
+
+cluster #11
+['fiscal quarter_TIM18232685153332606']
+
+cluster #12
+['IBM_Singleton_HUM_2_44_11ecbplus']
+
+cluster #13
+['another_Singleton_TIM_35_44_11ecbplus']
+
+cluster #14
+['EYP Mission Critical Facilities Inc_HUM18184966441918857', 'EYP Mission Critical Facilities Inc_HUM18184966441918857', 'EYP Mission Critical Facilities Inc . ( EYP MCF_HUM18184966441918857', 'EYP Mission Critical Facilities Inc_HUM18184966441918857']
+
+cluster #15
+['which_HUM18184966441918857']
+
+cluster #16
+['division_HUM18184966441918857', 'services division_INTRA_HUM_38475_44_6ecbplus', 'services division_INTRA_HUM_38475_44_6ecbplus']
+
+cluster #17
+['sources_Singleton_HUM_33_44_11ecbplus']
+
+cluster #18
+['sum_NON18232699143283871', 'sum_NON18232699143283871', 'sum_NON18232699143283871', 'sum_NON18232699143283871']
+
+cluster #19
+['EYP_HUM18184966441918857', 'Energy Specialist EYP_HUM18184966441918857', 'EYP_HUM18184966441918857', 'EYP_HUM18184966441918857']
+
+cluster #20
+['TA Associates_Singleton_HUM_19_44_12ecbplus']
+
+cluster #21
+['firm_HUM18184966441918857', 'Firm_HUM18184966441918857']
+
+cluster #22
+['data centre_LOC18222747617746677']
+
+cluster #23
+['Technology products_Singleton_NON_43_44_15ecbplus']
+
+cluster #24
+['services_Singleton_NON_44_44_15ecbplus']
+
+cluster #25
+['on Monday 12 November_TIM18222770809051864', 'on Monday_TIM18222770809051864']
+
+cluster #26
+['today_TIM18222770809051864', 'today_TIM18222770809051864', 'today_TIM18222770809051864']
+
+cluster #27
+['that_HUM18184966441918857', 'that_HUM18184966441918857']
+
+cluster #28
+['OEM_HUM18184954911690041']
+
+cluster #29
+['its_HUM18184954911690041', 'its_HUM18184954911690041', 'its_HUM18184954911690041', 'its_HUM18184954911690041']
+
+cluster #30
+['Nov . 12_TIM18222770809051864']
+
+cluster #31
+['facilities_LOC18222747617746677']
+
+cluster #32
+['Monday_TIM18222770809051864']
+
+cluster #33
+['datacenter_LOC18222747617746677', 'datacenters_LOC18222747617746677']
+
+cluster #34
+['green - consulting space_Singleton_LOC_68_44_8ecbplus']
+
+Topic - 45_ecbplus
+cluster #1
+['Jury_HUM18263585229523174', 'jury_HUM18263585229523174', 'jury_HUM18263585229523174', 'Jury_HUM18263585229523174', 'jury_HUM18263585229523174', 'jury_HUM18263585229523174', 'LeFlore County jury_HUM18263585229523174', 'Oklahoma jury_HUM18263585229523174', 'Jury_HUM18263585229523174', 'jury_HUM18263585229523174', 'jury_HUM18263585229523174', 'jury_HUM18263585229523174', 'jury_HUM18263585229523174', 'jury_HUM18263585229523174', 'jury_HUM18263585229523174']
+
+cluster #2
+['man_HUM18223024215501666', 'Spiro man_HUM18223024215501666', 'Spiro man_HUM18223024215501666', 'Spiro man_HUM18223024215501666', 'Spiro man_HUM18223024215501666', 'Oklahoma man_HUM18223024215501666', 'Oklahoma man_HUM18223024215501666', 'Oklahoma man_HUM18223024215501666', 'Oklahoma man_HUM18223024215501666', 'Spiro man_HUM18223024215501666', 'Man_HUM18223024215501666', 'man_HUM18223024215501666', 'Man_HUM18223024215501666', 'man_HUM18223024215501666', 'Oklahoma man_HUM18223024215501666']
+
+cluster #3
+["woman's_HUM18223038335150533", 'Arkansas woman_HUM18223038335150533', 'woman_HUM18223038335150533', 'Arkansas woman_HUM18223038335150533', 'Arkansas woman_HUM18223038335150533', 'Arkansas woman_HUM18223038335150533', 'Arkansas woman_HUM18223038335150533', 'Arkansas woman_HUM18223038335150533']
+
+cluster #4
+['girlfriend_HUM18223038335150533', 'Girlfriend_HUM18223038335150533', 'girlfriend_HUM18223038335150533', 'Girlfriend_HUM18223038335150533', 'girlfriend_HUM18223038335150533', 'girlfriend_HUM18223038335150533', 'girlfriend_HUM18223038335150533', 'Girlfriend_HUM18223038335150533', 'girlfriend_HUM18223038335150533', 'girlfriend_HUM18223038335150533', 'girlfriend_HUM18223038335150533', 'girlfriend_HUM18223038335150533', 'girlfriend_HUM18223038335150533']
+
+cluster #5
+['in eastern Oklahoma_LOC18223553538774392', 'in eastern Oklahoma_LOC18223553538774392', 'in Poteau_Singleton_LOC_56_45_12ecbplus', 'in eastern Oklahoma_LOC18223553538774392', 'in eastern Oklahoma_LOC18223553538774392', 'in eastern Oklahoma_LOC18223553538774392']
+
+cluster #6
+['two counts_NON28865600810150024', 'two counts_NON28865600810150024', 'two counts_NON28865600810150024', 'two counts_NON28865600810150024', 'two counts_NON28865600810150024', 'two counts_NON28865600810150024']
+
+cluster #7
+['2012_TIM18223125840011797', '2012_TIM18223125840011797', '2012_TIM18223125840011797', '2012_TIM18223125840011797']
+
+cluster #8
+['Christopher Kenyon Simpson_HUM18223024215501666', 'Christopher Kenyon Simpson_HUM18223024215501666', 'Christopher Kenyon Simpson_HUM18223024215501666', 'Simpson_HUM18223024215501666', 'Christopher Kenyon Simpson_HUM18223024215501666', 'Christopher Kenyon Simpson_HUM18223024215501666', 'Christopher Kenyon Simpson_HUM18223024215501666', 'Christopher Kenyon Simpson_HUM18223024215501666', 'Christopher Simpson_HUM18223024215501666', 'Christopher Simpson_HUM18223024215501666', 'Christopher Kenyon Simpson_HUM18223024215501666', 'Christopher Kenyon Simpson_HUM18223024215501666', 'Christopher Kenyon Simpson_HUM18223024215501666', 'Christopher Kenyon Simpson_HUM18223024215501666']
+
+cluster #9
+["Ka'loni Flynn_HUM18223038335150533", "Ka'loni Flynn_HUM18223038335150533", "Ka'Loni Flynn_HUM18223038335150533", "Ka'Loni Marie Flynn_HUM18223038335150533", "Ka'Loni Marie Flynn_HUM18223038335150533", "Ka'Loni Marie Flynn_HUM18223038335150533", "Ka'loni Flynn_HUM18223038335150533", "Ka'loni Flynn_HUM18223038335150533", "Ka'loni Flynn_HUM18223038335150533", "Ka'Loni Marie Flynn_HUM18223038335150533"]
+
+cluster #10
+['of Fort Smith , Ark_LOC18223529902781725', 'of Fort Smith , Ark_LOC18223529902781725', 'of Fort Smith_LOC18223529902781725', 'of Fort Smith , Ark_LOC18223529902781725', 'of Fort Coffee_LOC18223541965735708', 'of Fort Coffee_LOC18223541965735708', 'of Fort Smith , Ark_LOC18223529902781725', 'of Fort Smith , Ark_LOC18223529902781725', 'of Fort Coffee_LOC18223541965735708', 'of Fort Smith , Ark_LOC18223529902781725', 'of Spiro_LOC18223569532966478', 'of Fort Smith , Arkansas_LOC18223529902781725', 'of Fort Coffee_LOC18223541965735708', 'of Fort Smith , Ark_LOC18223529902781725']
+
+cluster #11
+['almost seven hours_TIM18243460353763364', 'seven hours_TIM18243460353763364', 'almost seven hours_TIM18243460353763364', 'almost seven hours_TIM18243460353763364', 'almost seven hours_TIM18243460353763364', 'seven hours_TIM18243460353763364']
+
+cluster #12
+['Thursday_TIM18223107573589561', 'Thursday_TIM18223107573589561', 'Thursday_TIM18223107573589561', 'Thursday_TIM18223107573589561', 'Thursday_TIM18223107573589561', 'Thursday_TIM18223107573589561', 'Thursday_TIM18223107573589561']
+
+cluster #13
+['Spiro Man_HUM18223024215501666', 'Spiro Man_HUM18223024215501666']
+
+cluster #14
+['fetus_HUM18223048579487818', 'fetus_HUM18223048579487818', 'fetus_HUM18223048579487818', 'fetus_HUM18223048579487818', 'fetus_HUM18223048579487818', 'fetus_HUM18223048579487818', 'fetus_HUM18223048579487818', 'fetus_HUM18223048579487818']
+
+cluster #15
+['Prosecutors_HUM18263572771489704']
+
+cluster #16
+['April 2012_TIM18223125840011797']
+
+cluster #17
+['Times Record_Singleton_HUM_47_45_12ecbplus']
+
+cluster #18
+['Friday_Singleton_TIM_52_45_12ecbplus']
+
+cluster #19
+['several days_Singleton_TIM_44_45_12ecbplus']
+
+cluster #20
+['LeFlore Jury_HUM18263585229523174']
+
+cluster #21
+['Thursday evening_TIM18223107573589561']
+
+cluster #22
+['Fort Smith_LOC18223529902781725']
+
+cluster #23
+['Okla . man_HUM18223024215501666', 'Okla . man_HUM18223024215501666']
+
+cluster #24
+['Jacob Howell_Singleton_HUM_6_45_2ecbplus', 'Jacob Howell_Singleton_HUM_6_45_4ecbplus']
+
+cluster #25
+['who_HUM18223024215501666', 'who_HUM18223024215501666']
+
+cluster #26
+['for June 17_TIM18223140945893725', 'for June 17_TIM18223140945893725']
+
+cluster #27
+['Oklahoma_LOC18223553538774392']
+
+cluster #28
+['child_HUM18243529944138201', 'child_HUM18223048579487818', 'child_HUM18243529944138201']
+
+cluster #29
+['he_HUM18223024215501666']
+
+cluster #30
+['12 week_Singleton_TIM_100_45_5ecbplus']
+
+cluster #31
+['His_HUM18223024215501666']
+
+cluster #32
+['November 8_TIM18223156529120959']
+
+cluster #33
+["'he_HUM18223024215501666"]
+
+cluster #34
+['baby_HUM18223048579487818', 'baby_HUM18223048579487818']
+
+cluster #35
+['she_HUM18223038335150533', 'she_HUM18223038335150533']
+
+Topic - 36_ecb
+cluster #1
+['leaders_HUM17642655532934542', 'leaders_HUM17642655532934542', 'leaders_HUM17642655532934542', 'leaders_HUM17642655532934542', 'leaders_HUM17642655532934542', 'leaders_HUM17642655532934542', 'leaders_HUM17642655532934542']
+
+cluster #2
+['in Canada_LOC17642835073942721', 'in western Canada_LOC17642835073942721', 'in Canada_LOC17642835073942721', 'in Bountiful , British Columbia_LOC17642819306422986', 'in Bountiful , B.C._LOC17642819306422986', 'in Cranbrook , B.C._Singleton_LOC_50_36_3ecb', 'in Canada_LOC17642835073942721', 'in Canada_LOC17642835073942721', 'in Canada_LOC17642835073942721']
+
+cluster #3
+['polygamist group_HUM18520763746825423', 'groups_HUM18520763746825423']
+
+cluster #4
+['attorney general_HUM17720489125766418']
+
+cluster #5
+['Wednesday_TIM17720510666890266', 'Wednesday_TIM17720510666890266', 'Wednesday_TIM17720510666890266', 'Wednesday_TIM17720510666890266']
+
+cluster #6
+['community_HUM18520763746825423']
+
+cluster #7
+['authorities_Singleton_HUM_31_36_2ecb']
+
+cluster #8
+['factions_HUM18520763746825423']
+
+cluster #9
+['RCMP_HUM18264694756319567', 'RCMP_HUM18264694756319567', 'RCMP_HUM18264694756319567', 'RCMP_HUM18264694756319567', 'RCMP_HUM18264694756319567', 'RCMP_HUM18264694756319567']
+
+cluster #10
+['men_HUM17642655532934542', 'two men_HUM17642655532934542']
+
+cluster #11
+['Sgt. Tim Shields_HUM17720479085668575']
+
+cluster #12
+['this morning_TIM17720499285731832', 'this morning_Singleton_TIM_40_36_3ecb', 'Wednesday morning_Singleton_TIM_41_36_6ecb']
+
+cluster #13
+['sect_HUM18520763746825423']
+
+cluster #14
+['Winston Blackmore_HUM17642625776844813', 'Winston Blackmore_HUM17642625776844813', 'Winston Blackmore_HUM17642625776844813', 'Winston K. Blackmore_HUM17642625776844813']
+
+cluster #15
+['James Oler_HUM17642639895581929', 'James Oler_HUM17642639895581929', 'James Oler_HUM17642639895581929']
+
+cluster #16
+['Wally Oppal_HUM17720489125766418', 'Wally Oppal_HUM17720489125766418', 'Wally Oppal_HUM17720489125766418']
+
+cluster #17
+['Shields_Singleton_HUM_47_36_3ecb', 'Shields_HUM17720479085668575']
+
+cluster #18
+['detachment_Singleton_LOC_42_36_3ecb']
+
+cluster #19
+['last September_Singleton_TIM_44_36_3ecb']
+
+cluster #20
+['Vancouver Sun_Singleton_HUM_21_36_4ecb']
+
+cluster #21
+['member_HUM17642639895581929']
+
+cluster #22
+['on its website_Singleton_LOC_19_36_4ecb', 'on Tuesday_TIM17720499285731832']
+
+cluster #23
+['documents_Singleton_NON_23_36_4ecb']
+
+cluster #24
+['court_Singleton_NON_24_36_4ecb']
+
+cluster #25
+['law_Singleton_NON_17_36_4ecb']
+
+cluster #26
+['Fundamentalist Church of Jesus Christ of Latter Day Saints ( FLDS_HUM18576970734387733']
+
+cluster #27
+['Tim Shields_HUM17720479085668575']
+
+cluster #28
+['residents_HUM17642655532934542']
+
+cluster #29
+['officers_Singleton_HUM_38_36_6ecb']
+
+cluster #30
+['both_HUM17642655532934542']
+
+cluster #31
+['Oler_HUM17642639895581929']
+
+cluster #32
+['Blackmore_HUM17642625776844813']
+
+cluster #33
+['vehicles_Singleton_NON_52_36_6ecb']
+
+cluster #34
+['COMMUNITY_HUM18520763746825423', 'COMMUNITY_HUM18520763746825423']
+
+cluster #35
+['POLICE_Singleton_HUM_48_36_7ecb']
+
+cluster #36
+['MEN_HUM17642655532934542', 'MEN_HUM17642655532934542']
+
+cluster #37
+['BOUNTIFUL IN THE BC INTERIOR_LOC17642819306422986']
+
+cluster #38
+['JAMES OLER_HUM17642639895581929']
+
+cluster #39
+['WALLY OPAL_HUM17720489125766418']
+
+cluster #40
+['WINSTON BLACKMORE_HUM17642625776844813']
+
+cluster #41
+['CRIMINAL CODE_Singleton_NON_40_36_7ecb']
+
+cluster #42
+['TODAY_TIM17720510666890266']
+
+cluster #43
+['passports_Singleton_NON_26_36_8ecb']
+
+cluster #44
+['Utah_HUM18576970734387733']
+
+Topic - 37_ecb
+cluster #1
+['hundreds_HUM17739224604793838']
+
+cluster #2
+['five people_HUM17739236267669980', 'five people_HUM17739236267669980', '40 people_HUM27406821766795272', 'over 14,000 people_HUM17646075769109447', 'four people_HUM27406926439159871']
+
+cluster #3
+['buildings_INTRA_UNK_35421_37_1ecb', 'buildings_LOC17644758675058598', 'buildings_Singleton_LOC_80_37_3ecb', 'buildings_LOC17644758675058598', 'buildings_LOC17644758675058598']
+
+cluster #4
+["Indonesia 's West Papua province_LOC17646095226265936", "Indonesia 's West Papua province_LOC17646095226265936"]
+
+cluster #5
+['region_LOC17646095226265936', 'region_LOC17646095226265936']
+
+cluster #6
+['magnitude 6.1_Singleton_NON_87_37_1ecb', '6.1-magnitude_Singleton_NON_95_37_2ecb']
+
+cluster #7
+['at the weekend_INTRA_UNK_35434_37_1ecb', 'at 7:48 a.m. local time_TIM17646128498402712', 'at 7 : 48 am ( 2248 GMT Tuesday_Singleton_TIM_66_37_2ecb', 'at home_Singleton_LOC_42_37_4ecb']
+
+cluster #8
+['today_TIM17646128498402712', 'today_Singleton_TIM_42_37_3ecb']
+
+cluster #9
+['off the coast_LOC17646095226265936', 'off the coast_Singleton_LOC_64_37_2ecb']
+
+cluster #10
+["75 kilometers ( 50 miles ) west of the region 's main city of Manokwari_LOC17733173649106099"]
+
+cluster #11
+['U.S. Geological Survey_HUM18264038380520801', 'United States Geological Survey_HUM18264038380520801']
+
+cluster #12
+['UN_INTRA_UNK_35432_37_1ecb']
+
+cluster #13
+['250_HUM17739224604793838']
+
+cluster #14
+['800 homes_INTRA_UNK_35421_37_1ecb']
+
+cluster #15
+['one person_HUM27406926439159871', 'one person_HUM27406926439159871', 'person_HUM27406926439159871']
+
+cluster #16
+['Wednesday_TIM17739285491302214', 'Wednesday_TIM17739285491302214']
+
+cluster #17
+['Manokwari_Singleton_LOC_55_37_2ecb', 'Manokwari_Singleton_LOC_18_37_6ecb']
+
+cluster #18
+['on Sunday_TIM17646128498402712', 'early on Sunday_TIM17646128498402712', 'on Monday_Singleton_TIM_35_37_5ecb', 'on Sunday_TIM17646128498402712', 'on Sunday_TIM17646128498402712']
+
+cluster #19
+['75 kilometres ( 50 miles ) west of Manokwari_Singleton_LOC_63_37_2ecb']
+
+cluster #20
+['residents_HUM17646062449983851']
+
+cluster #21
+['makeshift refugee camps_LOC17644911974776344']
+
+cluster #22
+["in Indonesia 's West Papua province_LOC17646095226265936", 'in 2002_Singleton_TIM_66_37_3ecb', 'in Papua_LOC17646095226265936', 'in remote eastern Indonesia_LOC17646095226265936', 'in 2004_Singleton_TIM_28_37_7ecb']
+
+cluster #23
+['city_LOC17646095226265936']
+
+cluster #24
+['power_Singleton_NON_73_37_3ecb']
+
+cluster #25
+['girl_HUM27406926439159871', 'girl_HUM27406926439159871', 'girl_HUM27406926439159871', 'girl_HUM27406926439159871']
+
+cluster #26
+['Atururi_Singleton_HUM_69_37_3ecb']
+
+cluster #27
+['town_LOC17646095226265936']
+
+cluster #28
+['dozens of others_HUM27406821766795272', 'dozens_HUM27406821766795272', 'dozens_HUM27406821766795272']
+
+cluster #29
+["into Japan 's southeastern coast_Singleton_LOC_46_37_4ecb"]
+
+cluster #30
+['Hengky Tewu_Singleton_HUM_60_37_4ecb']
+
+cluster #31
+['her_HUM27406926439159871']
+
+cluster #32
+['head_Singleton_NON_64_37_4ecb']
+
+cluster #33
+['wall_Singleton_NON_65_37_4ecb']
+
+cluster #34
+['disaster management agency_Singleton_HUM_25_37_5ecb']
+
+cluster #35
+['dozens others_HUM27406821766795272']
+
+cluster #36
+['tents_Singleton_NON_29_37_5ecb']
+
+cluster #37
+['Indonesia_LOC17643572389027482']
+
+cluster #38
+['West Papua_LOC17646095226265936']
+
+cluster #39
+['country_Singleton_HUM_15_37_7ecb']
+
+cluster #40
+['Sunday_TIM17646128498402712']
+
+Topic - 38_ecb
+cluster #1
+['in Sonoma County_LOC17741443930390371']
+
+cluster #2
+['near The Geysers_LOC17741455869640677', 'near The Geysers_LOC17741455869640677']
+
+cluster #3
+['magnitude of 4.4_NON17744321889668675', 'magnitude of 2.0_NON17741341463467290', 'magnitude_Singleton_NON_19_38_3ecb', '4.2-magnitude_NON17744499621591408', '4.4-magnitude_NON17744321889668675']
+
+cluster #4
+['this morning_TIM17741429727050444', 'Earlier this morning_TIM17741416263472285']
+
+cluster #5
+['U.S. Geological Survey_HUM18264038380520801', 'U.S. Geological Survey_HUM18264038380520801', 'US Geological Survey_HUM18264038380520801', 'U.S. Geological Survey_HUM18264038380520801']
+
+cluster #6
+['at about 9:30 a.m._TIM17741429727050444', 'at about 7:30 a.m._TIM17741416263472285', 'at 9:27 a.m._TIM17741429727050444', 'at approximately 9:27 a.m. Sunday_TIM17741429727050444']
+
+cluster #7
+['USGS_HUM18264038380520801', 'USGS_HUM18264038380520801', 'USGS_HUM18264038380520801']
+
+cluster #8
+['depth of 2.7 miles_LOC17741376978715248', 'depth of 1.4 miles_LOC17741388231761400']
+
+cluster #9
+['remote area of eastern Sonoma County_LOC17741443930390371']
+
+cluster #10
+['over the weekend_Singleton_TIM_41_38_2ecb']
+
+cluster #11
+['on Sunday morning_TIM17741429727050444', 'on Sunday at 9:27 a.m._TIM17741429727050444']
+
+cluster #12
+['more than 20 power plants_Singleton_LOC_42_38_2ecb']
+
+cluster #13
+['where_LOC17741455869640677']
+
+cluster #14
+['13 miles east of Cloverdale and 2 miles southeast of The Geysers_LOC17741455869640677']
+
+cluster #15
+['several North Bay counties_Singleton_LOC_43_38_2ecb']
+
+cluster #16
+['energy_Singleton_NON_36_38_2ecb']
+
+cluster #17
+['4.4_NON17744321889668675']
+
+cluster #18
+['which_HUM18264038380520801']
+
+cluster #19
+['Northern California_Singleton_LOC_29_38_4ecb']
+
+cluster #20
+['23 miles north of Santa Rosa_Singleton_LOC_24_38_4ecb']
+
+cluster #21
+['two miles from The Geysers_LOC17741455869640677']
+
+Topic - 39_ecb
+cluster #1
+['David Tennant_HUM17744886235161547', 'David Tennant_HUM17744886235161547', 'David Tennant_HUM17744886235161547', 'David Tennant_HUM17744886235161547']
+
+cluster #2
+['Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694']
+
+cluster #3
+['BBC show_NON17744952423311022', 'show_NON17744952423311022', 'television show_NON17744952423311022', 'show_NON17744952423311022']
+
+cluster #4
+['time_INTRA_UNK_35719_39_10ecb']
+
+cluster #5
+['until the end of 2009_INTRA_UNK_35719_39_10ecb']
+
+cluster #6
+['Doctor Who_HUM17744937293310517', '11th Doctor Who_HUM17744980524113734', 'who_HUM17744886235161547', 'who_HUM17744873373187694', 'who_Singleton_HUM_39_39_14ecb', 'Doctor Who_NON17744952423311022', 'Doctor Who_NON17744952423311022', 'Doctor Who_NON17744952423311022', 'Doctor Who_NON17744952423311022', 'Doctor Who_HUM17744980524113734', 'who_HUM17744886235161547']
+
+cluster #7
+['Smith_HUM17744873373187694', 'Smith_HUM17744873373187694']
+
+cluster #8
+['in 2010_TIM17752007271859796', 'in 2010_TIM17752007271859796', 'in 45 years_Singleton_TIM_40_39_6ecb', 'in 2010_Singleton_TIM_33_39_6ecb']
+
+cluster #9
+['time lord_HUM17744937293310517', '11th time lord_HUM17744980524113734']
+
+cluster #10
+['time traveller_Singleton_HUM_6_39_11ecb']
+
+cluster #11
+['face_HUM17744980524113734']
+
+cluster #12
+['TV_NON17745413236512401', 'TV_NON17745413236512401', 'TV_NON17745413236512401']
+
+cluster #13
+['eleventh Doctor_HUM17744980524113734', 'eleventh Doctor_HUM17744980524113734']
+
+cluster #14
+['actor_HUM17744873373187694', '10 actors_Singleton_HUM_13_39_2ecb', 'actor_HUM17744873373187694']
+
+cluster #15
+['On Saturday_TIM17752021552455108', 'On Saturday_TIM17752021552455108', 'on Saturday evening_TIM17752021552455108']
+
+cluster #16
+['26-year-old_HUM17744873373187694']
+
+cluster #17
+['he_HUM17744873373187694', 'he_HUM17744873373187694', 'him_HUM17744873373187694', 'him_HUM17744873373187694']
+
+cluster #18
+['Tardis_NON17745059789240063', 'Tardis_NON17745059789240063']
+
+cluster #19
+['later this year_Singleton_TIM_31_39_13ecb']
+
+cluster #20
+['Matt_HUM17744873373187694']
+
+cluster #21
+['stage_Singleton_NON_36_39_13ecb']
+
+cluster #22
+['role_HUM17744980524113734', 'role_HUM17744980524113734', 'role_HUM17744937293310517', 'role_HUM17744937293310517', 'role_HUM17744937293310517', 'role_Singleton_NON_32_39_5ecb', 'role_HUM17744980524113734']
+
+cluster #23
+['fans_Singleton_HUM_24_39_14ecb']
+
+cluster #24
+['This weekend_TIM17752021552455108', 'this weekend_TIM17752021552455108']
+
+cluster #25
+['fifth season_Singleton_NON_33_39_14ecb']
+
+cluster #26
+['its_NON17744952423311022']
+
+cluster #27
+['universe_Singleton_NON_38_39_14ecb', 'universe_Singleton_NON_41_39_6ecb']
+
+cluster #28
+['series_NON17744952423311022']
+
+cluster #29
+['TARDIS_NON17745059789240063']
+
+cluster #30
+['BBC_HUM18520722147007898']
+
+cluster #31
+['Wired.com_Singleton_HUM_18_39_2ecb']
+
+cluster #32
+['title_Singleton_NON_16_39_2ecb', 'title_Singleton_NON_15_39_4ecb', 'title_Singleton_NON_36_39_6ecb']
+
+cluster #33
+['hero_HUM17744937293310517']
+
+cluster #34
+['Tennant_HUM17744886235161547']
+
+cluster #35
+['one_HUM17744886235161547']
+
+cluster #36
+['Doctors_Singleton_HUM_36_39_3ecb', '11th Doctor_HUM17744980524113734', '11th Doctor_HUM17744980524113734', '11th Doctor_HUM17744980524113734', 'Doctor_HUM17744980524113734', 'Doctor_HUM17744937293310517']
+
+cluster #37
+['sonic screwdriver_NON17745072709322229']
+
+cluster #38
+['of all time_Singleton_TIM_37_39_3ecb']
+
+cluster #39
+['legend_HUM17744873373187694']
+
+cluster #40
+['character_Singleton_HUM_22_39_4ecb']
+
+cluster #41
+['entertainment_NON17745413236512401']
+
+cluster #42
+['all_Singleton_HUM_27_39_5ecb']
+
+cluster #43
+['researcher_Singleton_HUM_18_39_5ecb']
+
+cluster #44
+['star_HUM17744873373187694', 'star_HUM17745370356466063']
+
+cluster #45
+['bit_Singleton_NON_34_39_5ecb']
+
+cluster #46
+['unknown_HUM17744873373187694', 'unknown_HUM17744873373187694']
+
+cluster #47
+['his_HUM17744873373187694', 'his_HUM17744873373187694']
+
+cluster #48
+['at the end of this year_TIM17752007271859796']
+
+cluster #49
+['viewers_Singleton_HUM_10_39_7ecb']
+
+cluster #50
+['hours_Singleton_TIM_24_39_8ecb']
+
+cluster #51
+['BBC Wales_HUM18520722147007898']
+
+cluster #52
+['incarnation_HUM17744980524113734']
+
+cluster #53
+['guy_HUM17744873373187694']
+
+cluster #54
+['skeptics_Singleton_HUM_14_39_9ecb']
+
+cluster #55
+['right person_Singleton_HUM_15_39_9ecb']
+
+Topic - 40_ecb
+cluster #1
+['we_Singleton_HUM_24_40_10ecb']
+
+cluster #2
+['many_Singleton_HUM_23_40_10ecb']
+
+cluster #3
+['in San Francisco_LOC18089929016207027', 'in Cupertino , Calif_Singleton_LOC_18_40_6ecb']
+
+cluster #4
+['MacBook Pro_NON17764301847213442', 'MacBook Pro_NON17764301847213442', 'MacBook Pro_NON17764301847213442', 'MacBook Pro_NON17764301847213442', 'MacBook Pro_NON17764301847213442', 'MacBook Pro_NON17764301847213442', 'Pro_NON17764301847213442', 'MacBook Pro_NON17764301847213442', 'MacBook Pro_NON17764301847213442']
+
+cluster #5
+['details_Singleton_NON_18_40_10ecb']
+
+cluster #6
+['Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631']
+
+cluster #7
+['iTunes_Singleton_NON_18_40_1ecb']
+
+cluster #8
+['iLife_Singleton_NON_19_40_1ecb']
+
+cluster #9
+['software_Singleton_NON_20_40_1ecb']
+
+cluster #10
+['what_Singleton_NON_24_40_1ecb']
+
+cluster #11
+['on Tuesday_TIM17764371982729811', 'on Tuesday_TIM17764371982729811', 'on Tuesday ( Jan 6_TIM17764371982729811']
+
+cluster #12
+['weeks_Singleton_TIM_13_40_1ecb']
+
+cluster #13
+['Apple Inc._HUM17764075735414631']
+
+cluster #14
+['case_NON18091750052171020']
+
+cluster #15
+['battery_NON18091738476849080', 'batteries_Singleton_NON_26_40_7ecb', 'battery_NON18091738476849080']
+
+cluster #16
+['eight hours_TIM18091777727683545', 'eight-hour_TIM18091777727683545', 'eight hours_TIM18091777727683545', 'eight-hour_TIM18091777727683545']
+
+cluster #17
+['firm_HUM17764075735414631', 'firm_HUM17764075735414631']
+
+cluster #18
+['its_HUM17764075735414631']
+
+cluster #19
+['laptop_Singleton_NON_16_40_3ecb', 'laptop_NON18091727886806765', 'laptop_NON18091727886806765']
+
+cluster #20
+['processor_Singleton_NON_17_40_3ecb']
+
+cluster #21
+['company_HUM17764075735414631', 'company_HUM17764075735414631']
+
+cluster #22
+['Intel_HUM17764318691647091']
+
+cluster #23
+['line_NON17764360665649011', 'line_NON17764360665649011']
+
+cluster #24
+['Mac portables_Singleton_NON_10_40_4ecb']
+
+cluster #25
+['today_TIM17764371982729811', 'today_TIM17764371982729811']
+
+cluster #26
+['hardware_Singleton_NON_26_40_5ecb', 'hardware_Singleton_NON_16_40_8ecb']
+
+cluster #27
+['0.98 inches_Singleton_NON_23_40_5ecb']
+
+cluster #28
+['6.6 pounds_Singleton_NON_24_40_5ecb']
+
+cluster #29
+['unibody enclosure_Singleton_NON_28_40_5ecb', 'enclosure_Singleton_NON_20_40_7ecb']
+
+cluster #30
+['lightest_NON17764301847213442']
+
+cluster #31
+['notebook_NON17764301847213442', 'notebook_NON18091727886806765']
+
+cluster #32
+['Steve Jobs_HUM17764058070519771']
+
+cluster #33
+["at Apple 's headquarters_LOC17764383711806492"]
+
+cluster #34
+['lifespan_Singleton_TIM_23_40_7ecb']
+
+cluster #35
+['Apple Inc_HUM17764075735414631']
+
+cluster #36
+['it_HUM17764075735414631']
+
+cluster #37
+['me_Singleton_HUM_5_40_9ecb']
+
+cluster #38
+['thing_NON17764301847213442']
+
+Topic - 41_ecb
+cluster #1
+['Israel_HUM18158709833087594', 'Israel_HUM18158709833087594', 'Israel_HUM18158709833087594', 'Israel_CON18513608771023792', 'Israel_HUM18158709833087594', 'Israel_HUM18158709833087594', 'Israel_HUM18158709833087594', 'Israel_HUM18158709833087594']
+
+cluster #2
+['50 people_HUM17765343385926179', 'more than 40 people_HUM17765343385926179', 'people_Singleton_HUM_64_41_1ecb', '40 people_HUM17765343385926179', '50 people_INTRA_UNK_35052_41_4ecb', '30 people_Singleton_HUM_53_41_5ecb', '40 people_HUM17765343385926179', 'around 100 people_Singleton_HUM_80_41_6ecb', 'people_INTRA_UNK_35180_41_8ecb', 'people_INTRA_UNK_35180_41_8ecb']
+
+cluster #3
+['lives_Singleton_HUM_97_41_1ecb']
+
+cluster #4
+['civilian_Singleton_HUM_98_41_1ecb', 'civilians_INTRA_UNK_35114_41_6ecb', 'civilian_Singleton_HUM_51_41_8ecb']
+
+cluster #5
+['UN schools_LOC17765313771230036', 'al-Fakhora school_LOC17765313771230036', 'school_LOC17765313771230036', 'school_LOC17765313771230036', 'school_LOC17765313771230036', 'school_LOC17765313771230036', 'third UN school_LOC17765313771230036', 'school_LOC17765313771230036', 'school_LOC17765313771230036', 'school_LOC17765313771230036', 'school in Jabaliya refugee camp_LOC17765313771230036', 'Jabalya school_LOC17765313771230036']
+
+cluster #6
+['refugee centres_Singleton_LOC_68_41_1ecb']
+
+cluster #7
+['housing_Singleton_LOC_52_41_1ecb']
+
+cluster #8
+['Gaza_LOC17765428329229262']
+
+cluster #9
+['children_Singleton_HUM_60_41_1ecb', 'children_Singleton_HUM_101_41_8ecb']
+
+cluster #10
+['Doctors_Singleton_HUM_61_41_1ecb']
+
+cluster #11
+['it_LOC17765313771230036', 'it_HUM18158709833087594']
+
+cluster #12
+['in Jabaliya refugee camp_LOC18158686346228463', 'in Gaza_LOC17765428329229262', 'in Gaza_LOC17765428329229262', 'in the Gaza school_LOC17765313771230036', 'in Gaza_LOC17765428329229262', 'in Gaza_LOC17765428329229262', 'in Gaza_LOC17765428329229262', 'in Gaza_LOC17765428329229262', 'in the Gaza Strip_LOC17765428329229262', 'in the Jabaliya refugee camp_LOC18158686346228463', 'in Jabaliya_LOC18158686346228463', 'in Gaza_LOC17765428329229262', 'in the Jabalya refugee camp in northern Gaza_LOC18158686346228463', 'in the schoolyard_Singleton_LOC_44_41_9ecb']
+
+cluster #13
+['bombs_Singleton_NON_57_41_1ecb']
+
+cluster #14
+['militants_HUM17765353234117116', 'militants_HUM17765353234117116', 'militants_HUM17765353234117116', 'militants_HUM17765353234117116', 'militants_HUM17765353234117116']
+
+cluster #15
+['Israeli forces_HUM18158709833087594', 'Israeli forces_HUM18158709833087594', 'forces_HUM18158709833087594']
+
+cluster #16
+['UN_HUM18263638298814930', 'UN_HUM18263638298814930', 'UN_HUM18263638298814930', 'UN_INTRA_UNK_35215_41_9ecb']
+
+cluster #17
+['on Wednesday_TIM18157859278220804', 'on Tuesday_TIM17772470223907566', 'on the school_LOC17765313771230036', 'on the Fakhora school_LOC17765313771230036']
+
+cluster #18
+['Israel Defense Forces_HUM18158709833087594']
+
+cluster #19
+['United Nations_HUM18263638298814930']
+
+cluster #20
+['The Age_Singleton_HUM_80_41_4ecb']
+
+cluster #21
+['Hamas_HUM18158730267727507', 'Hamas_HUM18158730267727507', 'Hamas_HUM18158730267727507']
+
+cluster #22
+['his_INTRA_UNK_35030_41_4ecb']
+
+cluster #23
+['We_Singleton_HUM_79_41_4ecb', 'We_INTRA_UNK_35119_41_6ecb']
+
+cluster #24
+['John Ging_INTRA_UNK_35030_41_4ecb', 'Mr Ging_INTRA_UNK_35030_41_4ecb', 'Mr Ging_INTRA_UNK_35030_41_4ecb', 'Mr Ging_INTRA_UNK_35030_41_4ecb', 'John Ging_Singleton_HUM_37_41_5ecb']
+
+cluster #25
+['40 Palestinians_HUM17765343385926179', '350 Palestinians_Singleton_HUM_112_41_4ecb', '40 Palestinians_HUM17765343385926179', '40 Palestinians_HUM17765343385926179']
+
+cluster #26
+['one of_LOC17765313771230036']
+
+cluster #27
+['SEVENTEEN hours_Singleton_TIM_68_41_4ecb']
+
+cluster #28
+['last night_Singleton_TIM_78_41_4ecb']
+
+cluster #29
+['Relief and Works Agency_Singleton_HUM_91_41_4ecb', 'UN Relief and Works Agency_INTRA_UNK_35149_41_7ecb']
+
+cluster #30
+['whom_INTRA_UNK_35052_41_4ecb']
+
+cluster #31
+['10_Singleton_HUM_95_41_4ecb']
+
+cluster #32
+['phone_Singleton_NON_106_41_4ecb']
+
+cluster #33
+['shelter_LOC17765313771230036']
+
+cluster #34
+['at 3.45pm on Tuesday_TIM18158073237002554', "at the perimeter of a school , which usually serves as a girls ' preparatory school , in the Jabaliya refugee camp_LOC17765313771230036", 'at about 3pm on Tuesday ( 12am yesterday )_TIM18158073237002554']
+
+cluster #35
+['Jabaliya camp_LOC18158686346228463']
+
+cluster #36
+['Ehud Olmert_Singleton_HUM_121_41_4ecb']
+
+cluster #37
+['five_Singleton_HUM_52_41_5ecb']
+
+cluster #38
+['55 others_Singleton_HUM_54_41_5ecb']
+
+cluster #39
+['them_Singleton_HUM_55_41_5ecb']
+
+cluster #40
+['artillery shells_NON18157894442491826', 'shells_Singleton_NON_58_41_8ecb', 'shells_NON18157894442491826', 'shells_NON18157894442491826']
+
+cluster #41
+['UNRWA_HUM18263638298814930']
+
+cluster #42
+['its_HUM18158709833087594', 'its_HUM18158709833087594']
+
+cluster #43
+['EU_INTRA_UNK_35119_41_6ecb', 'EU_Singleton_HUM_98_41_6ecb']
+
+cluster #44
+['image_Singleton_NON_84_41_6ecb']
+
+cluster #45
+['on Tuesday ( 6 January_TIM17772470223907566']
+
+cluster #46
+['Jabaliya_Singleton_LOC_65_41_6ecb']
+
+cluster #47
+['Cristina Gallach_Singleton_HUM_69_41_6ecb']
+
+cluster #48
+['Javier Solana_Singleton_HUM_70_41_6ecb']
+
+cluster #49
+['themselves_INTRA_UNK_35114_41_6ecb']
+
+cluster #50
+['UN Security Council_Singleton_HUM_80_41_7ecb']
+
+cluster #51
+['Tuesday_TIM17772470223907566']
+
+cluster #52
+['dead_HUM17765343385926179', 'dead_HUM17765343385926179']
+
+cluster #53
+['Israeli army_HUM18158709833087594']
+
+cluster #54
+['troops_HUM18158709833087594']
+
+cluster #55
+['outside a UN school_LOC17765313771230036']
+
+cluster #56
+['missiles_NON18157894442491826']
+
+cluster #57
+['today_TIM17772470223907566']
+
+cluster #58
+['news agency_Singleton_HUM_73_41_8ecb']
+
+cluster #59
+['inside and outside the building_LOC17765313771230036']
+
+cluster #60
+['shrapnel_Singleton_NON_59_41_8ecb']
+
+cluster #61
+['Majed Hamdan_Singleton_HUM_88_41_8ecb']
+
+cluster #62
+['to the scene_LOC17765313771230036']
+
+cluster #63
+['from the Gaza school_LOC17765313771230036']
+
+cluster #64
+['mortars_Singleton_NON_63_41_9ecb']
+
+cluster #65
+['Christopher Gunness_HUM17772411879771083']
+
+cluster #66
+['Fakhura_LOC17765313771230036']
+
+cluster #67
+['He_Singleton_HUM_42_41_9ecb']
+
+cluster #68
+['other men_Singleton_HUM_43_41_9ecb']
+
+cluster #69
+['compound_LOC17765313771230036']
+
+Topic - 42_ecb
+cluster #1
+['BlackBery Curve 8900_NON17773034882031537', 'BlackBerry Curve 8900_NON17773034882031537', 'BlackBerry Curve 8900_NON17773034882031537', 'BlackBerry Curve 8900_NON17773034882031537', 'BlackBerry Curve 8900_NON17773034882031537', 'BlackBerry Curve 8900_NON17773034882031537', 'BlackBerry Curve 8900_NON17773034882031537', 'BlackBerry Curve 8900_NON17773034882031537', 'BlackBerry Curve 8900_NON17773034882031537', 'BlackBerry Curve 8900_NON17773034882031537', 'BlackBerry Curve 8900_NON17773034882031537']
+
+cluster #2
+['sometime in mid-February_TIM18176397863910602']
+
+cluster #3
+['T-Mobile_HUM18264838847289264', 'T-Mobile_HUM18264838847289264', 'T-Mobile_HUM18264838847289264', 'T-Mobile_HUM18264838847289264', 'T-Mobile_HUM18264838847289264', 'T-Mobile_HUM18264838847289264', 'T-Mobile_HUM18264838847289264', 'T-Mobile_HUM18264838847289264', 'T-Mobile_HUM18264838847289264']
+
+cluster #4
+['they_HUM18264838847289264']
+
+cluster #5
+['BlackBerry Curve_Singleton_NON_17_42_11ecb', 'BlackBerry Curve_NON17773034882031537']
+
+cluster #6
+['model_NON17773034882031537']
+
+cluster #7
+['series_Singleton_NON_16_42_11ecb']
+
+cluster #8
+['next month_TIM18176397863910602']
+
+cluster #9
+['T-Mobile USA_HUM18264838847289264', 'T-Mobile USA_HUM18264838847289264', 'T-Mobile USA_HUM18264838847289264', 'T-Mobile USA_HUM18264838847289264', 'T-Mobile USA_HUM18264838847289264']
+
+cluster #10
+['it_HUM18264838847289264', 'it_HUM18264838847289264', 'it_HUM18264838847289264', 'it_HUM18264838847289264']
+
+cluster #11
+['we_Singleton_HUM_24_42_12ecb', 'we_Singleton_HUM_31_42_3ecb']
+
+cluster #12
+['8900_NON17773034882031537']
+
+cluster #13
+["sometime in early '09_TIM18176397863910602", 'in February_TIM18176397863910602', 'in 2009_Singleton_TIM_12_42_5ecb', 'in February_TIM18176397863910602']
+
+cluster #14
+['weeks_Singleton_TIM_23_42_12ecb']
+
+cluster #15
+['tonight_TIM27413328406462129']
+
+cluster #16
+['one_Singleton_LOC_16_42_13ecb']
+
+cluster #17
+['retail stores_Singleton_LOC_17_42_13ecb']
+
+cluster #18
+['smartphone_NON17773034882031537', 'smartphone_NON18163467332773553', 'smartphone_NON18163467332773553', 'smartphone_Singleton_NON_9_42_8ecb']
+
+cluster #19
+['one day_Singleton_TIM_13_42_13ecb']
+
+cluster #20
+['RIM_HUM18176653308471928']
+
+cluster #21
+['T-Mo_HUM18264838847289264']
+
+cluster #22
+['portfolio_NON17772698552724557']
+
+cluster #23
+['its_HUM18264838847289264', 'its_HUM18264838847289264']
+
+cluster #24
+['Research In Motion_HUM18176653308471928', 'Research In Motion_HUM18176653308471928', 'Research in Motion_HUM18176653308471928']
+
+cluster #25
+['BlackBerry_NON17773034882031537', 'BlackBerry_Singleton_NON_8_42_8ecb']
+
+cluster #26
+['February_TIM18176397863910602', 'this February_TIM18176397863910602', 'this February_TIM18176397863910602', 'February_TIM18176397863910602']
+
+cluster #27
+['product_NON17773034882031537']
+
+cluster #28
+['On Monday_Singleton_TIM_24_42_3ecb', 'on February 11 ,_TIM18176397863910602', 'on Tuesday_TIM27413328406462129']
+
+cluster #29
+['date_Singleton_TIM_26_42_3ecb']
+
+cluster #30
+['carrier_HUM18264838847289264']
+
+cluster #31
+['customers_HUM17772747022002260', 'customers_HUM17772747022002260']
+
+cluster #32
+['today_TIM27413328406462129', 'today_TIM27413328406462129', 'today_TIM27413328406462129']
+
+cluster #33
+['T-Mobile USA , Inc._HUM18264838847289264']
+
+cluster #34
+['lineup_NON17772698552724557', 'lineup_NON17772698552724557']
+
+cluster #35
+['3G_Singleton_NON_19_42_6ecb']
+
+cluster #36
+['their_HUM18264838847289264']
+
+Topic - 43_ecb
+cluster #1
+['he_INTRA_UNK_34334_43_1ecb', 'he_INTRA_UNK_53525_43_3ecb']
+
+cluster #2
+['Hector Ruiz_INTRA_UNK_34334_43_1ecb', 'Hector Ruiz_INTRA_UNK_34435_43_5ecb']
+
+cluster #3
+['Advanced Micro Devices_HUM18264819130490380', 'Advanced Micro Devices_HUM18264819130490380', 'Advanced Micro Devices ( AMD_HUM18264819130490380', 'Advanced Micro Devices_HUM18264819130490380', 'Advanced Micro Devices_HUM18264819130490380', 'Advanced Micro Devices_HUM18264819130490380']
+
+cluster #4
+['ATI Technologies_HUM18264754356648476', 'ATI Technologies_HUM18264754356648476', 'graphics technology_INTRA_UNK_34386_43_4ecb', 'ATI Technologies_HUM18264754356648476', 'ATI Technologies_HUM18264754356648476', 'ATI Technologies_HUM18264754356648476']
+
+cluster #5
+['company_HUM18264819130490380', 'companies_HUM18264819130490380', 'companies_INTRA_UNK_53550_43_3ecb', 'companies_INTRA_UNK_53550_43_3ecb', 'company_HUM18264754356648476', 'company_HUM18264819130490380', 'company_HUM18264819130490380', 'company_Singleton_HUM_60_43_6ecb']
+
+cluster #6
+['AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380']
+
+cluster #7
+['about $ 5.4 billion_Singleton_NON_120_43_1ecb', '$ 5.4 billion_Singleton_NON_50_43_2ecb', 'about $ 5.4 billion_Singleton_NON_136_43_5ecb', '$ 4.2 billion in cash_Singleton_NON_161_43_5ecb', '$ 5.4 billion_Singleton_NON_64_43_6ecb']
+
+cluster #8
+['on July 24_TIM18227275906524555', 'on July 24_TIM18227275906524555']
+
+cluster #9
+['months_Singleton_TIM_118_43_1ecb']
+
+cluster #10
+['it_HUM18264819130490380', 'it_HUM18264819130490380']
+
+cluster #11
+['Intel_HUM17764318691647091', 'Intel_HUM17764318691647091', 'Intel_HUM17764318691647091', 'Intel_HUM17764318691647091', 'Intel_HUM17764318691647091', 'Intel_HUM17764318691647091', 'Intel_HUM17764318691647091', 'Intel_HUM17764318691647091']
+
+cluster #12
+['ATI_HUM18264754356648476', 'ATI_HUM18264754356648476', 'ATI_HUM18264754356648476', 'ATI_HUM18264754356648476', 'ATI_HUM18264754356648476', 'ATI_HUM18264754356648476', 'ATI_HUM18264754356648476', 'ATI_HUM18264754356648476']
+
+cluster #13
+['Nvidia_Singleton_HUM_110_43_1ecb']
+
+cluster #14
+['two biggest rivals_Singleton_HUM_72_43_1ecb']
+
+cluster #15
+['a lot_Singleton_NON_115_43_1ecb']
+
+cluster #16
+['world_Singleton_HUM_107_43_1ecb']
+
+cluster #17
+['graphics-chipmaker_HUM17764318691647091']
+
+cluster #18
+['about $ 90 million_Singleton_NON_77_43_1ecb']
+
+cluster #19
+['revenue_Singleton_NON_93_43_1ecb']
+
+cluster #20
+['graphics chipsets_Singleton_NON_97_43_1ecb', 'chipset_Singleton_NON_136_43_7ecb']
+
+cluster #21
+['Intel-based PCs_Singleton_NON_98_43_1ecb']
+
+cluster #22
+['RBC Capital Markets_INTRA_UNK_34357_43_2ecb']
+
+cluster #23
+['its_HUM18264819130490380', 'its_HUM18264819130490380', 'its_HUM18264819130490380', 'its_HUM18264819130490380', 'its_HUM18264819130490380', 'its_HUM17764318691647091', 'its_HUM18264819130490380', 'its_HUM18264819130490380']
+
+cluster #24
+['Monday_TIM18227275906524555', 'Monday_TIM18227275906524555', 'Monday_TIM18227275906524555']
+
+cluster #25
+['chip-maker_HUM18264754356648476']
+
+cluster #26
+['RBC_INTRA_UNK_34357_43_2ecb']
+
+cluster #27
+['Steve Arthur_INTRA_UNK_34352_43_2ecb', 'Arthur_INTRA_UNK_34352_43_2ecb']
+
+cluster #28
+['his_INTRA_UNK_34352_43_2ecb']
+
+cluster #29
+['price target_Singleton_NON_48_43_2ecb']
+
+cluster #30
+['$ 21_Singleton_NON_49_43_2ecb']
+
+cluster #31
+['in the fourth quarter_Singleton_TIM_64_43_2ecb', 'in Sunnyvale , Calif_LOC18183211123813928', 'in Toronto_Singleton_LOC_133_43_3ecb', 'in Taipei_Singleton_LOC_110_43_7ecb']
+
+cluster #32
+['For now_Singleton_TIM_65_43_2ecb', 'for over a year_Singleton_TIM_54_43_4ecb', 'for another 90-120 days_Singleton_TIM_30_43_8ecb']
+
+cluster #33
+['one-year_Singleton_TIM_74_43_2ecb']
+
+cluster #34
+['ATI Technologies ( ATI )_HUM18264754356648476']
+
+cluster #35
+['yesterday_TIM18227275906524555', 'yesterday_Singleton_TIM_53_43_4ecb', 'Yesterday_TIM18227275906524555', 'yesterday_TIM18227275906524555']
+
+cluster #36
+['Intel Corp_HUM17764318691647091']
+
+cluster #37
+['analysts_Singleton_HUM_112_43_3ecb', 'analyst_Singleton_HUM_134_43_3ecb']
+
+cluster #38
+['element_Singleton_NON_115_43_3ecb']
+
+cluster #39
+['cash_Singleton_NON_120_43_3ecb']
+
+cluster #40
+['stock_Singleton_NON_121_43_3ecb', 'stock_Singleton_NON_103_43_5ecb']
+
+cluster #41
+['providers_Singleton_HUM_125_43_3ecb']
+
+cluster #42
+['chips_Singleton_NON_126_43_3ecb', 'chips_Singleton_NON_35_43_4ecb']
+
+cluster #43
+['You_Singleton_HUM_127_43_3ecb']
+
+cluster #44
+['Michelle Warren_Singleton_HUM_132_43_3ecb']
+
+cluster #45
+['tomorrow_Singleton_TIM_129_43_3ecb']
+
+cluster #46
+['benefits_INTRA_UNK_53523_43_3ecb', 'benefits_INTRA_UNK_53523_43_3ecb']
+
+cluster #47
+['executives_HUM18264754356648476']
+
+cluster #48
+['Hartog_INTRA_UNK_53525_43_3ecb']
+
+cluster #49
+['employees_Singleton_HUM_144_43_3ecb']
+
+cluster #50
+['US $ 5.4-billion_Singleton_NON_52_43_4ecb', 'US $ 5.4 billion_Singleton_NON_133_43_7ecb']
+
+cluster #51
+['Intel Corp._HUM17764318691647091', 'Intel Corp._HUM17764318691647091', 'United Microelectronics Corp._Singleton_HUM_111_43_7ecb']
+
+cluster #52
+['Advanced Micro Devices Inc._HUM18264819130490380', 'ATI Technologies Inc._HUM18264754356648476', 'ATI Technologies Inc._HUM18264754356648476', 'Advanced Micro Devices Inc._HUM18264819130490380']
+
+cluster #53
+['devices_INTRA_UNK_34386_43_4ecb']
+
+cluster #54
+['computers_Singleton_NON_36_43_4ecb']
+
+cluster #55
+['supplier_HUM17764318691647091']
+
+cluster #56
+['mobile computing_INTRA_UNK_34416_43_5ecb']
+
+cluster #57
+['commercial desktop_Singleton_NON_114_43_5ecb']
+
+cluster #58
+['we_Singleton_HUM_106_43_5ecb', 'We_Singleton_HUM_65_43_6ecb', 'We_HUM18264819130490380']
+
+cluster #59
+['powerhouse_Singleton_HUM_154_43_5ecb']
+
+cluster #60
+['57 million shares_Singleton_NON_102_43_5ecb', 'shares_Singleton_NON_47_43_6ecb']
+
+cluster #61
+['processor_Singleton_NON_85_43_6ecb', 'processor_Singleton_NON_86_43_6ecb']
+
+cluster #62
+['many_Singleton_HUM_128_43_7ecb']
+
+cluster #63
+['TSMC_INTRA_UNK_34482_43_7ecb']
+
+cluster #64
+['investors_Singleton_HUM_112_43_7ecb']
+
+cluster #65
+['Henri Richard_Singleton_HUM_76_43_7ecb']
+
+cluster #66
+['Taiwan_Singleton_HUM_89_43_7ecb']
+
+cluster #67
+['manufacturers_INTRA_UNK_34483_43_7ecb']
+
+cluster #68
+['statement_Singleton_NON_26_43_8ecb']
+
+Topic - 44_ecb
+cluster #1
+['vendor_Singleton_HUM_67_44_1ecb']
+
+cluster #2
+['companies_Singleton_HUM_41_44_1ecb', 'company_HUM18222839907738365', 'company_HUM18184954911690041', 'company_HUM18184954911690041', 'company_HUM18184954911690041']
+
+cluster #3
+['eWEEK_Singleton_HUM_44_44_1ecb', 'eWEEK_INTRA_UNK_34662_44_5ecb', 'eWEEK_INTRA_UNK_34662_44_5ecb']
+
+cluster #4
+['they_INTRA_UNK_34525_44_1ecb']
+
+cluster #5
+['analysts_INTRA_UNK_34525_44_1ecb']
+
+cluster #6
+['business lines_Singleton_NON_68_44_1ecb']
+
+cluster #7
+['$ 13.9 billion_Singleton_NON_69_44_1ecb', '$ 19 billion_Singleton_NON_64_44_2ecb', '$ 13.9 billion_Singleton_NON_45_44_4ecb', 'about $ 13 billion_Singleton_NON_43_44_5ecb', 'about $ 22 billion_Singleton_NON_68_44_5ecb', '$ 13 billion_Singleton_NON_153_44_7ecb']
+
+cluster #8
+['May 13_TIM18222883965416456', 'May 14_Singleton_TIM_49_44_5ecb', 'May 20_Singleton_TIM_125_44_7ecb']
+
+cluster #9
+['Electronic Data Systems_HUM18222839907738365', 'Electronic Data Systems_HUM18222839907738365', 'Electronic Data Systems_HUM18222839907738365', 'Electronic Data Systems_HUM18222839907738365', 'Electronic Data Systems_HUM18222839907738365', 'Electronic Data Systems_HUM18222839907738365']
+
+cluster #10
+['Hewlett-Packard_HUM18184954911690041', 'Hewlett-Packard_HUM18184954911690041', 'Hewlett-Packard_HUM18184954911690041', 'Hewlett-Packard_HUM18184954911690041', 'Hewlett-Packard_HUM18184954911690041', 'Hewlett-Packard_HUM18184954911690041', 'Hewlett-Packard_HUM18184954911690041', 'Hewlett-Packard_HUM18184954911690041']
+
+cluster #11
+['everybody else_Singleton_HUM_55_44_1ecb']
+
+cluster #12
+['IBM_Singleton_HUM_45_44_1ecb', 'IBM_INTRA_UNK_34598_44_3ecb', 'IBM_Singleton_HUM_61_44_4ecb', 'IBM_Singleton_HUM_42_44_5ecb']
+
+cluster #13
+['Sturm_Singleton_HUM_46_44_1ecb']
+
+cluster #14
+['customers_Singleton_HUM_50_44_1ecb']
+
+cluster #15
+['personal computer maker_HUM18184954911690041', 'maker_HUM18184954911690041']
+
+cluster #16
+['The Wall Street Journal_Singleton_HUM_92_44_2ecb']
+
+cluster #17
+['yesterday_Singleton_TIM_93_44_2ecb']
+
+cluster #18
+['today_Singleton_TIM_94_44_2ecb']
+
+cluster #19
+['HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041']
+
+cluster #20
+['EDS_HUM18222839907738365', 'EDS_HUM18222839907738365', 'EDS_HUM18222839907738365', 'EDS_HUM18222839907738365', 'EDS_HUM18222839907738365', 'EDS_HUM18222839907738365', 'EDS_HUM18222839907738365', 'EDS_HUM18222839907738365', 'EDS_HUM18222839907738365']
+
+cluster #21
+['stock_Singleton_NON_66_44_2ecb']
+
+cluster #22
+['its_HUM18184954911690041', 'its_INTRA_UNK_34598_44_3ecb']
+
+cluster #23
+['Compaq Computer Corp._Singleton_HUM_65_44_2ecb', 'Electronic Data Systems Corp._HUM18222839907738365']
+
+cluster #24
+['in 2002_Singleton_TIM_61_44_2ecb', 'in fiscal 2007_Singleton_TIM_57_44_2ecb', 'in March 2005_Singleton_TIM_74_44_3ecb', 'in South Charleston_Singleton_LOC_44_44_6ecb']
+
+cluster #25
+['it_HUM18184954911690041', 'it_HUM18184954911690041', 'it_HUM18184954911690041', 'it_HUM18222839907738365', 'it_HUM18184954911690041']
+
+cluster #26
+['government_Singleton_HUM_55_44_2ecb']
+
+cluster #27
+['about $ 500 million_Singleton_NON_56_44_2ecb']
+
+cluster #28
+['Mark Hurd_Singleton_HUM_51_44_3ecb', 'Mark Hurd_HUM18184954911690041', 'Hurd_Singleton_HUM_134_44_7ecb', 'Hurd_Singleton_HUM_131_44_7ecb']
+
+cluster #29
+['printers_Singleton_NON_75_44_3ecb']
+
+cluster #30
+['personal computers_Singleton_NON_54_44_3ecb']
+
+cluster #31
+['Tuesday_TIM18222883965416456', 'Tuesday_TIM18222883965416456']
+
+cluster #32
+['competition_Singleton_HUM_55_44_3ecb']
+
+cluster #33
+['10,500 Triangle employees_Singleton_HUM_80_44_3ecb']
+
+cluster #34
+['about 7 percent_Singleton_NON_56_44_3ecb']
+
+cluster #35
+['10 percent share_Singleton_NON_89_44_3ecb']
+
+cluster #36
+['Shaw Wu_Singleton_HUM_58_44_3ecb']
+
+cluster #37
+['H-P_HUM18184954911690041', 'H-P_HUM18184954911690041']
+
+cluster #38
+['anyone_Singleton_HUM_40_44_4ecb']
+
+cluster #39
+['Bob Welch_Singleton_HUM_60_44_4ecb']
+
+cluster #40
+['business card_Singleton_NON_46_44_4ecb']
+
+cluster #41
+['sources_INTRA_UNK_34651_44_5ecb', 'source_INTRA_UNK_34651_44_5ecb']
+
+cluster #42
+['Hewlett-Packard Company_HUM18184954911690041']
+
+cluster #43
+['Electronic Data Systems Corporation_HUM18222839907738365']
+
+cluster #44
+['world_Singleton_HUM_70_44_5ecb']
+
+cluster #45
+['spokesman_INTRA_UNK_34677_44_6ecb']
+
+cluster #46
+['Hewlett-Packard Co._HUM18184954911690041']
+
+cluster #47
+['Earlier this month_Singleton_TIM_42_44_6ecb']
+
+cluster #48
+['Bill Ritz_INTRA_UNK_34677_44_6ecb', 'Ritz_INTRA_UNK_34677_44_6ecb']
+
+cluster #49
+['regulators_Singleton_HUM_40_44_6ecb']
+
+cluster #50
+['stockholders_Singleton_HUM_43_44_6ecb']
+
+cluster #51
+['sometime in the second half of 2008_Singleton_TIM_41_44_6ecb']
+
+cluster #52
+['CEO_Singleton_HUM_127_44_7ecb']
+
+cluster #53
+['he_HUM18184954911690041', 'he_Singleton_HUM_129_44_7ecb', 'he_Singleton_HUM_133_44_7ecb']
+
+cluster #54
+['accounts_Singleton_NON_115_44_7ecb']
+
+cluster #55
+['reporters_Singleton_HUM_118_44_7ecb']
+
+cluster #56
+['earnings_Singleton_NON_119_44_7ecb']
+
+cluster #57
+['2008 second-quarter_Singleton_TIM_152_44_7ecb']
+
+cluster #58
+['software_Singleton_NON_91_44_7ecb']
+
+cluster #59
+['portfolio_Singleton_NON_126_44_7ecb']
+
+Topic - 45_ecb
+cluster #1
+['community_Singleton_HUM_86_45_1ecb']
+
+cluster #2
+['he_HUM18223603553098533', 'he_HUM18223603553098533', 'he_HUM18223603553098533', 'he_HUM18223603553098533', 'he_HUM18223603553098533', 'he_HUM18263541739080089', 'him_HUM18223603553098533', 'he_HUM18223603553098533', 'he_HUM18223603553098533']
+
+cluster #3
+['jurors_HUM18263555199297386', 'jurors_HUM18263555199297386', 'jurors_HUM18263555199297386']
+
+cluster #4
+['Scott Peterson_HUM18223603553098533', 'Scott Peterson_HUM18223603553098533', 'Laci Peterson_HUM18223617376775555', 'Laci Peterson_HUM18223617376775555', 'Peterson_HUM18223603553098533', 'Peterson_HUM18223603553098533', 'Scott Peterson_HUM18223603553098533', 'Laci Peterson_HUM18223617376775555', 'Scott Peterson_HUM18223603553098533', 'Scott Peterson_HUM18223603553098533', 'Laci Peterson_HUM18223617376775555', 'Peterson_HUM18223603553098533', 'Peterson_HUM18223603553098533', 'Laci Peterson_HUM18223617376775555', 'Peterson_HUM18223603553098533', 'Laci Peterson_HUM18223617376775555', 'Peterson_HUM18223603553098533', 'Peterson_HUM18223603553098533', 'Scott Peterson_HUM18223603553098533', 'Peterson_HUM18223603553098533', 'Scott Peterson_HUM18223603553098533']
+
+cluster #5
+['his_HUM18223603553098533', 'his_HUM18223603553098533', 'his_HUM18223603553098533']
+
+cluster #6
+['jury_HUM18263555199297386', 'jury_HUM18263555199297386', 'jury_HUM18263555199297386', 'jury_HUM18263555199297386', 'jury_HUM18263555199297386', 'jury_HUM18263555199297386']
+
+cluster #7
+['her_HUM18223617376775555', 'her_HUM18223617376775555']
+
+cluster #8
+['Amber Frey_Singleton_HUM_133_45_1ecb']
+
+cluster #9
+['wife_HUM18223617376775555', 'wife_HUM18223617376775555', 'wife_HUM18223617376775555', 'wife_HUM18223617376775555', 'wife_HUM18223617376775555', 'wife_HUM18223617376775555', 'wife_HUM18223617376775555', 'wife_HUM18223617376775555']
+
+cluster #10
+['Laci_HUM18223617376775555', 'Laci_HUM18223617376775555', 'Laci_HUM18223617376775555', 'Laci_HUM18223617376775555', 'Laci_HUM18223617376775555', 'Laci_HUM18223617376775555']
+
+cluster #11
+['couple_HUM18244299604814682', 'couple_HUM18244299604814682', 'couple_HUM18244299604814682']
+
+cluster #12
+['son_HUM18223746049497677', 'son_HUM18223746049497677', 'son_HUM18223746049497677', 'son_HUM18223746049497677', 'son_HUM18223746049497677']
+
+cluster #13
+['whom_HUM18223746049497677', 'whom_HUM18223746049497677']
+
+cluster #14
+['in Redwood City , California_LOC18225177436480499', 'in Modesto , California_LOC18223809435375260', 'in the San Francisco Bay_LOC18244327488606940', 'in the courtroom_Singleton_LOC_69_45_6ecb']
+
+cluster #15
+['On November 12_TIM18244288458326565', 'on Nov. 12_TIM18244288458326565', 'on Nov. 12_TIM18244288458326565']
+
+cluster #16
+['from home_LOC18223827934517334', 'from her Modesto home_LOC18223827934517334']
+
+cluster #17
+['23 months ago_TIM18223776974741639']
+
+cluster #18
+['Scott_HUM18223603553098533']
+
+cluster #19
+['police_HUM18223628183363384']
+
+cluster #20
+['Conner_HUM18223746049497677']
+
+cluster #21
+['bodies_HUM18223756004010949']
+
+cluster #22
+['near where_Singleton_LOC_74_45_2ecb']
+
+cluster #23
+['day_TIM18223776974741639', 'the day before Christmas 2002_INTRA_UNK_34845_45_6ecb']
+
+cluster #24
+['they_Singleton_HUM_16_45_3ecb', 'them_HUM18263555199297386']
+
+cluster #25
+['people_Singleton_HUM_3_45_3ecb']
+
+cluster #26
+['hometown_Singleton_LOC_12_45_3ecb']
+
+cluster #27
+['blood_Singleton_NON_13_45_3ecb']
+
+cluster #28
+['memory_Singleton_NON_14_45_3ecb']
+
+cluster #29
+['prosecutor_HUM18263541739080089']
+
+cluster #30
+['loved ones_INTRA_UNK_34809_45_4ecb']
+
+cluster #31
+['their_INTRA_UNK_34809_45_4ecb']
+
+cluster #32
+['hole_Singleton_NON_36_45_4ecb']
+
+cluster #33
+['hearts_Singleton_NON_37_45_4ecb']
+
+cluster #34
+['today_Singleton_TIM_45_45_4ecb']
+
+cluster #35
+['fetus_HUM18223746049497677']
+
+cluster #36
+['nation_INTRA_UNK_34847_45_6ecb', 'nation_Singleton_HUM_58_45_7ecb']
+
+cluster #37
+['country_INTRA_UNK_34847_45_6ecb']
+
+cluster #38
+['case_Singleton_NON_97_45_6ecb']
+
+cluster #39
+['child_HUM18223746049497677', 'child_HUM18223746049497677', 'child_HUM18223746049497677']
+
+cluster #40
+['air_Singleton_NON_71_45_6ecb']
+
+cluster #41
+['Nov. 12_TIM18244288458326565']
+
+cluster #42
+['just before Christmas 2002_INTRA_UNK_34845_45_6ecb']
+
+cluster #43
+['much_Singleton_HUM_62_45_7ecb']
+
+cluster #44
+['Friday_TIM18244288458326565']
+
+cluster #45
+['for nearly two years_Singleton_TIM_64_45_7ecb']
+
+cluster #46
+['jury box_Singleton_HUM_52_45_7ecb']
+
+cluster #47
+['foreman_Singleton_HUM_50_45_7ecb']
+
+cluster #48
+['Modesto_LOC18223809435375260']
+
+cluster #49
+['expression_Singleton_NON_12_45_8ecb']
+
+Topic - 36_ecbplus
+cluster #1
+['againJuly 23 , 2008 . 4 : 49 pm_Singleton_TIM_34_36_10ecbplus']
+
+cluster #2
+['Polygamist prophet Warren Jeffs_HUM17642391151298735', 'Warren Jeffs_HUM17642391151298735', 'Warren Jeffs_HUM17642391151298735', 'polygamist leader Warren Jeffs_HUM17642391151298735', 'Polygamist leader Warren Jeffs_HUM17642391151298735', 'Warren Jeffs , Polygamist Leader_HUM17642391151298735', 'polygamist sect leader Warren Jeffs_HUM17642391151298735', 'Warren Jeffs_HUM17642391151298735', 'Warren Jeffs_HUM17642391151298735', 'Warren Jeffs_HUM17642391151298735', 'Warren Jeffs_HUM17642391151298735', 'leader Warren Jeffs_HUM17642391151298735', 'Warren Jeffs_HUM17642391151298735', 'Warren Jeffs_HUM17642391151298735', 'leader Warren Jeffs_HUM17642391151298735']
+
+cluster #3
+['Jeffs_HUM17642391151298735', 'Jeffs_HUM17642391151298735', 'Jeffs_HUM17642391151298735', 'Jeffs_HUM17642391151298735', 'Jeffs_HUM17642391151298735']
+
+cluster #4
+['he_HUM17642391151298735', 'he_HUM17642391151298735', 'he_HUM17642391151298735', 'he_HUM17642391151298735', 'he_HUM17642391151298735', 'he_HUM17642391151298735']
+
+cluster #5
+['court_Singleton_LOC_56_36_10ecbplus']
+
+cluster #6
+['in Texas_Singleton_LOC_52_36_10ecbplus', 'in Texas_Singleton_LOC_123_36_5ecbplus', 'in Texas_LOC28676790105772771']
+
+cluster #7
+['Arizona_LOC17720123743510939']
+
+cluster #8
+['girls_HUM17642465151706006', 'two under - aged girls_HUM17642465151706006', 'girl_HUM17642436231590887', 'girl_HUM17642451761547732', 'girl_HUM17642436231590887', 'girl_HUM17642451761547732', 'girls_HUM17642465151706006', 'two girls_HUM17642465151706006']
+
+cluster #9
+['child_HUM17717071753725810', 'child_HUM28673805873878282', 'Child_HUM28673805873878282', 'child_HUM28673805873878282', 'child_HUM17717071753725810', 'child_HUM28673805873878282', 'child_HUM28673805873878282']
+
+cluster #10
+['two counts_NON28673199429936468']
+
+cluster #11
+['one_HUM17642451761547732']
+
+cluster #12
+['on Thursday_TIM17642374986764618']
+
+cluster #13
+['San Antonio jury_HUM18264005982064036', 'jury_HUM18264005982064036', 'Texas jury_HUM18264005982064036', 'Texas jury_HUM18264005982064036', 'Texas jury_HUM18264005982064036']
+
+cluster #14
+['Fundamentalist Church of Jesus Christ of Latter Day Saints_HUM18576970734387733', 'Fundamentalist Church of Jesus Christ of Latter Day Saints ( FLDS_HUM18576970734387733', 'Fundamentalist Church of Jesus Christ of Latter Day Saints_HUM18576970734387733']
+
+cluster #15
+['wives_HUM17642465151706006']
+
+cluster #16
+['leader_HUM17642391151298735', "FLDS leader's_HUM17642391151298735", 'leader_HUM17642391151298735']
+
+cluster #17
+['20 years_Singleton_TIM_23_36_2ecbplus']
+
+cluster #18
+['Case_INTRA_NON_38080_36_3ecbplus', 'case_INTRA_NON_38080_36_3ecbplus', 'case_Singleton_NON_34_36_6ecbplus']
+
+cluster #19
+['church_HUM18576970734387733', 'church_HUM18576970734387733']
+
+cluster #20
+['two young followers_HUM17642465151706006', 'two young followers_HUM17642465151706006', 'followers_Singleton_HUM_4_36_8ecbplus']
+
+cluster #21
+['brides_HUM17642465151706006', 'brides_HUM17642465151706006']
+
+cluster #22
+['Thursday_TIM17642374986764618', 'Thursday_TIM17642374986764618']
+
+cluster #23
+['sex tapes_NON17642479951120038']
+
+cluster #24
+['Prosecutors_HUM17642424086541858', 'Prosecutors_HUM17642424086541858']
+
+cluster #25
+['who_HUM17642391151298735']
+
+cluster #26
+['evidence_NON17642479951120038']
+
+cluster #27
+['Tuesday_Singleton_TIM_54_36_4ecbplus']
+
+cluster #28
+["'brides_HUM17642465151706006"]
+
+cluster #29
+['that_HUM17642465151706006']
+
+cluster #30
+['polygamist FLDS religious sect_HUM18576970734387733', 'sect_HUM18576970734387733', 'Polygamist sect_HUM18576970734387733']
+
+cluster #31
+['They_HUM17642424086541858']
+
+cluster #32
+['15 year old_HUM17642451761547732', '12 - year - old_HUM17642436231590887']
+
+cluster #33
+['audio recording_NON17642479951120038']
+
+cluster #34
+['Five years ago_Singleton_TIM_81_36_8ecbplus']
+
+cluster #35
+['where_LOC28676790105772771']
+
+cluster #36
+['to Texas_LOC28676790105772771']
+
+cluster #37
+['Wednesday_Singleton_TIM_43_36_9ecbplus']
+
+cluster #38
+['Utah_LOC17720114563425831']
+
+cluster #39
+['Texas authorities_Singleton_HUM_7_36_9ecbplus']
+
+cluster #40
+['head_HUM17642391151298735']
+
+Topic - 37_ecbplus
+cluster #1
+["Indonesia's Aceh province_LOC17643560582770468", 'Indonesian province of Aceh_LOC17643560582770468', 'northwestern Indonesian province of Aceh_LOC17643560582770468', "Indonesia's Aceh province_LOC17643560582770468", "Indonesia's Aceh province_LOC17643560582770468", "Indonesia's Aceh province_LOC17643560582770468", "Indonesia's Aceh province_LOC17643560582770468", 'northern Indonesian province of Aceh_LOC17643560582770468', 'Aceh province_LOC17643560582770468', 'Aceh province_LOC17643560582770468', 'Indonesian province of Aceh_LOC17643560582770468', "Indonesia's northwestern province of Aceh_LOC17643560582770468", "Indonesia's Aceh province_LOC17643560582770468", "Sumatra's Aceh province_LOC17643560582770468", "Indonesia's northwestern Aceh province on the island of Sumatra_LOC17643560582770468", "Indonesia's northwestern Aceh province , on the island of Sumatra_LOC17643560582770468", 'Indonesian province of Aceh_LOC17643560582770468']
+
+cluster #2
+['in region_LOC17643560582770468', "in Indonesia's Aceh province_LOC17643560582770468", 'in a region_LOC17643560582770468', 'in Indonesia_LOC17643572389027482', 'in a region_LOC17643560582770468', "in Indonesia's Aceh province_LOC17643560582770468", "in Indonesia's Aceh province_LOC17643560582770468"]
+
+cluster #3
+['hundreds_HUM17643432611577647']
+
+cluster #4
+['region_LOC17643560582770468', 'affected region_LOC17643560582770468', 'region_LOC17643560582770468']
+
+cluster #5
+['2004_TIM28680415573838899']
+
+cluster #6
+['that_LOC17643560582770468']
+
+cluster #7
+['USGS_HUM18264038380520801']
+
+cluster #8
+["Indonesia's Aceh_LOC17643560582770468", "Indonesia's Aceh_LOC17643560582770468", "Indonesia's Aceh_LOC17643560582770468", 'Indonesia Aceh_LOC17643560582770468', "Indonesia's Aceh_LOC17643560582770468"]
+
+cluster #9
+['US Geological Survey_HUM18264038380520801']
+
+cluster #10
+['people_HUM17643451258431556', 'five people_HUM17643432611577647', 'five people_HUM17728595122188917', 'three people_HUM17728595122188917', '50 people_HUM17643432611577647', '24 people_HUM17728595122188917']
+
+cluster #11
+['into the streets_Singleton_LOC_48_37_11ecbplus']
+
+cluster #12
+['on Tuesday_TIM17643622245386552', 'on Tuesday_TIM17643622245386552', 'on Tuesday_TIM17643622245386552', 'on Tuesday_TIM17643622245386552', 'on Tuesday_TIM17643622245386552', 'on Tuesday_TIM17643622245386552']
+
+cluster #13
+['One_HUM17731540958266535', 'one_HUM17731540958266535']
+
+cluster #14
+["Indonesia's Aceh Province_LOC17643560582770468"]
+
+cluster #15
+['Magnitude 6 . 1_NON28678763502485937']
+
+cluster #16
+['Associated Press_Singleton_HUM_38_37_12ecbplus']
+
+cluster #17
+['two others_HUM28679216337079704', 'two others_HUM28679216337079704']
+
+cluster #18
+['on Tuesday at 07 : 37 a . m . UTC ( 3 : 37 a . m . EDT )_TIM17643602768846527']
+
+cluster #19
+['houses_LOC17643520528410232', 'houses_LOC17731497737982880', 'houses_LOC17643520528410232']
+
+cluster #20
+["off Indonesia's Aceh province_LOC17643560582770468"]
+
+cluster #21
+['1_HUM17731540958266535']
+
+cluster #22
+['Indonesia_LOC17643572389027482']
+
+cluster #23
+['one person_HUM17731540958266535', 'one person_HUM17728595122188917']
+
+cluster #24
+['dozens of villagers_HUM17643432611577647', 'dozens_HUM17643432611577647', 'dozens_HUM17643432611577647', 'dozens_HUM17643432611577647', 'Dozens_HUM17643432611577647', 'dozens_HUM17643432611577647', 'Dozens_HUM17643432611577647', 'dozens_HUM17643432611577647', 'dozens_HUM17643432611577647', 'Dozens_HUM17643432611577647', 'Dozens_HUM17643432611577647', 'dozens_HUM17643432611577647']
+
+cluster #25
+['Five_HUM17728595122188917']
+
+cluster #26
+['buildings_LOC17643520528410232', 'buildings_LOC17643520528410232', 'buildings_LOC17643520528410232', 'buildings_LOC17643520528410232', 'buildings_LOC17643520528410232']
+
+cluster #27
+['Tuesday_TIM17643622245386552', 'early Tuesday_TIM17643622245386552']
+
+cluster #28
+['of 2004_TIM28680415573838899', 'of 2004_TIM28680415573838899', 'of 2004_TIM28680415573838899']
+
+cluster #29
+['24_HUM17728595122188917', '24_HUM17728595122188917']
+
+cluster #30
+['200_HUM17643432611577647', '200_HUM17643432611577647', '200_HUM17643432611577647']
+
+cluster #31
+['Soldiers_Singleton_HUM_37_37_3ecbplus']
+
+cluster #32
+['police_Singleton_HUM_38_37_3ecbplus']
+
+cluster #33
+['child_HUM17731540958266535', 'child_HUM17731540958266535']
+
+cluster #34
+['today_TIM17643622245386552']
+
+cluster #35
+['Officials_Singleton_HUM_33_37_6ecbplus']
+
+cluster #36
+['western tip of Sumatra island_Singleton_LOC_2_37_6ecbplus']
+
+cluster #37
+['50_HUM17643432611577647']
+
+Topic - 38_ecbplus
+cluster #1
+['Near Healdsburg_LOC17743376323445649', 'Near Healdsburg_LOC17743376323445649']
+
+cluster #2
+['U . S . Geological Survey_HUM18264038380520801', 'U . S . Geological Survey_HUM18264038380520801', 'U . S . Geological Survey_HUM18264038380520801', 'U . S . Geological Survey_HUM18264038380520801', 'U . S . Geological Survey_HUM18264038380520801', 'U . S . Geological Survey_HUM18264038380520801', 'U . S . Geological Survey_HUM18264038380520801']
+
+cluster #3
+['in the North Bay_LOC17743207703372898', 'in Sonoma County_LOC17741443930390371', 'in the North Bay_LOC17743207703372898', 'in the North Bay_LOC17743207703372898', 'in Geyserville , about 20 miles north of Santa Rosa_LOC17741455869640677', 'in the Geysers area_LOC17741455869640677', 'in the North Bay_LOC17743207703372898']
+
+cluster #4
+['this morning_TIM17741090384773320', 'this morning_TIM17741090384773320', 'early Thursday morning_TIM17741090384773320', 'this morning_TIM17741090384773320', 'Thursday morning_TIM17741090384773320']
+
+cluster #5
+['preliminary magnitude of 4 . 6_NON17741171079940822', 'magnitude of 4 . 6_NON17741171079940822', 'magnitude of 4 . 6_NON17741171079940822', 'magnitude 4 . 6_NON17741171079940822', 'magnitude of 4 . 6_NON17741171079940822']
+
+cluster #6
+['about 14 miles north - northeast of Healdsburg_LOC17743376323445649', 'about 14 miles north - northeast of Healdsburg_LOC17743376323445649', 'about 14 miles northeast of Healdsburg , on the Maacama Fault_LOC17743376323445649', 'about 14 miles north - northeast of Healdsburg_LOC17743376323445649', 'about 14 miles north - northeast of Healdsburg_LOC17743376323445649']
+
+cluster #7
+['at 2 : 09 a . m_TIM17741090384773320', 'at 2 : 09 a . m_TIM17741090384773320', 'at 2 : 09 a . m_TIM17741090384773320', 'at 2 : 09 a . m_TIM17741090384773320', 'at 2 : 09 a . m . Thursday_TIM17741090384773320', 'at 2 : 09 a . m_TIM17741090384773320', 'at 2 : 09 a . m_TIM17741090384773320']
+
+cluster #8
+['depth of 1 . 2 miles_LOC17741183590888048', 'depth of 1 . 2 miles_LOC17741183590888048', 'depth of 12 miles_LOC17741183590888048', 'depth of 1 . 2 miles_LOC17741183590888048', 'depth of 1 . 2 miles_LOC17741183590888048']
+
+cluster #9
+['Outside Sacramento_Singleton_LOC_10_38_11ecbplus']
+
+cluster #10
+['Today 2013_TIM17741090384773320', 'today 2013_TIM17741090384773320']
+
+cluster #11
+['outside Santa Rosa_LOC17741110229513558']
+
+cluster #12
+['news_HUM17741158770755189']
+
+cluster #13
+['Sonoma County_LOC17741443930390371', 'Lake County_LOC28685747056455221', "Lake County's_LOC28685747056455221"]
+
+cluster #14
+['early Thursday_TIM17741090384773320', 'early Thursday_TIM17741090384773320', 'overnight Thursday_TIM17741090384773320']
+
+cluster #15
+['Sonoma and Lake counties_LOC17741443930390371']
+
+cluster #16
+['4 . 6_NON17741171079940822']
+
+cluster #17
+['Cobb Mountain community_Singleton_HUM_14_38_3ecbplus']
+
+cluster #18
+['folks_Singleton_HUM_15_38_3ecbplus']
+
+cluster #19
+['at the California Geysers_LOC17741455869640677']
+
+cluster #20
+['Geysers_LOC17741455869640677', 'Geysers_LOC17741455869640677']
+
+cluster #21
+['Napa_INTRA_LOC_38196_38_6ecbplus']
+
+cluster #22
+['Napa Valley_INTRA_LOC_38196_38_6ecbplus']
+
+cluster #23
+['located near Clearlake in Lake County_LOC28685747056455221']
+
+cluster #24
+['residents_Singleton_HUM_19_38_7ecbplus']
+
+cluster #25
+['Northern California_LOC17741144789369948', 'Northern California_LOC17741144789369948', 'Northern California_LOC17741144789369948']
+
+cluster #26
+['from San Francisco to north of Sacramento_Singleton_LOC_16_38_7ecbplus']
+
+cluster #27
+['on Thursday morning_TIM17741090384773320']
+
+cluster #28
+['about 26 miles north of Santa Rosa_LOC17741110229513558']
+
+cluster #29
+['North Bay_LOC17743207703372898']
+
+Topic - 39_ecbplus
+cluster #1
+['Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'PETER Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276', 'Peter Capaldi_HUM17744898912785276']
+
+cluster #2
+['Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', "Matt Smith's_HUM17744873373187694", 'star Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith_HUM17744873373187694', 'Matt Smith , the Doctor_HUM17744873373187694']
+
+cluster #3
+["'Doctor Who'_NON17744952423311022", 'Doctor Who_NON17744952423311022', 'Doctor Who_HUM17744995054949769', 'Doctor Who_HUM17744995054949769', 'who_HUM17744873373187694', 'Doctor Who_NON17744952423311022', 'Doctor Who_NON17744952423311022', 'Doctor Who_NON17744952423311022', 'Doctor Who_NON17744952423311022', 'Doctor Who_HUM17744995054949769', 'Doctor Who_NON17744952423311022', 'Doctor Who_HUM17744937293310517', 'Doctor Who_NON17744952423311022', "'Doctor Who'_NON17744952423311022", 'who_HUM17744873373187694', 'Doctor Who_HUM17744995054949769', 'Doctor Who_HUM17744995054949769']
+
+cluster #4
+['star_HUM17744898912785276', 'new star_HUM17744898912785276']
+
+cluster #5
+['actor_HUM17744898912785276', 'actor_HUM17744898912785276', 'actor_HUM17744898912785276', 'actor_HUM17744898912785276', '12th actor_HUM17744898912785276']
+
+cluster #6
+['12th Doctor_HUM17744995054949769', '12th Doctor_HUM17744898912785276', 'spin doctor_INTRA_HUM_38225_39_3ecbplus', 'Doctor_HUM17744937293310517', 'Twelfth Doctor_HUM17744995054949769', '12th doctor_HUM17744995054949769', 'Doctor_HUM17744995054949769', '12th Doctor_HUM17744873373187694']
+
+cluster #7
+['sci - fi drama_NON17744952423311022']
+
+cluster #8
+["on BBC One's_HUM18520722147007898"]
+
+cluster #9
+['TV_NON17745413236512401']
+
+cluster #10
+['role_HUM17744937293310517', 'role_Singleton_NON_68_39_3ecbplus']
+
+cluster #11
+['he_HUM17744873373187694', 'He_HUM17744898912785276']
+
+cluster #12
+['sci - fi show_NON17744952423311022', 'show_NON17744952423311022']
+
+cluster #13
+['in June_Singleton_TIM_45_39_11ecbplus']
+
+cluster #14
+['later this year_Singleton_TIM_46_39_11ecbplus']
+
+cluster #15
+['BBC_HUM18520722147007898']
+
+cluster #16
+['name_HUM17744898912785276', 'name_HUM17744898912785276']
+
+cluster #17
+['boss Steven Moffat_HUM17744863322935845', 'boss Steven Moffat_HUM17744863322935845', 'Steven Moffat_HUM17744863322935845']
+
+cluster #18
+['Malcolm Tucker_INTRA_HUM_38225_39_3ecbplus']
+
+cluster #19
+['The Thick of It_NON17745170956492548']
+
+cluster #20
+['his_HUM17744898912785276']
+
+cluster #21
+['to the nation_Singleton_LOC_35_39_4ecbplus']
+
+cluster #22
+["McFly's_Singleton_HUM_49_39_5ecbplus"]
+
+cluster #23
+['Celeb_Singleton_HUM_50_39_5ecbplus']
+
+cluster #24
+['John Barrowman_Singleton_HUM_2_39_5ecbplus']
+
+cluster #25
+['Stephen Fry_Singleton_HUM_3_39_5ecbplus']
+
+cluster #26
+['Tom Fletcher_Singleton_HUM_4_39_5ecbplus']
+
+cluster #27
+['Tardis_NON17745059789240063', 'Tardis_NON17745059789240063']
+
+cluster #28
+['twelfth incarnation_HUM17744898912785276']
+
+cluster #29
+['tenant_HUM17744995054949769']
+
+cluster #30
+['Yesterday evening_TIM17745242315926224']
+
+cluster #31
+['Time Lord_HUM17744937293310517', '12th Time Lord_HUM17744995054949769']
+
+cluster #32
+['Doctor Who shoes_HUM17744937293310517']
+
+cluster #33
+['TARDIS_NON17745059789240063']
+
+cluster #34
+['Sunday_TIM17745227998616388']
+
+cluster #35
+['Doctor Who Live : The Next Doctor_NON17745006823711759']
+
+cluster #36
+['leader_HUM17744937293310517']
+
+cluster #37
+['2013 Christmas Special_NON17750096954988431']
+
+cluster #38
+['favourite_HUM17744898912785276', 'favourite_HUM17744898912785276']
+
+cluster #39
+["bookies'_HUM17745352748682866"]
+
+cluster #40
+["bookmakers'_HUM17745352748682866"]
+
+cluster #41
+['choice_HUM17744898912785276']
+
+Topic - 40_ecbplus
+cluster #1
+["Apple's_HUM17764075735414631", "Apple's_HUM17764075735414631", "Apple's_HUM17764075735414631"]
+
+cluster #2
+['Phil Schiller_HUM18089813256581682', 'Phil Schiller_HUM18089813256581682']
+
+cluster #3
+['MacBook Air lineup_NON17837773451318042']
+
+cluster #4
+['MacBook Pro_NON17764235788628565', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON18090039996916429', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON17764235788628565']
+
+cluster #5
+['today_TIM17764186666029400', 'today_TIM17764186666029400']
+
+cluster #6
+['developers_Singleton_HUM_12_40_11ecbplus']
+
+cluster #7
+['Siri_Singleton_NON_5_40_11ecbplus']
+
+cluster #8
+['stuff_Singleton_NON_6_40_11ecbplus']
+
+cluster #9
+['the stage in San Francisco_LOC18089929016207027']
+
+cluster #10
+['Apple CEO Tim Cook_HUM28688885136138789']
+
+cluster #11
+['MacBook line_NON17764218799960810', 'MacBook Pro line_NON17764218799960810', 'MacBook Air line_NON17837773451318042', 'MacBook line_NON17764218799960810']
+
+cluster #12
+['Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631']
+
+cluster #13
+['Ivy Bridge_NON17764250260582633', 'Ivy Bridge_NON17764250260582633', 'Ivy Bridge_NON17764250260582633', 'Ivy Bridge_NON17764250260582633', 'Ivy Bridge_NON17764250260582633', 'Ivy Bridge_NON17764250260582633']
+
+cluster #14
+["Intel's_HUM17764318691647091", "Intel's_HUM17764318691647091"]
+
+cluster #15
+['it_HUM17764075735414631', 'it_HUM17764075735414631', 'it_NON17764218799960810']
+
+cluster #16
+['Ivy Bridge processors_NON17764260776630536', 'Ivy Bridge processors_NON17764250260582633', 'Ivy Bridge processors_NON17764250260582633']
+
+cluster #17
+['hardware_NON17764206852917641', 'hardware_NON17764206852917641']
+
+cluster #18
+['this year_Singleton_TIM_34_40_1ecbplus', 'this year_Singleton_TIM_16_40_3ecbplus']
+
+cluster #19
+['opening day_TIM17764186666029400', 'opening day_TIM17764186666029400']
+
+cluster #20
+['MacBook Air_NON17837773451318042', 'MacBook Air_NON17837773451318042', 'MacBook Air_NON18089134250184836']
+
+cluster #21
+['models_INTRA_NON_38259_40_2ecbplus']
+
+cluster #22
+['MacBook Pros_NON17764218799960810', 'MacBook Pros_NON17764218799960810']
+
+cluster #23
+['Nvidia GeForce GT650M graphics card_Singleton_NON_25_40_4ecbplus']
+
+cluster #24
+['its_HUM17764075735414631', 'its_HUM17764075735414631']
+
+cluster #25
+['week_Singleton_TIM_28_40_5ecbplus']
+
+cluster #26
+['portions_Singleton_NON_11_40_6ecbplus']
+
+cluster #27
+['in San Francisco_LOC18089929016207027']
+
+cluster #28
+['next generation of MacBook Pro_NON18090039996916429']
+
+cluster #29
+['Macbook Pro_NON17764235788628565', 'Next Generation Macbook Pro_NON17764235788628565']
+
+cluster #30
+['laptop_NON17764235788628565']
+
+Topic - 41_ecbplus
+cluster #1
+['South Sudan_HUM18155335583688433', 'Sudan_HUM17764691853439726', 'Sudan_HUM17764691853439726', 'Sudan_HUM17764691853439726', 'Sudan_HUM17764691853439726', 'Sudan_HUM17764691853439726', 'Sudan_HUM17764691853439726', 'South Sudan_HUM18098113770775396', 'Sudan_HUM17764691853439726', 'South Sudan_HUM18155335583688433', 'Sudan_HUM17764691853439726', 'Sudan_HUM17764691853439726', 'Sudan_HUM17764691853439726', 'Sudan_HUM17764691853439726', 'Sudan_LOC18148766005050266', 'Sudan_HUM17764691853439726', 'South Sudan_HUM18155335583688433']
+
+cluster #2
+['refugee camp_LOC17764737904268597', 'South Sudan refugee camp_LOC17764737904268597', 'refugee camp_LOC17764737904268597', 'refugee camp in South Sudan_LOC17764737904268597', 'refugee camp in South Sudan_LOC17764737904268597', 'refugee camp in their territory_LOC17764737904268597', "A refugee camp in South Sudan's Unity state_LOC17764737904268597", 'a refugee camp_LOC17764737904268597', 'refugee camp"_LOC17764737904268597', "A refugee camp in South Sudan's Unity state_LOC17764737904268597", "Samaritan's Purse refugee camp in Yida , South Sudan_LOC17764737904268597"]
+
+cluster #3
+['refugees_HUM17765115908831308', "refugees'_HUM17765115908831308", 'refugees_HUM17765115908831308']
+
+cluster #4
+['officials_HUM18098113770775396', 'government official_Singleton_HUM_25_41_10ecbplus', 'South Sudanese officials_HUM18098113770775396', 'South Sudan officials_HUM18098113770775396', 'South Sudan officials_HUM18098113770775396', 'officials_HUM18098113770775396', 'government official_HUM18155825126669219']
+
+cluster #5
+['Military aircraft_HUM18148829671624267', 'Military aircraft_HUM18148829671624267']
+
+cluster #6
+['the new international border with South Sudan_Singleton_LOC_32_41_10ecbplus', 'border_LOC18149997770652692', 'the new international border with South Sudan_LOC18149997770652692']
+
+cluster #7
+['bombs_NON17765171872926716', 'bombs_NON17765171872926716', 'Four bombs_NON17765171872926716', 'two bombs_NON17765152945011656', 'four bombs_NON17765171872926716', 'bombs_NON17765171872926716']
+
+cluster #8
+['Thursday_TIM18150070512473728', 'Thursday_TIM18150070512473728', 'Thursday_TIM18150070512473728']
+
+cluster #9
+['in and around a camp_LOC17764737904268597', "in South Sudan's Unity state_LOC18148777395301609", "in neighbouring Sudan's Nuba Mountains_Singleton_LOC_17_41_2ecbplus", "in South Sudan's Unity state_LOC18148777395301609", 'in Sudan_LOC18148766005050266', 'in and around a camp_LOC17764737904268597']
+
+cluster #10
+['aid workers_HUM18149876821504272', 'aid workers_HUM18149876821504272']
+
+cluster #11
+['activist_HUM18149864601840828', 'American activist_HUM18149864601840828']
+
+cluster #12
+['who_HUM18149864601840828', 'who_Singleton_HUM_33_41_6ecbplus', 'who_HUM18149864601840828']
+
+cluster #13
+['at the camp_LOC17764737904268597', 'at 2 : 53 p . m . local time today_TIM17764757505490740', 'At Yida Refugee Camp , South Sudan_LOC17764737904268597', 'at the camp_LOC17764737904268597']
+
+cluster #14
+['witness_HUM18096236064822673', 'Reuters witness_HUM18096236064822673', 'witnesses_HUM18098097439936561', 'witnesses_HUM18098097439936561']
+
+cluster #15
+['Plane_HUM18148829671624267']
+
+cluster #16
+['less than 50 km ( 30 miles ) from the tense border with Sudan_Singleton_LOC_7_41_11ecbplus']
+
+cluster #17
+['target_Singleton_NON_27_41_11ecbplus']
+
+cluster #18
+['on Thursday_TIM18150070512473728', 'on refugee camp in South Sudan_LOC17764737904268597', 'on Friday_TIM17765210606662149', 'on refugee camp_LOC17764737904268597', 'on the South Sudanese area of Yida_LOC17764737904268597', 'on Thursday afternoon_TIM17764757505490740', 'on Thursday_TIM18150070512473728', 'on Thursday , Nov . 10_TIM18150070512473728']
+
+cluster #19
+['Yida Refugee Camp in South Sudan_LOC17764737904268597', 'the Yida Refugee Camp in South Sudan_LOC17764737904268597', 'Civilian Camp_LOC17764737904268597', 'South Sudanese Refugee Camp_LOC17764737904268597', "Samaritan's Purse Refugee Camp_LOC17764737904268597"]
+
+cluster #20
+['SAF_HUM17764691853439726']
+
+cluster #21
+['Sudan Armed Forces_HUM17764691853439726']
+
+cluster #22
+['UNHCR_HUM18264886171275717']
+
+cluster #23
+['UN refugee agency_HUM18264886171275717']
+
+cluster #24
+['20 , 000 civilians_HUM17765115908831308']
+
+cluster #25
+['Adrian Edwards_INTRA_HUM_38304_41_2ecbplus']
+
+cluster #26
+['close to the school_LOC17764769313490055']
+
+cluster #27
+['"Two_NON17765140228243111', '"Sudan_HUM17764691853439726']
+
+cluster #28
+['one_NON18098022398487840']
+
+cluster #29
+['within the Yida camp_LOC17764737904268597']
+
+cluster #30
+['On Thursday , November 10th at approximately 3 : 00 pm_TIM17764757505490740']
+
+cluster #31
+['UN helicopter_HUM17764792309978161']
+
+cluster #32
+['two_NON17765140228243111']
+
+cluster #33
+['food aid_NON17765063362590266']
+
+cluster #34
+['near the airstrip_LOC17764780520342961']
+
+cluster #35
+['where_LOC17764780520342961']
+
+cluster #36
+['inside the camp itself_LOC17764737904268597']
+
+cluster #37
+['border region_LOC18149997770652692']
+
+cluster #38
+['they_HUM17764691853439726', 'them_HUM17765115908831308', 'they_HUM17764691853439726']
+
+cluster #39
+["Sudan's armed forces_HUM17764691853439726", "Sudan's armed forces_HUM17764691853439726"]
+
+cluster #40
+['South Sudanese territory_LOC18148777395301609']
+
+cluster #41
+['21 , 000 people_HUM17765115908831308']
+
+cluster #42
+['northern Sudanese_Singleton_HUM_31_41_6ecbplus']
+
+cluster #43
+['Antonov bomber_NON18096410453086836']
+
+cluster #44
+['Sudanese Government_HUM17764691853439726', 'government of Sudan_HUM17764691853439726']
+
+cluster #45
+['nondenominational evangelical Christian organization_Singleton_HUM_19_41_9ecbplus']
+
+Topic - 42_ecbplus
+cluster #1
+['T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_HUM18264838847289264', 'T - Mobile_LOC28695786412990029']
+
+cluster #2
+['BlackBerry Q10_NON17772718856233321', "BlackBerry Q10's_NON17772718856233321", 'BlackBerry Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'Q10_NON17772718856233321', 'BlackBerry® Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'BlackBerry� Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'BlackBerry Q10_NON17772718856233321', 'Q10 smartphone_NON17772718856233321']
+
+cluster #3
+['April 29th_TIM17773189631418399', 'April 29th_TIM17773189631418399']
+
+cluster #4
+['in the US_Singleton_LOC_44_42_10ecbplus']
+
+cluster #5
+['details_Singleton_NON_7_42_10ecbplus', 'details_Singleton_NON_36_42_10ecbplus']
+
+cluster #6
+['email_Singleton_NON_35_42_10ecbplus']
+
+cluster #7
+['device_NON17772718856233321', '4G LTE devices_NON18163467332773553', 'BlackBerry Q10 smartphone device_NON17772718856233321', 'device_NON17772718856233321']
+
+cluster #8
+['next week on April 29th_TIM17773189631418399']
+
+cluster #9
+['business customers_HUM17773208834043169', 'customers_HUM17772747022002260', 'Business Customers_HUM17773208834043169', 'business customers_HUM17773208834043169']
+
+cluster #10
+['4G LTE Smartphone_NON18163467332773553', '4G LTE smartphone_NON18163467332773553', '4G LTE smartphone_NON18163467332773553', '4G LTE smartphone_NON18163467332773553', '4G LTE smartphone_NON18163467332773553', '4G LTE Smartphone_NON18163467332773553']
+
+cluster #11
+['Portfolio_NON17772698552724557', 'portfolio_NON17772698552724557', 'portfolio_NON17772698552724557', 'portfolio_NON17772698552724557', 'portfolio_NON17772698552724557', 'Portfolio_NON17772698552724557']
+
+cluster #12
+['BlackBerry_HUM18521219076628367', 'BlackBerry_Singleton_NON_19_42_3ecbplus', "BlackBerry's_HUM18521219076628367"]
+
+cluster #13
+['line - up_NON17772698552724557']
+
+cluster #14
+['T - Mobile USA_HUM18264838847289264', 'T - Mobile USA_HUM18264838847289264', 'T - Mobile USA_HUM18264838847289264']
+
+cluster #15
+['its_HUM18264838847289264', 'its_HUM18264838847289264', 'its_HUM18264838847289264', 'its_HUM18264838847289264', 'its_HUM18264838847289264']
+
+cluster #16
+['today_TIM17773173172555927', 'today_TIM17773173172555927']
+
+cluster #17
+['fans_Singleton_HUM_20_42_3ecbplus']
+
+cluster #18
+['note_Singleton_NON_16_42_3ecbplus']
+
+cluster #19
+['T - Mobile US_HUM18264838847289264']
+
+cluster #20
+['They_HUM18264838847289264', 'they_HUM18264838847289264', 'they_HUM18264838847289264']
+
+cluster #21
+['their network_NON17772698552724557']
+
+cluster #22
+['it_HUM18264838847289264', 'it_HUM18264838847289264', 'it_HUM18264838847289264']
+
+cluster #23
+['on April 29th_TIM17773189631418399', 'on April 29_TIM17773189631418399']
+
+cluster #24
+['T - Mobile . com_LOC28695786412990029']
+
+cluster #25
+['April 29_TIM17773189631418399', 'April 29_TIM17773189631418399']
+
+cluster #26
+['carrier_HUM18264838847289264']
+
+cluster #27
+["T - Mobile's website_LOC28695786412990029"]
+
+Topic - 43_ecbplus
+cluster #1
+['AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', "AMD's_HUM18264819130490380", 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380', "AMD's_HUM18264819130490380", 'AMD_HUM18264819130490380', 'AMD_HUM18264819130490380']
+
+cluster #2
+['SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828', 'SeaMicro_HUM18264803095501828']
+
+cluster #3
+['Intel - based servers_NON17773540574593056', 'server_NON17773540574593056', 'server_NON17773540574593056', 'server_NON18182598843804563', 'Server_NON18182598843804563', 'Server_NON18182598843804563', 'server_NON17773540574593056', 'dense servers_NON17773540574593056', 'server_NON18182598843804563']
+
+cluster #4
+['Server Start - Up_HUM18264803095501828']
+
+cluster #5
+['Server Innovator SeaMicro_HUM18264803095501828', 'vendor SeaMicro_HUM18264803095501828', 'vendor SeaMicro_HUM18264803095501828', 'vendor SeaMicro_HUM18264803095501828', 'upstart SeaMicro_HUM18264803095501828', 'vendor SeaMicro_HUM18264803095501828', 'Startup SeaMicro_HUM18264803095501828']
+
+cluster #6
+['microserver_NON17773540574593056', '"microserver"_NON17773540574593056', 'microserver_NON17773540574593056', 'microserver_NON17773540574593056', 'microserver_NON17773540574593056', 'microservers_NON17773540574593056', 'Microserver_NON17773540574593056', 'microservers_NON17773540574593056']
+
+cluster #7
+['$334 million_NON28696442679077092', '$334 million_NON28696442679077092', '$334 million_NON28696442679077092', '$281 million_NON28696517115277946', '$334 million_NON28696442679077092', '$334 million_NON28696442679077092', '$281 million_NON28696517115277946', '$334 million_NON28696442679077092', '$281 million_NON28696517115277946', 'US$334 million_NON28696442679077092', '$334 Million_NON28696442679077092', '$334 million_NON28696442679077092']
+
+cluster #8
+['company_HUM18264819130490380']
+
+cluster #9
+['they_HUM18183311618453753']
+
+cluster #10
+['On Wednesday afternoon_TIM17773978877927505', 'on Wednesday_TIM17773926775621442']
+
+cluster #11
+['microserver manufacturer_HUM18264803095501828']
+
+cluster #12
+['user_HUM18264803095501828']
+
+cluster #13
+['Intel chips_NON17774037923817796']
+
+cluster #14
+['Advanced Micro Devices_HUM18264819130490380', 'Advanced Micro Devices_HUM18264819130490380', 'Advanced Micro Devices_HUM18264819130490380', 'Advanced Micro Devices_HUM18264819130490380', 'Advanced Micro Devices_HUM18264819130490380']
+
+cluster #15
+['Intel_HUM17764318691647091', 'Intel_HUM17764318691647091', 'Intel_HUM17764318691647091', 'Intel_HUM17764318691647091', 'Intel_HUM17764318691647091']
+
+cluster #16
+['We_HUM18264819130490380']
+
+cluster #17
+['it_HUM18264819130490380', 'it_HUM18264819130490380']
+
+cluster #18
+['pioneer_HUM18264803095501828']
+
+cluster #19
+['cash_NON18182635433595466', 'cash_NON18182635433595466', 'cash_NON18182635433595466']
+
+cluster #20
+['today_TIM17773926775621442', 'today_TIM17773926775621442']
+
+cluster #21
+['Sea Micro_HUM18264803095501828', 'Sea Micro_HUM18264803095501828']
+
+cluster #22
+['$334M_NON28696442679077092']
+
+cluster #23
+['Server Hardware_NON18182598843804563']
+
+cluster #24
+['one_HUM18264803095501828']
+
+cluster #25
+['partners_Singleton_HUM_7_43_5ecbplus']
+
+cluster #26
+['Wednesday_TIM17773926775621442']
+
+cluster #27
+['its_HUM17764318691647091', 'its_HUM18264819130490380', 'its_HUM18264819130490380']
+
+cluster #28
+['which_HUM18264803095501828']
+
+cluster #29
+['maker_HUM18264803095501828']
+
+cluster #30
+['for $334 million_NON28696442679077092']
+
+cluster #31
+['data center fabric technology_NON28700264321413303']
+
+cluster #32
+['startup SeaMicro_HUM18264803095501828']
+
+cluster #33
+['itself_HUM18264819130490380']
+
+cluster #34
+['Nvidia_Singleton_HUM_6_43_9ecbplus']
+
+cluster #35
+['ARM - based players_Singleton_HUM_7_43_9ecbplus']
+
+Topic - 44_ecbplus
+cluster #1
+['Consultants_HUM18184966441918857']
+
+cluster #2
+['HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041', 'HP_HUM18184954911690041']
+
+cluster #3
+['Data Center_LOC18222747617746677', 'Data Center_LOC18222747617746677', 'Data Center_LOC18222747617746677', 'Data Center_LOC18222747617746677']
+
+cluster #4
+['Hewlett - Packard_HUM18184954911690041', 'Hewlett - Packard_HUM18184954911690041', 'Hewlett - Packard_HUM18184954911690041', 'Hewlett - Packard_HUM18184954911690041', 'Hewlett - Packard_HUM18184954911690041', 'Hewlett - Packard_HUM18184954911690041', 'Hewlett - Packard_HUM18184954911690041', 'Hewlett - Packard_HUM18184954911690041']
+
+cluster #5
+['it_HUM18184954911690041', 'it_HUM18184954911690041', 'it_HUM18184954911690041', 'it_HUM18184954911690041', 'it_HUM18184954911690041', 'it_HUM18184954911690041', 'it_HUM18184954911690041', 'it_HUM18184954911690041']
+
+cluster #6
+['EYP Mission Critical Facilities_HUM18184966441918857', 'EYP Mission Critical Facilities_HUM18184966441918857', 'EYP Mission Critical Facilities_HUM18184966441918857', 'firm EYP Mission Critical Facilities_HUM18184966441918857', 'company EYP Mission Critical Facilities_HUM18184966441918857', 'Company EYP Mission Critical Facilities_HUM18184966441918857', 'EYP Mission Critical Facilities_HUM18184966441918857', 'EYP Mission Critical Facilities_HUM18184966441918857', 'EYP Mission Critical Facilities_HUM18184966441918857', 'EYP Mission Critical Facilities_HUM18184966441918857', 'EYP Mission Critical Facilities_HUM18184966441918857', 'EYP Mission Critical Facilities_HUM18184966441918857', 'EYP Mission Critical Facilities_HUM18184966441918857']
+
+cluster #7
+['company_HUM18184966441918857', 'tech company_HUM18184954911690041', 'company_HUM18184966441918857', 'company_HUM18184966441918857', 'company_HUM18184954911690041', 'company_HUM18184966441918857', 'company_HUM18184966441918857', 'company_HUM18184966441918857', 'New York company_HUM18184966441918857', 'company_HUM18184966441918857']
+
+cluster #8
+['data centers_LOC18222747617746677', 'data center_LOC18222747617746677', 'data center_LOC18222747617746677', 'data centers_LOC18222747617746677', 'data centers_LOC18222747617746677', 'data center_LOC18222747617746677', 'data centers_LOC18222747617746677', 'data center_LOC18222747617746677', 'data center_LOC18222747617746677']
+
+cluster #9
+['Tuesday_TIM18222770809051864']
+
+cluster #10
+['technology_NON28842461412218408', 'technology_NON28842461412218408', 'technology_NON28842461412218408', 'technology_NON28842461412218408', 'technology_NON28842461412218408']
+
+cluster #11
+['fiscal quarter_TIM18232685153332606']
+
+cluster #12
+['IBM_Singleton_HUM_2_44_11ecbplus']
+
+cluster #13
+['another_Singleton_TIM_35_44_11ecbplus']
+
+cluster #14
+['EYP Mission Critical Facilities Inc_HUM18184966441918857', 'EYP Mission Critical Facilities Inc_HUM18184966441918857', 'EYP Mission Critical Facilities Inc . ( EYP MCF_HUM18184966441918857', 'EYP Mission Critical Facilities Inc_HUM18184966441918857']
+
+cluster #15
+['which_HUM18184966441918857']
+
+cluster #16
+['division_HUM18184966441918857', 'services division_INTRA_HUM_38475_44_6ecbplus', 'services division_INTRA_HUM_38475_44_6ecbplus']
+
+cluster #17
+['sources_Singleton_HUM_33_44_11ecbplus']
+
+cluster #18
+['sum_NON18232699143283871', 'sum_NON18232699143283871', 'sum_NON18232699143283871', 'sum_NON18232699143283871']
+
+cluster #19
+['EYP_HUM18184966441918857', 'Energy Specialist EYP_HUM18184966441918857', 'EYP_HUM18184966441918857', 'EYP_HUM18184966441918857']
+
+cluster #20
+['TA Associates_Singleton_HUM_19_44_12ecbplus']
+
+cluster #21
+['firm_HUM18184966441918857', 'Firm_HUM18184966441918857']
+
+cluster #22
+['data centre_LOC18222747617746677']
+
+cluster #23
+['Technology products_Singleton_NON_43_44_15ecbplus']
+
+cluster #24
+['services_Singleton_NON_44_44_15ecbplus']
+
+cluster #25
+['on Monday 12 November_TIM18222770809051864', 'on Monday_TIM18222770809051864']
+
+cluster #26
+['today_TIM18222770809051864', 'today_TIM18222770809051864', 'today_TIM18222770809051864']
+
+cluster #27
+['that_HUM18184966441918857', 'that_HUM18184966441918857']
+
+cluster #28
+['OEM_HUM18184954911690041']
+
+cluster #29
+['its_HUM18184954911690041', 'its_HUM18184954911690041', 'its_HUM18184954911690041', 'its_HUM18184954911690041']
+
+cluster #30
+['Nov . 12_TIM18222770809051864']
+
+cluster #31
+['facilities_LOC18222747617746677']
+
+cluster #32
+['Monday_TIM18222770809051864']
+
+cluster #33
+['datacenter_LOC18222747617746677', 'datacenters_LOC18222747617746677']
+
+cluster #34
+['green - consulting space_Singleton_LOC_68_44_8ecbplus']
+
+Topic - 45_ecbplus
+cluster #1
+['Jury_HUM18263585229523174', 'jury_HUM18263585229523174', 'jury_HUM18263585229523174', 'Jury_HUM18263585229523174', 'jury_HUM18263585229523174', 'jury_HUM18263585229523174', 'LeFlore County jury_HUM18263585229523174', 'Oklahoma jury_HUM18263585229523174', 'Jury_HUM18263585229523174', 'jury_HUM18263585229523174', 'jury_HUM18263585229523174', 'jury_HUM18263585229523174', 'jury_HUM18263585229523174', 'jury_HUM18263585229523174', 'jury_HUM18263585229523174']
+
+cluster #2
+['man_HUM18223024215501666', 'Spiro man_HUM18223024215501666', 'Spiro man_HUM18223024215501666', 'Spiro man_HUM18223024215501666', 'Spiro man_HUM18223024215501666', 'Oklahoma man_HUM18223024215501666', 'Oklahoma man_HUM18223024215501666', 'Oklahoma man_HUM18223024215501666', 'Oklahoma man_HUM18223024215501666', 'Spiro man_HUM18223024215501666', 'Man_HUM18223024215501666', 'man_HUM18223024215501666', 'Man_HUM18223024215501666', 'man_HUM18223024215501666', 'Oklahoma man_HUM18223024215501666']
+
+cluster #3
+["woman's_HUM18223038335150533", 'Arkansas woman_HUM18223038335150533', 'woman_HUM18223038335150533', 'Arkansas woman_HUM18223038335150533', 'Arkansas woman_HUM18223038335150533', 'Arkansas woman_HUM18223038335150533', 'Arkansas woman_HUM18223038335150533', 'Arkansas woman_HUM18223038335150533']
+
+cluster #4
+['girlfriend_HUM18223038335150533', 'Girlfriend_HUM18223038335150533', 'girlfriend_HUM18223038335150533', 'Girlfriend_HUM18223038335150533', 'girlfriend_HUM18223038335150533', 'girlfriend_HUM18223038335150533', 'girlfriend_HUM18223038335150533', 'Girlfriend_HUM18223038335150533', 'girlfriend_HUM18223038335150533', 'girlfriend_HUM18223038335150533', 'girlfriend_HUM18223038335150533', 'girlfriend_HUM18223038335150533', 'girlfriend_HUM18223038335150533']
+
+cluster #5
+['in eastern Oklahoma_LOC18223553538774392', 'in eastern Oklahoma_LOC18223553538774392', 'in Poteau_Singleton_LOC_56_45_12ecbplus', 'in eastern Oklahoma_LOC18223553538774392', 'in eastern Oklahoma_LOC18223553538774392', 'in eastern Oklahoma_LOC18223553538774392']
+
+cluster #6
+['two counts_NON28865600810150024', 'two counts_NON28865600810150024', 'two counts_NON28865600810150024', 'two counts_NON28865600810150024', 'two counts_NON28865600810150024', 'two counts_NON28865600810150024']
+
+cluster #7
+['2012_TIM18223125840011797', '2012_TIM18223125840011797', '2012_TIM18223125840011797', '2012_TIM18223125840011797']
+
+cluster #8
+['Christopher Kenyon Simpson_HUM18223024215501666', 'Christopher Kenyon Simpson_HUM18223024215501666', 'Christopher Kenyon Simpson_HUM18223024215501666', 'Simpson_HUM18223024215501666', 'Christopher Kenyon Simpson_HUM18223024215501666', 'Christopher Kenyon Simpson_HUM18223024215501666', 'Christopher Kenyon Simpson_HUM18223024215501666', 'Christopher Kenyon Simpson_HUM18223024215501666', 'Christopher Simpson_HUM18223024215501666', 'Christopher Simpson_HUM18223024215501666', 'Christopher Kenyon Simpson_HUM18223024215501666', 'Christopher Kenyon Simpson_HUM18223024215501666', 'Christopher Kenyon Simpson_HUM18223024215501666', 'Christopher Kenyon Simpson_HUM18223024215501666']
+
+cluster #9
+["Ka'loni Flynn_HUM18223038335150533", "Ka'loni Flynn_HUM18223038335150533", "Ka'Loni Flynn_HUM18223038335150533", "Ka'Loni Marie Flynn_HUM18223038335150533", "Ka'Loni Marie Flynn_HUM18223038335150533", "Ka'Loni Marie Flynn_HUM18223038335150533", "Ka'loni Flynn_HUM18223038335150533", "Ka'loni Flynn_HUM18223038335150533", "Ka'loni Flynn_HUM18223038335150533", "Ka'Loni Marie Flynn_HUM18223038335150533"]
+
+cluster #10
+['of Fort Smith , Ark_LOC18223529902781725', 'of Fort Smith , Ark_LOC18223529902781725', 'of Fort Smith_LOC18223529902781725', 'of Fort Smith , Ark_LOC18223529902781725', 'of Fort Coffee_LOC18223541965735708', 'of Fort Coffee_LOC18223541965735708', 'of Fort Smith , Ark_LOC18223529902781725', 'of Fort Smith , Ark_LOC18223529902781725', 'of Fort Coffee_LOC18223541965735708', 'of Fort Smith , Ark_LOC18223529902781725', 'of Spiro_LOC18223569532966478', 'of Fort Smith , Arkansas_LOC18223529902781725', 'of Fort Coffee_LOC18223541965735708', 'of Fort Smith , Ark_LOC18223529902781725']
+
+cluster #11
+['almost seven hours_TIM18243460353763364', 'seven hours_TIM18243460353763364', 'almost seven hours_TIM18243460353763364', 'almost seven hours_TIM18243460353763364', 'almost seven hours_TIM18243460353763364', 'seven hours_TIM18243460353763364']
+
+cluster #12
+['Thursday_TIM18223107573589561', 'Thursday_TIM18223107573589561', 'Thursday_TIM18223107573589561', 'Thursday_TIM18223107573589561', 'Thursday_TIM18223107573589561', 'Thursday_TIM18223107573589561', 'Thursday_TIM18223107573589561']
+
+cluster #13
+['Spiro Man_HUM18223024215501666', 'Spiro Man_HUM18223024215501666']
+
+cluster #14
+['fetus_HUM18223048579487818', 'fetus_HUM18223048579487818', 'fetus_HUM18223048579487818', 'fetus_HUM18223048579487818', 'fetus_HUM18223048579487818', 'fetus_HUM18223048579487818', 'fetus_HUM18223048579487818', 'fetus_HUM18223048579487818']
+
+cluster #15
+['Prosecutors_HUM18263572771489704']
+
+cluster #16
+['April 2012_TIM18223125840011797']
+
+cluster #17
+['Times Record_Singleton_HUM_47_45_12ecbplus']
+
+cluster #18
+['Friday_Singleton_TIM_52_45_12ecbplus']
+
+cluster #19
+['several days_Singleton_TIM_44_45_12ecbplus']
+
+cluster #20
+['LeFlore Jury_HUM18263585229523174']
+
+cluster #21
+['Thursday evening_TIM18223107573589561']
+
+cluster #22
+['Fort Smith_LOC18223529902781725']
+
+cluster #23
+['Okla . man_HUM18223024215501666', 'Okla . man_HUM18223024215501666']
+
+cluster #24
+['Jacob Howell_Singleton_HUM_6_45_2ecbplus', 'Jacob Howell_Singleton_HUM_6_45_4ecbplus']
+
+cluster #25
+['who_HUM18223024215501666', 'who_HUM18223024215501666']
+
+cluster #26
+['for June 17_TIM18223140945893725', 'for June 17_TIM18223140945893725']
+
+cluster #27
+['Oklahoma_LOC18223553538774392']
+
+cluster #28
+['child_HUM18243529944138201', 'child_HUM18223048579487818', 'child_HUM18243529944138201']
+
+cluster #29
+['he_HUM18223024215501666']
+
+cluster #30
+['12 week_Singleton_TIM_100_45_5ecbplus']
+
+cluster #31
+['His_HUM18223024215501666']
+
+cluster #32
+['November 8_TIM18223156529120959']
+
+cluster #33
+["'he_HUM18223024215501666"]
+
+cluster #34
+['baby_HUM18223048579487818', 'baby_HUM18223048579487818']
+
+cluster #35
+['she_HUM18223038335150533', 'she_HUM18223038335150533']
+
