@@ -1,4 +1,5 @@
+// models/lemma_baseline.py
 {
-  "test_path":"../feature/output/test_data",
-  "output_path":"baseline/"
+  "test_path":"../data/feature/output/test_data",
+  "output_path":"../output/baseline/"
 }

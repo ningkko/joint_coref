@@ -1,0 +1,67 @@
+version: 8.01 /Users/neneko/Documents/GitHub/joint_coref/scorer/lib/CorScorer.pm
+
+METRIC muc:
+====> (ECB+/ecbplus_all); part 000:
+File (ECB+/ecbplus_all); part 000:
+
+...
+
+====> (ECB+/ecbplus_all); part 000:
+File (ECB+/ecbplus_all); part 000:
+
+...
+
+(ECB+/ecbplus_all); part 000:
+Total key mentions: 2055
+Total response mentions: 2055
+Strictly correct identified mentions: 2055
+Partially correct identified mentions: 0
+No identified: 0
+Invented: 0
+Recall: (249 / 677) 36.77%	Precision: (249 / 332) 75%	F1: 49.35%
+--------------------------------------------------------------------------
+
+====== TOTALS =======
+Identification of Mentions: Recall: (2055 / 2055) 100%	Precision: (2055 / 2055) 100%	F1: 100%
+--------------------------------------------------------------------------
+Coreference: Recall: (249 / 677) 36.77%	Precision: (249 / 332) 75%	F1: 49.35%
+--------------------------------------------------------------------------
+
+METRIC bcub:
+====> (ECB+/ecbplus_all); part 000:
+File (ECB+/ecbplus_all); part 000:
+
+...
+
+====> (ECB+/ecbplus_all); part 000:
+File (ECB+/ecbplus_all); part 000:
+
+...
+
+(ECB+/ecbplus_all); part 000:
+Total key mentions: 2055
+Total response mentions: 2055
+Strictly correct identified mentions: 2055
+Partially correct identified mentions: 0
+No identified: 0
+Invented: 0
+Recall: (1566.14285714286 / 2055) 76.21%	Precision: (1966.26666666667 / 2055) 95.68%	F1: 84.84%
+--------------------------------------------------------------------------
+
+====== TOTALS =======
+Identification of Mentions: Recall: (2055 / 2055) 100%	Precision: (2055 / 2055) 100%	F1: 100%
+--------------------------------------------------------------------------
+Coreference: Recall: (1566.14285714286 / 2055) 76.21%	Precision: (1966.26666666667 / 2055) 95.68%	F1: 84.84%
+--------------------------------------------------------------------------
+
+METRIC ceafm:
+====> (ECB+/ecbplus_all); part 000:
+File (ECB+/ecbplus_all); part 000:
+
+...
+
+====> (ECB+/ecbplus_all); part 000:
+File (ECB+/ecbplus_all); part 000:
+
+...
+
