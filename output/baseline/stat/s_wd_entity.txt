@@ -1,87 +1,97 @@
-version: 8.01 /Users/neneko/Documents/GitHub/joint_coref/scorer/lib/CorScorer.pm
 
+...
+
+
+======================================
 METRIC muc:
-====> (ECB+/ecbplus_all); part 000:
-File (ECB+/ecbplus_all); part 000:
 
 ...
 
-====> (ECB+/ecbplus_all); part 000:
-File (ECB+/ecbplus_all); part 000:
-
-...
-
-(ECB+/ecbplus_all); part 000:
-Total key mentions: 2055
-Total response mentions: 2055
-Strictly correct identified mentions: 2055
-Partially correct identified mentions: 0
-No identified: 0
-Invented: 0
 Recall: (249 / 677) 36.77%	Precision: (249 / 332) 75%	F1: 49.35%
---------------------------------------------------------------------------
 
-====== TOTALS =======
+...
+
 Identification of Mentions: Recall: (2055 / 2055) 100%	Precision: (2055 / 2055) 100%	F1: 100%
---------------------------------------------------------------------------
-Coreference: Recall: (249 / 677) 36.77%	Precision: (249 / 332) 75%	F1: 49.35%
---------------------------------------------------------------------------
 
+...
+
+Coreference: Recall: (249 / 677) 36.77%	Precision: (249 / 332) 75%	F1: 49.35%
+
+...
+
+
+======================================
 METRIC bcub:
-====> (ECB+/ecbplus_all); part 000:
-File (ECB+/ecbplus_all); part 000:
 
 ...
 
-====> (ECB+/ecbplus_all); part 000:
-File (ECB+/ecbplus_all); part 000:
-
-...
-
-(ECB+/ecbplus_all); part 000:
-Total key mentions: 2055
-Total response mentions: 2055
-Strictly correct identified mentions: 2055
-Partially correct identified mentions: 0
-No identified: 0
-Invented: 0
 Recall: (1566.14285714286 / 2055) 76.21%	Precision: (1966.26666666667 / 2055) 95.68%	F1: 84.84%
---------------------------------------------------------------------------
 
-====== TOTALS =======
+...
+
 Identification of Mentions: Recall: (2055 / 2055) 100%	Precision: (2055 / 2055) 100%	F1: 100%
---------------------------------------------------------------------------
-Coreference: Recall: (1566.14285714286 / 2055) 76.21%	Precision: (1966.26666666667 / 2055) 95.68%	F1: 84.84%
---------------------------------------------------------------------------
 
+...
+
+Coreference: Recall: (1566.14285714286 / 2055) 76.21%	Precision: (1966.26666666667 / 2055) 95.68%	F1: 84.84%
+
+...
+
+
+======================================
 METRIC ceafm:
-====> (ECB+/ecbplus_all); part 000:
-File (ECB+/ecbplus_all); part 000:
 
 ...
 
-====> (ECB+/ecbplus_all); part 000:
-File (ECB+/ecbplus_all); part 000:
+Recall: (1561 / 2055) 75.96%	Precision: (1561 / 2055) 75.96%	F1: 75.96%
 
 ...
 
+Identification of Mentions: Recall: (2055 / 2055) 100%	Precision: (2055 / 2055) 100%	F1: 100%
 
 ...
 
-
-...
-
-Coreference: Recall: (249 / 677) 36.77%	Precision: (249 / 332) 75%	F1: 49.35%
+Coreference: Recall: (1561 / 2055) 75.96%	Precision: (1561 / 2055) 75.96%	F1: 75.96%
 
 ...
 
 
+======================================
+METRIC ceafe:
+
 ...
 
-Coreference: Recall: (1566.14285714286 / 2055) 76.21%	Precision: (1966.26666666667 / 2055) 95.68%	F1: 84.84%
+Recall: (1199.52433122433 / 1378) 87.04%	Precision: (1199.52433122433 / 1723) 69.61%	F1: 77.36%
 
 ...
 
+Identification of Mentions: Recall: (2055 / 2055) 100%	Precision: (2055 / 2055) 100%	F1: 100%
+
+...
+
+Coreference: Recall: (1199.52433122433 / 1378) 87.04%	Precision: (1199.52433122433 / 1723) 69.61%	F1: 77.36%
+
+...
+
+
+======================================
+METRIC blanc:
+
+...
+
+Identification of Mentions: Recall: (2055 / 2055) 100%	Precision: (2055 / 2055) 100%	F1: 100%
+
+...
+
+Coreference links: Recall: (289 / 1127) 25.64%	Precision: (289 / 397) 72.79%	F1: 37.92%
+
+...
+
+Non-coreference links: Recall: (2109250 / 2109358) 99.99%	Precision: (2109250 / 2110088) 99.96%	F1: 99.97%
+
+...
+
+BLANC: Recall: (0.628190903786583 / 1) 62.81%	Precision: (0.863781278949036 / 1) 86.37%	F1: 68.95%
 
 ...
 

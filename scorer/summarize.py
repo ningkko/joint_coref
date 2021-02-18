@@ -23,10 +23,13 @@ def print_place_holder():
 with open(args.input_path, 'r') as file:
     lines = file.readlines()
     for line in lines:
-        if "Entity" not in line:
+        if "METRIC" in line:
             placed_holder_printed = 0
-            if "Coref" in line:
-                print(line.strip("\n"))
+            print("\n======================================")
+            print(line.strip("\n"))
+        if "Recall" in line: 
+            placed_holder_printed = 0
+            print(line.strip("\n"))
         else:
             print_place_holder()
 

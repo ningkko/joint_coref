@@ -7,20 +7,14 @@ python3 data/feature/build_feature.py --config_path feature_config.json" --outpu
 python3 models/lemma_baseline.py --config_path "lemma_baseline_config.json"
 
 
-### cd entity
+### evaluation (takes some time)
 
 perl scorer/scorer.pl all data/gold/CD_test_entity_mention_based.key_conll  output/baseline/CD_test_entity_mention_based.response_conll >> output/baseline/stat/CD_entity.txt 
 
 
-### wd entity
-
 perl scorer/scorer.pl all data/gold/wd_test_entity_mention_based.key_conll  output/baseline/wd_test_entity_mention_based.response_conll >> output/baseline/stat/wd_entity.txt 
 
-### cd event
-
 perl scorer/scorer.pl all data/gold/CD_test_event_mention_based.key_conll  output/baseline/CD_test_event_mention_based.response_conll >> output/baseline/stat/CD_event.txt 
-
-### wd event
 
 perl scorer/scorer.pl all data/gold/wd_test_event_mention_based.key_conll  output/baseline/wd_test_event_mention_based.response_conll >> output/baseline/stat/wd_event.txt 
 
