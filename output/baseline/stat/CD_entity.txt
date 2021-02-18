@@ -4233,4 +4233,6 @@ Entity 691: (1506,1506)
 Entity 692: (1511,1511)
 Entity 693: (1517,1517) (1528,1528) (1542,1542)
 Entity 694: (1518,1518) (1543,1543)
-E
+Eversion: 8.01 /Users/neneko/Documents/GitHub/joint_coref/scorer/lib/CorScorer.pm
+
+METRIC muc:

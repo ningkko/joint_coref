@@ -65,3 +65,23 @@ File (ECB+/ecbplus_all); part 000:
 
 ...
 
+
+...
+
+
+...
+
+Coreference: Recall: (249 / 677) 36.77%	Precision: (249 / 332) 75%	F1: 49.35%
+
+...
+
+
+...
+
+Coreference: Recall: (1566.14285714286 / 2055) 76.21%	Precision: (1966.26666666667 / 2055) 95.68%	F1: 84.84%
+
+...
+
+
+...
+
