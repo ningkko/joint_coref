@@ -13,6 +13,27 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 from classes import *
+
+def calc_conll_f1(scorer_file):
+    """
+    calculates all F1 scores in the scorer output file
+    :return: a float representing the conll f1 score 
+    """
+    
+    f1_list = []
+    with open(filename, "r") as ins:
+        for line in ins:
+            new_line = line.strip()
+            if new_line.find('F1:') != -1:
+                f1_list.append(float(new_line.split(': ')[-1][:-1]))
+
+    muc_f1 = f1_list[1]
+    bcued_f1 = f1_list[3]
+    ceafe_f1 = f1_list[7]
+
+    return (muc_f1 + bcued_f1 + ceafe_f1)/float(3)
+
+
 def write_mention_based_cd_clusters(corpus, is_event, is_gold,out_file):
     '''
     This function writes the cross-document (CD) predicted clusters to a file (in a CoNLL format)
