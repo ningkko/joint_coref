@@ -108,16 +108,37 @@ def plot_entity_dist(df):
     sns.barplot(x = "occurrence" ,y = "frequency", data = entity_freq)
     plt.savefig("entity_freq.png")
 
+def extract_coref_clusters(mentions):
+    keys = []
+    for m in mentions:
+        _key = m["coref_chain"]
+        if _key not in keys: 
+            keys.append(_key)
+
+    _dict = {}
+    for k in keys:
+        for m in mentions:
+            if m["coref_chain"] == k:
+                if k in _dict:
+                    _dict[k].append(m["tokens_str"])
+                else:
+                    _dict[k] = [m["tokens_str"]]
+
+    return _dict
 
 def main():
 
     # join_non_singleton_event_mentions()
     # join_non_singleton_entity_mentions()
-    # with open("total_entity.json","r") as file:
-    #     entities = json.load(file)    
-    # with open("total_event.json","r") as file:
-    #     events = json.load(file)    
+    with open("total_entity.json","r") as file:
+        entities = json.load(file)    
+    with open("total_event.json","r") as file:
+        events = json.load(file)    
 
+    total = entities+events
+    corefs = extract_coref_clusters(total)
+    with open("clusters.json","w") as file:
+    	   json.dump(corefs, file, indent=4)
     # keys = []
     # df = pd.DataFrame()
     # df = count_entity(keys,entities,df)
@@ -127,10 +148,10 @@ def main():
     # df = df.sort_values(by=["entity","event"],ascending=False)
     # df.to_csv("stats.csv")
 
-    df = pd.read_csv("stats.csv")
+    # df = pd.read_csv("stats.csv")
 
-    plot_entity_dist(df)
-    plot_event_dist(df)
+    # plot_entity_dist(df)
+    # plot_event_dist(df)
     
 main()
 
