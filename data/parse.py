@@ -253,17 +253,6 @@ def read_ecb_plus_doc(docs,file_obj):
             for token_id in within_coref[key][0]:
                 tokens[token_id].rel_id = (key, within_coref[key][1])
 
-        for mid in mid_to_tid_dict:
-            if mid not in mapped_mid:  # singleton mention
-                mention_class = mid_to_tag[mid]
-                cls = find_mention_class(mention_class)
-                singleton_instance_id = 'Singleton_{}_{}_{}'.format(cls,mid,doc_id )
-                mid_to_coref_chain[mid] = singleton_instance_id
-                unmapped_tids = mid_to_tid_dict[mid]
-                for token_id in unmapped_tids:
-                    if tokens[token_id].rel_id is None:
-                        tokens[token_id].rel_id = (singleton_instance_id,'padding')
-
         # creating an instance for each mention
         for mid in mid_to_tid_dict:
             tids = mid_to_tid_dict[mid]
@@ -300,10 +289,10 @@ def read_ecb_plus_doc(docs,file_obj):
                     if sent_id > 0:
                         sent_id -= 1
                 # print(tokens_str)
-
-                mention_obj = MentionData(doc_id, sent_id, token_numbers, ' '.join(tokens_str),
-                                           coref_chain, mention_type,is_continuous=is_continuous,
-                                           is_singleton=is_singleton, score=float(-1))
+                if not is_singleton:
+                    mention_obj = MentionData(doc_id, sent_id, token_numbers, ' '.join(tokens_str),
+                                               coref_chain, mention_type,is_continuous=is_continuous,
+                                               is_singleton=is_singleton, score=float(-1))
 
                 extracted_mentions.append(mention_obj)
         prev_sent_id = None
