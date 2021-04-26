@@ -1,0 +1,23 @@
+{
+    "dev_entity_mentions": "data/prep/ECB_Dev_Entity_gold_mentions.json",
+    "dev_event_mentions": "data/prep/ECB_Dev_Event_gold_mentions.json",
+    "dev_text_file": "data/prep/ECB_Dev_corpus.txt",
+    "load_elmo": true,
+    "load_predicted_mentions": false,
+    "options_file": "elmo/elmo_2x4096_512_2048cnn_2xhighway_5.5B_options.json",
+    "pred_entity_mentions": "",
+    "pred_event_mentions": "",
+    "relaxed_match_with_gold_mention": false,
+    "srl_output_path": "data/external/swirl_output",
+    "test_entity_mentions": "data/prep/ECB_Test_Entity_gold_mentions.json",
+    "test_event_mentions": "data/prep/ECB_Test_Event_gold_mentions.json",
+    "test_text_file": "data/prep/ECB_Test_corpus.txt",
+    "train_entity_mentions": "data/prep/ECB_Train_Entity_gold_mentions.json",
+    "train_event_mentions": "data/prep/ECB_Train_Event_gold_mentions.json",
+    "train_text_file": "data/prep/ECB_Train_corpus.txt",
+    "use_allen_srl": false,
+    "use_dep": true,
+    "use_left_right_mentions": true,
+    "use_srl": true,
+    "weight_file": "elmo/elmo_2x4096_512_2048cnn_2xhighway_5.5B_weights.hdf5"
+}
