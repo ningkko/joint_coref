@@ -1351,7 +1351,7 @@ def merge_clusters(pair_to_merge, clusters ,other_clusters, is_event,
     cluster_i = pair_to_merge[0]
     cluster_j = pair_to_merge[1]
     new_cluster = Cluster(is_event)
-    new_cluster.mentions.update(cluster_j.mentions)
+    new_cluster.mentions.update(cluster_j.mentions)         ##     new_cluster.mentions.update(cluster_j.mentions) : {}
     new_cluster.mentions.update(cluster_i.mentions)
 
     keys_pairs_dict = list(curr_pairs_dict.keys())
@@ -1428,7 +1428,7 @@ def assign_score(cluster_pair, model, device, topic_docs, is_event, use_args_fea
     return scores_sum/float(pairs_count)
 
 
-def merge(clusters, cluster_pairs, other_clusters,model, device, topic_docs, epoch, topics_counter,
+def merge(clusterer, clusters, cluster_pairs, other_clusters,model, device, topic_docs, epoch, topics_counter,
           topics_num, threshold, is_event, use_args_feats, use_binary_feats):
     '''
     Merges cluster pairs in agglomerative manner till it reaches a pre-defined threshold. In each step, the function merges
@@ -1473,6 +1473,7 @@ def merge(clusters, cluster_pairs, other_clusters,model, device, topic_docs, epo
             logging.info('Less the 2 clusters had left, stop merging!')
             break
         max_pair, max_score = key_with_max_val(pairs_dict)
+
 
         if max_score > threshold:
             print('epoch {} topic {}/{} - merge {} clusters with score {} clusters : {} {}'.format(

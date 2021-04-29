@@ -12,6 +12,7 @@ import itertools
 import numpy as np
 from scorer import *
 import _pickle as cPickle
+import hdbscan
 
 for pack in os.listdir("src"):
     sys.path.append(os.path.join("src", pack))
@@ -72,7 +73,7 @@ if args.use_cuda:
     print('Training with CUDA')
 
 
-def train_model(train_set, dev_set):
+def train_model(train_set, dev_set, clusterer):
     '''
     Initializes models, optimizers and loss functions, then, it runs the training procedure that
     alternates between entity and event training and clustering on the train set.
@@ -160,7 +161,7 @@ def train_model(train_set, dev_set):
                 # Entities
                 print('Train entity model and merge entity clusters...')
                 logging.info('Train entity model and merge entity clusters...')
-                train_and_merge(clusters=entity_clusters, other_clusters=event_clusters,
+                train_and_merge(clusterer, clusters=entity_clusters, other_clusters=event_clusters,
                                 model=cd_entity_model, optimizer=cd_entity_optimizer,
                                 loss=cd_entity_loss,device=device,topic=topic,is_event=False,epoch=epoch,
                                 topics_counter=topics_counter, topics_num=topics_num,
@@ -168,7 +169,7 @@ def train_model(train_set, dev_set):
                 # Events
                 print('Train event model and merge event clusters...')
                 logging.info('Train event model and merge event clusters...')
-                train_and_merge(clusters=event_clusters, other_clusters=entity_clusters,
+                train_and_merge(clusterer, clusters=event_clusters, other_clusters=entity_clusters,
                                 model=cd_event_model, optimizer=cd_event_optimizer,
                                 loss=cd_event_loss,device=device,topic=topic,is_event=True,epoch=epoch,
                                 topics_counter=topics_counter, topics_num=topics_num,
@@ -256,7 +257,7 @@ def train_model(train_set, dev_set):
             break
 
 
-def train_and_merge(clusters, other_clusters, model, optimizer,
+def train_and_merge(clusterer, clusters, other_clusters, model, optimizer,
                     loss, device, topic ,is_event, epoch,
                     topics_counter, topics_num, threshold):
     '''
@@ -303,7 +304,7 @@ def train_and_merge(clusters, other_clusters, model, optimizer,
         cluster_pairs = test_cluster_pairs
 
         # Merge clusters till reaching the threshold
-        merge(clusters, cluster_pairs, other_clusters, model, device, topic.docs, epoch,
+        merge(clusterer, clusters, cluster_pairs, other_clusters, model, device, topic.docs, epoch,
               topics_counter, topics_num, threshold, is_event,
               config_dict["use_args_feats"], config_dict["use_binary_feats"])
 
@@ -396,9 +397,10 @@ def main():
     with open(config_dict["dev_path"], 'rb') as f:
         dev_data = cPickle.load(f)
 
+    clusterer = hdbscan.HDBSCAN()
     logging.info('Training and dev data have been loaded.')
 
-    train_model(training_data, dev_data)
+    train_model(training_data, dev_data, clusterer)
 
 
 if __name__ == '__main__':
