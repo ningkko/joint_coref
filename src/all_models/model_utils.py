@@ -1322,6 +1322,52 @@ def key_with_max_val(d):
     return k[v.index(best_score)], best_score
 
 
+def kmeans_merge_clusters(pair_to_merge, clusters ,other_clusters, is_event,
+                          model, device, topic_docs, curr_pairs_dict,
+                          use_args_feats, use_binary_feats):
+
+    cluster_i = pair_to_merge[0]
+    cluster_j = pair_to_merge[1]
+    new_cluster = Cluster(is_event)
+    new_cluster.mentions.update(cluster_j.mentions)         ##     new_cluster.mentions.update(cluster_j.mentions) : {}
+    new_cluster.mentions.update(cluster_i.mentions)
+
+    keys_pairs_dict = list(curr_pairs_dict.keys())
+    for pair in keys_pairs_dict:
+        cluster_pair = (pair[0], pair[1])
+        if cluster_i in cluster_pair or cluster_j in cluster_pair:
+            del curr_pairs_dict[pair]
+
+    clusters.remove(cluster_i)
+    clusters.remove(cluster_j)
+    clusters.append(new_cluster)
+
+    if is_event:
+        lex_vec = create_event_cluster_bow_lexical_vec(new_cluster, model, device,
+                                                       use_char_embeds=True,
+                                                       requires_grad=False)
+    else:
+        lex_vec = create_entity_cluster_bow_lexical_vec(new_cluster, model, device,
+                                                        use_char_embeds=True,
+                                                        requires_grad=False)
+
+    new_cluster.lex_vec = lex_vec
+
+    # create arguments features for the new cluster
+    update_args_feature_vectors([new_cluster], other_clusters, model, device, is_event)
+
+    new_pairs = []
+    for cluster in clusters:
+        if cluster != new_cluster:
+            new_pairs.append((cluster, new_cluster))
+
+    # create scores for the new pairs
+    for pair in new_pairs:
+        pair_score = assign_score(pair, model, device, topic_docs, is_event,
+                                  use_args_feats, use_binary_feats, other_clusters)
+        curr_pairs_dict[pair] = pair_score
+
+
 def merge_clusters(pair_to_merge, clusters ,other_clusters, is_event,
                    model, device, topic_docs, curr_pairs_dict,
                    use_args_feats, use_binary_feats):
@@ -1466,31 +1512,28 @@ def merge(clusterer, clusters, cluster_pairs, other_clusters,model, device, topi
                                   use_args_feats,use_binary_feats, other_clusters)
         pairs_dict[pair] = pair_score
 
-    while True:
-        # finds max pair (break if we can't find one  - max score < threshold)
-        if len(pairs_dict) < 2:
-            print('Less the 2 clusters had left, stop merging!')
-            logging.info('Less the 2 clusters had left, stop merging!')
-            break
-        max_pair, max_score = key_with_max_val(pairs_dict)
+    # finds max pair (break if we can't find one  - max score < threshold)
+    if len(pairs_dict) < 2:
+        print('Less the 2 clusters had left, stop merging!')
+        logging.info('Less the 2 clusters had left, stop merging!')
+        return
+    max_pair, max_score = key_with_max_val(pairs_dict)
 
+    print('epoch {} topic {}/{} - merging {} clusters with score {} clusters with kmeans'.format(
+            epoch, topics_counter, topics_num, mode, str(max_score)))
+    logging.info('epoch {} topic {}/{} - merging {} clusters with score {} clusters with kmeans'.format(
+            epoch, topics_counter, topics_num, mode, str(max_score)))
+    # merge_clusters(max_pair, clusters, other_clusters, is_event,
+    #                         model, device, topic_docs, pairs_dict, use_args_feats,
+    #                         use_binary_feats)
+    kmeans_merge_clusters(max_pair, clusters, other_clusters, is_event,
+                            model, device, topic_docs, pairs_dict, use_args_feats,
+                            use_binary_feats)
 
-        if max_score > threshold:
-            print('epoch {} topic {}/{} - merge {} clusters with score {} clusters : {} {}'.format(
-                epoch, topics_counter, topics_num, mode, str(max_score), str(max_pair[0]),
-                str(max_pair[1])))
-            logging.info('epoch {} topic {}/{} - merge {} clusters with score {} clusters : {} {}'.format(
-                epoch, topics_counter, topics_num, mode, str(max_score), str(max_pair[0]),
-                str(max_pair[1])))
-            merge_clusters(max_pair, clusters, other_clusters, is_event,
-                           model, device, topic_docs, pairs_dict, use_args_feats,
-                           use_binary_feats)
-        else:
-            print('Max score = {} is lower than threshold = {},'
-                  ' stopped merging!'.format(max_score, threshold))
-            logging.info('Max score = {} is lower than threshold = {},' \
-                         ' stopped merging!'.format(max_score, threshold))
-            break
+    print('Max score = {} is lower than threshold = {},'
+          ' stopped merging!'.format(max_score, threshold))
+    logging.info('Max score = {} is lower than threshold = {},' \
+                 ' stopped merging!'.format(max_score, threshold))
 
 
 def test_model(clusters, other_clusters, model, device, topic_docs, is_event, epoch,
