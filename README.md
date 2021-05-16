@@ -29,3 +29,23 @@ python scorer/summarize.py --input_path output/baseline/stat/wd_entity.txt >> ou
 python scorer/summarize.py --input_path output/baseline/stat/CD_event.txt >> output/baseline/stat/s_CD_event.txt
 
 python scorer/summarize.py --input_path output/baseline/stat/wd_event.txt >> output/baseline/stat/s_wd_event.txt
+
+
+## Notes on setting up environment (Updated March 2021)
+
+Follow the instruction at the deriving repo.
+
+Install all the required package expect PyTorch with
+`pip install -r requirements.txt`
+
+We found pytorch 1.2.0 to be a working version. Recommend using Conda for installing a compatible version of pytorch.
+```
+# CUDA 9.2
+conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=9.2 -c pytorch
+
+# CUDA 10.0
+conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
+
+# CPU Only
+conda install pytorch==1.2.0 torchvision==0.4.0 cpuonly -c pytorch
+```
