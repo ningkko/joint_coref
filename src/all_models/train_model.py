@@ -73,7 +73,7 @@ if args.use_cuda:
     print('Training with CUDA')
 
 
-def train_model(train_set, dev_set, clusterer):
+def train_model(train_set, dev_set):
     '''
     Initializes models, optimizers and loss functions, then, it runs the training procedure that
     alternates between entity and event training and clustering on the train set.
@@ -145,10 +145,8 @@ def train_model(train_set, dev_set, clusterer):
             event_clusters = init_cd(event_mentions, is_event=True)
 
             # initialize cluster representation
-            update_lexical_vectors(entity_clusters, cd_entity_model, device,
-                                   is_event=False, requires_grad=False)
-            update_lexical_vectors(event_clusters, cd_event_model, device,
-                                   is_event=True, requires_grad=False)
+            update_lexical_vectors(entity_clusters, cd_entity_model, device, config_dict, is_event=False)
+            update_lexical_vectors(event_clusters, cd_event_model, device, config_dict, is_event=True)
 
             entity_th = config_dict["entity_merge_threshold"]
             event_th = config_dict["event_merge_threshold"]
@@ -161,7 +159,7 @@ def train_model(train_set, dev_set, clusterer):
                 # Entities
                 print('Train entity model and merge entity clusters...')
                 logging.info('Train entity model and merge entity clusters...')
-                train_and_merge(clusterer, clusters=entity_clusters, other_clusters=event_clusters,
+                train_and_merge(clusters=entity_clusters, other_clusters=event_clusters,
                                 model=cd_entity_model, optimizer=cd_entity_optimizer,
                                 loss=cd_entity_loss,device=device,topic=topic,is_event=False,epoch=epoch,
                                 topics_counter=topics_counter, topics_num=topics_num,
@@ -169,7 +167,7 @@ def train_model(train_set, dev_set, clusterer):
                 # Events
                 print('Train event model and merge event clusters...')
                 logging.info('Train event model and merge event clusters...')
-                train_and_merge(clusterer, clusters=event_clusters, other_clusters=entity_clusters,
+                train_and_merge(clusters=event_clusters, other_clusters=entity_clusters,
                                 model=cd_event_model, optimizer=cd_event_optimizer,
                                 loss=cd_event_loss,device=device,topic=topic,is_event=True,epoch=epoch,
                                 topics_counter=topics_counter, topics_num=topics_num,
@@ -184,15 +182,13 @@ def train_model(train_set, dev_set, clusterer):
         best_entity_f1_for_th = 0
 
         if event_best_dev_f1 > 0:
-            best_saved_cd_event_model = load_check_point(os.path.join(args.out_dir,
-                                                                      'cd_event_best_model'))
+            best_saved_cd_event_model = load_check_point(os.path.join(args.out_dir, 'cd_event_best_model'))
             best_saved_cd_event_model.to(device)
         else:
             best_saved_cd_event_model = cd_event_model
 
         if entity_best_dev_f1 > 0:
-            best_saved_cd_entity_model = load_check_point(os.path.join(args.out_dir,
-                                                                       'cd_entity_best_model'))
+            best_saved_cd_entity_model = load_check_point(os.path.join(args.out_dir,'cd_entity_best_model'))
             best_saved_cd_entity_model.to(device)
         else:
             best_saved_cd_entity_model = cd_entity_model
@@ -205,14 +201,14 @@ def train_model(train_set, dev_set, clusterer):
                 logging.info('Testing models on dev set with threshold={}'.format((event_threshold,entity_threshold)))
 
                 # test event coref on dev
-                event_f1, _ = test_models(dev_set, cd_event_model, best_saved_cd_entity_model, device,
-                                                  config_dict, write_clusters=False, out_dir=args.out_dir,
-                                                  doc_to_entity_mentions=doc_to_entity_mentions, analyze_scores=False)
+                event_f1, _ = test_models(dev_set, cd_event_model, best_saved_cd_entity_model, device, config_dict,
+                                          out_dir=args.out_dir, doc_to_entity_mentions=doc_to_entity_mentions,
+                                          analyze_scores=False)
 
                 # test entity coref on dev
-                _, entity_f1 = test_models(dev_set, best_saved_cd_event_model, cd_entity_model, device,
-                                                  config_dict, write_clusters=False, out_dir=args.out_dir,
-                                                  doc_to_entity_mentions=doc_to_entity_mentions, analyze_scores=False)
+                _, entity_f1 = test_models(dev_set, best_saved_cd_event_model, cd_entity_model, device, config_dict,
+                                           out_dir=args.out_dir,doc_to_entity_mentions=doc_to_entity_mentions,
+                                           analyze_scores=False)
 
                 if event_f1 > best_event_f1_for_th:
                     best_event_f1_for_th = event_f1
@@ -257,8 +253,8 @@ def train_model(train_set, dev_set, clusterer):
             break
 
 
-def train_and_merge(clusterer, clusters, other_clusters, model, optimizer,
-                    loss, device, topic ,is_event, epoch,
+def train_and_merge( clusters, other_clusters, model, optimizer,
+                    loss, device, topic, is_event, epoch,
                     topics_counter, topics_num, threshold):
     '''
     This function trains event/entity and then uses agglomerative clustering algorithm that
@@ -286,27 +282,23 @@ def train_and_merge(clusterer, clusters, other_clusters, model, optimizer,
         = generate_cluster_pairs(clusters, is_train=True)
 
     # Train pairwise event/entity coreference scorer
-    train(cluster_pairs, model, optimizer, loss,
-          device, topic.docs, epoch, topics_counter, topics_num, config_dict, is_event,
-          other_clusters)
+    train(cluster_pairs, model, optimizer, loss, device, epoch, topics_counter, topics_num, config_dict,
+          is_event, other_clusters)
 
     with torch.no_grad():
-        update_lexical_vectors(clusters, model, device ,is_event, requires_grad=False)
+        update_lexical_vectors(clusters, model, device, config_dict, is_event, )
 
         event_mentions, entity_mentions = topic_to_mention_list(topic, is_gold=True)
 
         # Update span representations after training
-        create_mention_span_representations(event_mentions, model, device, topic.docs, is_event=True,
-                                            requires_grad=False)
-        create_mention_span_representations(entity_mentions, model, device, topic.docs, is_event=False,
-                                            requires_grad=False)
+        create_mention_span_representations(event_mentions, model, device, config_dict, is_event=True)
+        create_mention_span_representations(entity_mentions, model, device, config_dict, is_event=False)
 
         cluster_pairs = test_cluster_pairs
 
         # Merge clusters till reaching the threshold
-        merge(clusterer, clusters, cluster_pairs, other_clusters, model, device, topic.docs, epoch,
-              topics_counter, topics_num, threshold, is_event,
-              config_dict["use_args_feats"], config_dict["use_binary_feats"])
+        merge(clusters, cluster_pairs, other_clusters, model, device, epoch, topics_counter, topics_num,
+              threshold, config_dict, is_event)
 
 
 def save_epoch_f1(event_f1, entity_f1, epoch,  best_event_th, best_entity_th):
@@ -397,10 +389,9 @@ def main():
     with open(config_dict["dev_path"], 'rb') as f:
         dev_data = cPickle.load(f)
 
-    clusterer = hdbscan.HDBSCAN()
     logging.info('Training and dev data have been loaded.')
 
-    train_model(training_data, dev_data, clusterer)
+    train_model(training_data, dev_data)
 
 
 if __name__ == '__main__':

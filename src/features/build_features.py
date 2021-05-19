@@ -724,12 +724,12 @@ def main(args):
             logger.info('Test predicted mentions - loading predicates and their arguments ')
             find_left_and_right_mentions(test_set, is_gold=False)
 
-    if config_dict["load_Roberta"]:
-        embedder = Embedding(layer_num=config_dict["embedding_layers"])
-        logger.info("Loading embeddings...")
-        load_embeddings(train_set, embedder, set_pred_mentions=False)
-        load_embeddings(dev_set, embedder, set_pred_mentions=False)
-        load_embeddings(test_set, embedder, set_pred_mentions=True)
+    # if config_dict["load_Roberta"]:
+    #     embedder = Embedding(layer_num=config_dict["embedding_layers"])
+    #     logger.info("Loading embeddings...")
+    #     load_embeddings(train_set, embedder, set_pred_mentions=False)
+    #     load_embeddings(dev_set, embedder, set_pred_mentions=False)
+    #     load_embeddings(test_set, embedder, set_pred_mentions=True)
 
     logger.info('Storing processed data...')
     with open(os.path.join(args.output_path,'training_data'), 'wb') as f:

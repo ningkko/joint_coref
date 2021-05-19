@@ -9,6 +9,8 @@
   "use_elmo": true,
   "use_args_feats": true,
   "use_binary_feats": true,
+  "use_head_embeddings": false,
+  "requires_grad": false,
 
   "test_use_gold_mentions": true,
   "wd_entity_coref_file": "data/external/stanford_neural_wd_entity_coref_out/ecb_wd_coref.json",

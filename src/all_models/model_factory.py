@@ -38,7 +38,10 @@ def create_model(config_dict):
     '''
     global word_embeds, word_to_ix, char_embeds, char_to_ix
 
-    context_vector_size = 768
+    context_vector_size = 0
+
+    if config_dict["use_head_embeddings"]:
+        context_vector_size = 768
 
     if config_dict["use_args_feats"]:
         mention_rep_size = context_vector_size + \

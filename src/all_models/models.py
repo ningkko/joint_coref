@@ -11,7 +11,7 @@ class CDCorefScorer(nn.Module):
     An abstract class represents a coreference pairwise scorer.
     Inherits Pytorch's Module class.
     '''
-    def __init__(self, word_embeds, word_to_ix,vocab_size, char_embedding, char_to_ix, char_rep_size
+    def __init__(self, word_embeds, word_to_ix, vocab_size, char_embedding, char_to_ix, char_rep_size
                  , dims, use_mult, use_diff, feature_size):
         '''
         C'tor for CorefScorer object
@@ -50,7 +50,7 @@ class CDCorefScorer(nn.Module):
                                  bidirectional=False)
 
         # binary features for coreferring arguments/predicates
-        self.coref_role_embeds = nn.Embedding(2,feature_size)
+        self.coref_role_embeds = nn.Embedding(2, feature_size)
 
         self.use_mult = use_mult
         self.use_diff = use_diff
