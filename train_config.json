@@ -7,7 +7,7 @@
     "dev_th_range": [0.5, 0.6],
 
     "entity_merge_threshold": 0.5,
-    "epochs": 2,
+    "epochs": 50,
     "event_merge_threshold": 0.5,
     "feature_size": 50,
     "glove_path": "glove.6B/glove.6B.300d.txt",
@@ -16,8 +16,9 @@
     "load_predicted_topics": false,
     "log_interval": 32,
     "loss": "bce",
-    "lr": 0.0001,
+    "lr": 1e-4,
     "merge_iters": 2,
+    "adam_epsilon": 1e-7,
     "momentum": 0,
 
     "optimizer": "adam",
@@ -39,6 +40,8 @@
     "use_char_embeds": true,
     "use_head_embeddings": false,
     "requires_grad": true,
+
+    "clustering_method": "kmeans",
 
     "wd_entity_coref_file": "data/external/stanford_neural_wd_entity_coref_out/ecb_wd_coref.json",
     "weight_decay": 0

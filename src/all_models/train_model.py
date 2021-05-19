@@ -145,8 +145,8 @@ def train_model(train_set, dev_set):
             event_clusters = init_cd(event_mentions, is_event=True)
 
             # initialize cluster representation
-            update_lexical_vectors(entity_clusters, cd_entity_model, device, config_dict, is_event=False)
-            update_lexical_vectors(event_clusters, cd_event_model, device, config_dict, is_event=True)
+            update_lexical_vectors(entity_clusters, cd_entity_model, device, config_dict=config_dict, is_event=False)
+            update_lexical_vectors(event_clusters, cd_event_model, device, config_dict=config_dict, is_event=True)
 
             entity_th = config_dict["entity_merge_threshold"]
             event_th = config_dict["event_merge_threshold"]
@@ -201,12 +201,12 @@ def train_model(train_set, dev_set):
                 logging.info('Testing models on dev set with threshold={}'.format((event_threshold,entity_threshold)))
 
                 # test event coref on dev
-                event_f1, _ = test_models(dev_set, cd_event_model, best_saved_cd_entity_model, device, config_dict,
+                event_f1, _ = test_models(dev_set, cd_event_model, best_saved_cd_entity_model, device, config_dict=config_dict,
                                           out_dir=args.out_dir, doc_to_entity_mentions=doc_to_entity_mentions,
                                           analyze_scores=False)
 
                 # test entity coref on dev
-                _, entity_f1 = test_models(dev_set, best_saved_cd_event_model, cd_entity_model, device, config_dict,
+                _, entity_f1 = test_models(dev_set, best_saved_cd_event_model, cd_entity_model, device, config_dict=config_dict,
                                            out_dir=args.out_dir,doc_to_entity_mentions=doc_to_entity_mentions,
                                            analyze_scores=False)
 
@@ -253,9 +253,8 @@ def train_model(train_set, dev_set):
             break
 
 
-def train_and_merge( clusters, other_clusters, model, optimizer,
-                    loss, device, topic, is_event, epoch,
-                    topics_counter, topics_num, threshold):
+def train_and_merge(clusters, other_clusters, model, optimizer, loss, device, topic, is_event, epoch, topics_counter,
+                    topics_num, threshold):
     '''
     This function trains event/entity and then uses agglomerative clustering algorithm that
     merges event/entity clusters
@@ -282,23 +281,23 @@ def train_and_merge( clusters, other_clusters, model, optimizer,
         = generate_cluster_pairs(clusters, is_train=True)
 
     # Train pairwise event/entity coreference scorer
-    train(cluster_pairs, model, optimizer, loss, device, epoch, topics_counter, topics_num, config_dict,
-          is_event, other_clusters)
+    train(cluster_pairs, model, optimizer, loss, device, epoch, topics_counter, topics_num, config_dict=config_dict,
+          is_event=is_event, other_clusters=other_clusters)
 
     with torch.no_grad():
-        update_lexical_vectors(clusters, model, device, config_dict, is_event, )
+        update_lexical_vectors(clusters, model, device, config_dict=config_dict, is_event=is_event)
 
         event_mentions, entity_mentions = topic_to_mention_list(topic, is_gold=True)
 
         # Update span representations after training
-        create_mention_span_representations(event_mentions, model, device, config_dict, is_event=True)
-        create_mention_span_representations(entity_mentions, model, device, config_dict, is_event=False)
+        create_mention_span_representations(event_mentions, model, device, config_dict=config_dict, is_event=True)
+        create_mention_span_representations(entity_mentions, model, device, config_dict=config_dict, is_event=False)
 
         cluster_pairs = test_cluster_pairs
 
         # Merge clusters till reaching the threshold
         merge(clusters, cluster_pairs, other_clusters, model, device, epoch, topics_counter, topics_num,
-              threshold, config_dict, is_event)
+              threshold, config_dict=config_dict, is_event=is_event)
 
 
 def save_epoch_f1(event_f1, entity_f1, epoch,  best_event_th, best_entity_th):
