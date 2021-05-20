@@ -384,8 +384,9 @@ class Mention(object):
         self.time_vec = None
         self.lexical_vec = None
 
-        self.head_embeddings = None
+        self.model_representation = None
 
+        self.head_embeddings = None
 
     def get_tokens(self):
         '''
