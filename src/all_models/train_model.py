@@ -362,10 +362,6 @@ def load_training_checkpoint(model, optimizer, filename, device):
 
     return model, optimizer, start_epoch, best_f1
 
-def kmeans_merge(dev_data):
-    print('Testing representations using kmeans on dev set...')
-    logging.info('Testing representations using kmeans on dev set...')
-
 
 def main():
     '''
@@ -387,9 +383,6 @@ def main():
 
     if config_dict["clustering_method"] == "agglomerative":
         train_model(training_data, dev_data)
-    elif config_dict["clustering_method"] == "kmeans":
-        kmeans_merge(dev_data)
-
 
 if __name__ == '__main__':
     main()

@@ -41,7 +41,7 @@
     "use_head_embeddings": false,
     "requires_grad": true,
 
-    "clustering_method": "kmeans",
+    "clustering_method": "agglomerative",
 
     "wd_entity_coref_file": "data/external/stanford_neural_wd_entity_coref_out/ecb_wd_coref.json",
     "weight_decay": 0
