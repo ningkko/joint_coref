@@ -86,7 +86,7 @@ def create_optimizer(config_dict, model):
     elif config_dict["optimizer"] == 'adam':
         optimizer = optim.Adam(parameters, lr=lr, weight_decay=config_dict["weight_decay"], eps=config_dict["adam_epsilon"])
     elif config_dict["optimizer"] == 'sgd':
-        optimizer = optim.SGD(parameters, lr=lr, momentum=config_dict["momentum"],nesterov=True)
+        optimizer = optim.SGD(parameters, lr=lr, momentum=config_dict["momentum"], nesterov=True)
 
     assert (optimizer is not None), "Config error, check the optimizer field"
 

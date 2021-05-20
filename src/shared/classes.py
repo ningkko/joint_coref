@@ -382,6 +382,7 @@ class Mention(object):
         self.arg1_vec = None
         self.loc_vec = None
         self.time_vec = None
+        self.lexical_vec = None
 
         self.head_embeddings = None
 
@@ -408,9 +409,6 @@ class Mention(object):
     @classmethod
     def get_comparator_function(cls):
         return lambda mention: (mention.doc_id, int(mention.sent_id) ,int(mention.start_offset))
-
-
-
 
 class EventMention(Mention):
     '''
@@ -445,7 +443,7 @@ class EventMention(Mention):
         self.amtmp = None
         self.amloc = None
 
-    def __str__(self):
+    def print_args(self):
         a0 = self.arg0[0] if self.arg0 is not None else '-'
         a1 = self.arg1[0] if self.arg1 is not None else '-'
         atmp = self.amtmp[0] if self.amtmp is not None else '-'

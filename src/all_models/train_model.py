@@ -1,18 +1,10 @@
 import os
-import gc
 import sys
-import time
-import math
 import json
-import spacy
 import random
 import logging
 import argparse
-import itertools
 import numpy as np
-from scorer import *
-import _pickle as cPickle
-import hdbscan
 
 for pack in os.listdir("src"):
     sys.path.append(os.path.join("src", pack))
@@ -277,8 +269,7 @@ def train_and_merge(clusters, other_clusters, model, optimizer, loss, device, to
     # Update arguments/predicates vectors according to the other clusters state
     update_args_feature_vectors(clusters, other_clusters, model, device, is_event)
 
-    cluster_pairs,test_cluster_pairs \
-        = generate_cluster_pairs(clusters, is_train=True)
+    cluster_pairs, test_cluster_pairs = generate_cluster_pairs(clusters, is_train=True)
 
     # Train pairwise event/entity coreference scorer
     train(cluster_pairs, model, optimizer, loss, device, epoch, topics_counter, topics_num, config_dict=config_dict,
@@ -371,6 +362,10 @@ def load_training_checkpoint(model, optimizer, filename, device):
 
     return model, optimizer, start_epoch, best_f1
 
+def kmeans_merge(dev_data):
+    print('Testing representations using kmeans on dev set...')
+    logging.info('Testing representations using kmeans on dev set...')
+
 
 def main():
     '''
@@ -390,7 +385,10 @@ def main():
 
     logging.info('Training and dev data have been loaded.')
 
-    train_model(training_data, dev_data)
+    if config_dict["clustering_method"] == "agglomerative":
+        train_model(training_data, dev_data)
+    elif config_dict["clustering_method"] == "kmeans":
+        kmeans_merge(dev_data)
 
 
 if __name__ == '__main__':

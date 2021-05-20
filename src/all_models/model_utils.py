@@ -1,19 +1,14 @@
 import os
 import sys
 import json
-import spacy
 import torch
 import random
 import logging
-import itertools
-import collections
 import numpy as np
-from scorer import *
 from eval_utils import *
 import _pickle as cPickle
 from bcubed_scorer import *
-import matplotlib.pyplot as plt
-from spacy.lang.en import English
+from kmeans_pytorch import kmeans
 
 for pack in os.listdir("src"):
     sys.path.append(os.path.join("src", pack))
@@ -673,7 +668,7 @@ def create_gold_wd_clusters_organized_by_doc(mentions, is_event):
 
     return clusters_by_doc
 
-def create_event_cluster_bow_lexical_vec(event_cluster,model, device, config_dict):
+def create_event_cluster_bow_lexical_vec(event_cluster, model, device, config_dict):
     '''
     Creates the semantically-dependent vector of a specific event cluster
     (average of mention's span vectors in the cluster)
@@ -769,16 +764,12 @@ def create_event_cluster_bow_arg_vec(event_cluster, entity_clusters, model, devi
     :param device: Pytorch device
     '''
     for event_mention in event_cluster.mentions.values():
-        event_mention.arg0_vec = torch.zeros(model.embedding_dim + model.char_hidden_dim,
-                                  requires_grad=False).to(device).view(1, -1)
-        event_mention.arg1_vec = torch.zeros(model.embedding_dim + model.char_hidden_dim,
-                                  requires_grad=False).to(device).view(1, -1)
-        event_mention.time_vec = torch.zeros(model.embedding_dim + model.char_hidden_dim,
-                                  requires_grad=False).to(device).view(1, -1)
-        event_mention.loc_vec = torch.zeros(model.embedding_dim + model.char_hidden_dim,
-                                  requires_grad=False).to(device).view(1, -1)
+        event_mention.arg0_vec = torch.zeros(model.embedding_dim + model.char_hidden_dim, requires_grad=False).to(device).view(1, -1)
+        event_mention.arg1_vec = torch.zeros(model.embedding_dim + model.char_hidden_dim, requires_grad=False).to(device).view(1, -1)
+        event_mention.time_vec = torch.zeros(model.embedding_dim + model.char_hidden_dim, requires_grad=False).to(device).view(1, -1)
+        event_mention.loc_vec = torch.zeros(model.embedding_dim + model.char_hidden_dim, requires_grad=False).to(device).view(1, -1)
         if event_mention.arg0 is not None:
-            arg_vec = find_mention_cluster_vec(event_mention.arg0[1],entity_clusters)
+            arg_vec = find_mention_cluster_vec(event_mention.arg0[1], entity_clusters)
             event_mention.arg0_vec = arg_vec.to(device)
         if event_mention.arg1 is not None:
             arg_vec = find_mention_cluster_vec(event_mention.arg1[1], entity_clusters)
@@ -801,14 +792,10 @@ def create_entity_cluster_bow_predicate_vec(entity_cluster, event_clusters, mode
     :param device: Pytorch device
     '''
     for entity_mention in entity_cluster.mentions.values():
-        entity_mention.arg0_vec = torch.zeros(model.embedding_dim + model.char_hidden_dim,
-                                  requires_grad=False).to(device).view(1, -1)
-        entity_mention.arg1_vec = torch.zeros(model.embedding_dim + model.char_hidden_dim,
-                                  requires_grad=False).to(device).view(1, -1)
-        entity_mention.time_vec = torch.zeros(model.embedding_dim + model.char_hidden_dim,
-                                  requires_grad=False).to(device).view(1, -1)
-        entity_mention.loc_vec = torch.zeros(model.embedding_dim + model.char_hidden_dim,
-                                  requires_grad=False).to(device).view(1, -1)
+        entity_mention.arg0_vec = torch.zeros(model.embedding_dim + model.char_hidden_dim, requires_grad=False).to(device).view(1, -1)
+        entity_mention.arg1_vec = torch.zeros(model.embedding_dim + model.char_hidden_dim, requires_grad=False).to(device).view(1, -1)
+        entity_mention.time_vec = torch.zeros(model.embedding_dim + model.char_hidden_dim, requires_grad=False).to(device).view(1, -1)
+        entity_mention.loc_vec = torch.zeros(model.embedding_dim + model.char_hidden_dim, requires_grad=False).to(device).view(1, -1)
         predicates_dict = entity_mention.predicates
         for predicate_id, rel in predicates_dict.items():
             if rel == 'A0':
@@ -1347,10 +1334,12 @@ def merge(clusters, cluster_pairs, other_clusters, model, device, epoch, topics_
     '''
     print('Initialize cluster pairs scores... ')
     logging.info('Initialize cluster pairs scores... ')
-    # initializes the pairs-scores dict
-    pairs_dict = {}
     mode = 'event' if is_event else 'entity'
     # init the scores (that the model assigns to the pairs)
+
+    # initializes the pairs-scores dict
+    pairs_dict = {}
+
     for pair in cluster_pairs:
         pair_score = assign_score(pair, model, device, config_dict=config_dict, is_event=is_event, other_clusters=other_clusters)
         pairs_dict[pair] = pair_score

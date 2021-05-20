@@ -1,4 +1,4 @@
-{"test_path":"data/feature/test_data",
+{"test_path":"data/feature_ELMO/test_data",
 
   "cd_event_model_path": "model/cd_event_best_model",
   "cd_entity_model_path": "model/cd_entity_best_model",
