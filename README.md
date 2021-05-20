@@ -2,6 +2,10 @@
 See log: https://docs.google.com/document/d/1CdORk86nj1NRDXiw7dDjKZpw1IfP4NsgtXhaMTAguH8/edit?usp=sharing
 
 
+## LEO
+python src/all_models/train_model.py --config_path train_config.json --out_dir models/no_head_embeddings
+
+## build_feature and lemma baseline
 python3 data/feature/build_feature.py --config_path feature_config.json" --output_path "data/feature/output/"
 
 python3 models/lemma_baseline.py --config_path "lemma_baseline_config.json"
