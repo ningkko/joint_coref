@@ -9,7 +9,7 @@ class Corpus(object):
     def __init__(self):
         self.topics = {}
 
-    def add_topic(self,topic_id, topic):
+    def add_topic(self, topic_id, topic):
         '''
         Gets a topic id and a topic object and add it to the topics dictionary
         :param topic_id: topic id
