@@ -374,9 +374,9 @@ def main():
     on the dev set.
     '''
     logging.info('Loading training and dev data...')
-    with open(config_dict["train_path"], 'rb') as f:
+    with open(config_dict["elmo_train_path"], 'rb') as f:
         training_data = cPickle.load(f)
-    with open(config_dict["dev_path"], 'rb') as f:
+    with open(config_dict["elmo_dev_path"], 'rb') as f:
         dev_data = cPickle.load(f)
 
     logging.info('Training and dev data have been loaded.')
