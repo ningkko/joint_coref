@@ -1,9 +1,11 @@
 {
+    "span_representation": "elmo",
     "batch_size": 16,
     "char_pretrained_path": "data/external/char_embed/glove.840B.300d-char.npy",
     "char_rep_size": 50,
     "char_vocab_path": "data/external/char_embed/glove.840B.300d-char.vocab",
-    "dev_path": "data/feature_BERT/dev_data",
+    "elmo_dev_path": "data/feature_ELMO/dev_data",
+    "bert_dev_path": "data/feature_BERT/dev_data",
     "dev_th_range": [0.5, 0.6],
 
     "entity_merge_threshold": 0.5,
@@ -31,7 +33,8 @@
 
     "test_use_gold_mentions": true,
     "train_init_wd_entity_with_gold": true,
-    "train_path": "data/feature_BERT/training_data",
+    "elmo_train_path": "data/feature_ELMO/training_data",
+    "bert_train_path": "data/feature_BERT/training_data",
     "use_args_feats": true,
     "use_binary_feats": true,
     "use_diff": false,
