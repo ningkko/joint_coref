@@ -23,6 +23,6 @@
   "random_seed": 2048,
 
   "event_gold_file_path": "data/gold/cybulska_gold/CD_test_event_mention_based.key_conll",
-  "entity_gold_file_path": "data/gold/cybulska_gold/CD_test_entity_mention_based.key_conll"
-
+  "entity_gold_file_path": "data/gold/cybulska_gold/CD_test_entity_mention_based.key_conll",
+  "use_char_embeds": true
 }

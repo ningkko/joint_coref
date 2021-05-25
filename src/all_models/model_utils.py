@@ -8,7 +8,6 @@ import numpy as np
 from eval_utils import *
 import _pickle as cPickle
 from bcubed_scorer import *
-from kmeans_pytorch import kmeans
 
 for pack in os.listdir("src"):
     sys.path.append(os.path.join("src", pack))
