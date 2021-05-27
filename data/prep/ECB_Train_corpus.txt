@@ -12013,12 +12013,12 @@
 1_12ecbplus	0	12	rehab	LOC15733316663614047
 1_12ecbplus	0	13	center	LOC15733316663614047
 
-1_12ecbplus	2	0		-
+1_12ecbplus	2	0	“	-
 1_12ecbplus	2	1	The	-
-1_12ecbplus	2	2		-
+1_12ecbplus	2	2	“	-
 1_12ecbplus	2	3	Mean	-
 1_12ecbplus	2	4	Girls	-
-1_12ecbplus	2	5		-
+1_12ecbplus	2	5	”	-
 1_12ecbplus	2	6	star	HUM15732980283919140
 1_12ecbplus	2	7	fooled	ACT15999827257696342
 1_12ecbplus	2	8	an	-
@@ -12113,7 +12113,7 @@
 1_14ecbplus	0	4	Betty	LOC15734326865367655
 1_14ecbplus	0	5	Ford	LOC15734326865367655
 1_14ecbplus	0	6	Rehab	LOC15734326865367655
-1_14ecbplus	0	7		-
+1_14ecbplus	0	7	–	-
 1_14ecbplus	0	8	Where	LOC15734326865367655
 1_14ecbplus	0	9	She	HUM15732980283919140
 1_14ecbplus	0	10	'Knows	ACT16068930879330144
@@ -12497,7 +12497,7 @@
 1_1ecbplus	3	37	.	-
 
 1_1ecbplus	4	0	Lohan	HUM15732980283919140
-1_1ecbplus	4	1		-
+1_1ecbplus	4	1	’	-
 1_1ecbplus	4	2	s	-
 1_1ecbplus	4	3	attorney	HUM15743207473194727
 1_1ecbplus	4	4	,	HUM15743207473194727
@@ -12830,7 +12830,7 @@
 
 1_5ecbplus	2	0	Lindsay	HUM15732980283919140
 1_5ecbplus	2	1	Lohan	HUM15732980283919140
-1_5ecbplus	2	2		-
+1_5ecbplus	2	2	’	-
 1_5ecbplus	2	3	s	-
 1_5ecbplus	2	4	attorney	HUM15733047695318433
 1_5ecbplus	2	5	said	ACT15829897728138111
@@ -13170,7 +13170,7 @@
 1_9ecbplus	4	11	then	-
 1_9ecbplus	4	12	left	ACT15987605913923543
 1_9ecbplus	4	13	because	-
-1_9ecbplus	4	14		-
+1_9ecbplus	4	14	“	-
 1_9ecbplus	4	15	she	HUM15732980283919140
 1_9ecbplus	4	16	was	-
 1_9ecbplus	4	17	not	-
@@ -13179,7 +13179,7 @@
 1_9ecbplus	4	20	the	LOC15733316663614047
 1_9ecbplus	4	21	place	LOC15733316663614047
 1_9ecbplus	4	22	,	-
-1_9ecbplus	4	23		-
+1_9ecbplus	4	23	”	-
 1_9ecbplus	4	24	her	HUM15732980283919140
 1_9ecbplus	4	25	father	HUM15992198523925483
 1_9ecbplus	4	26	said	ACT15992166901097605
@@ -13508,13 +13508,13 @@
 3_2ecbplus	3	13	for	-
 3_2ecbplus	3	14	several	-
 3_2ecbplus	3	15	charges	ACT16359199360598790
-3_2ecbplus	3	16		-
+3_2ecbplus	3	16	–	-
 3_2ecbplus	3	17	including	-
 3_2ecbplus	3	18	indecency	ACT16190529021622304
 3_2ecbplus	3	19	with	-
 3_2ecbplus	3	20	a	-
 3_2ecbplus	3	21	child	HUM16359168153481109
-3_2ecbplus	3	22		-
+3_2ecbplus	3	22	–	-
 3_2ecbplus	3	23	and	-
 3_2ecbplus	3	24	was	-
 3_2ecbplus	3	25	en	-
@@ -13621,11 +13621,11 @@
 3_4ecbplus	1	7	added	ACT28096209493267157
 3_4ecbplus	1	8	to	-
 3_4ecbplus	1	9	their	-
-3_4ecbplus	1	10		-
+3_4ecbplus	1	10	”	-
 3_4ecbplus	1	11	15	-
 3_4ecbplus	1	12	Most	-
 3_4ecbplus	1	13	Wanted	-
-3_4ecbplus	1	14		-
+3_4ecbplus	1	14	“	-
 3_4ecbplus	1	15	list	NON16190734788264676
 3_4ecbplus	1	16	of	-
 3_4ecbplus	1	17	fugitives	Singleton_HUM_38_3_4ecbplus
@@ -14062,7 +14062,7 @@
 4_11ecbplus	5	15	.	-
 
 4_1ecbplus	1	0	Hollywood	HUM16268789034067364
-4_1ecbplus	1	1		-
+4_1ecbplus	1	1	’	-
 4_1ecbplus	1	2	s	-
 4_1ecbplus	1	3	mermaid	-
 4_1ecbplus	1	4	Esther	HUM16195623414690294
@@ -14379,22 +14379,22 @@
 6_10ecbplus	0	3	negotiations	ACT16709489111488609
 6_10ecbplus	0	4	to	-
 6_10ecbplus	0	5	direct	ACT16709500539614860
-6_10ecbplus	0	6		-
+6_10ecbplus	0	6	‘	-
 6_10ecbplus	0	7	Hunger	NON16709569398873264
 6_10ecbplus	0	8	Games	NON16709569398873264
-6_10ecbplus	0	9		-
+6_10ecbplus	0	9	’	-
 6_10ecbplus	0	10	sequel	ACT16709469476355498
-6_10ecbplus	0	11		-
+6_10ecbplus	0	11	‘	-
 6_10ecbplus	0	12	Catching	NON16709624027698279
 6_10ecbplus	0	13	Fire	NON16709624027698279
-6_10ecbplus	0	14		-
+6_10ecbplus	0	14	’	-
 
 6_10ecbplus	3	0	The	-
 6_10ecbplus	3	1	biggest	-
 6_10ecbplus	3	2	player	HUM16709553735092654
 6_10ecbplus	3	3	who	-
 6_10ecbplus	3	4	doesn	-
-6_10ecbplus	3	5		-
+6_10ecbplus	3	5	’	-
 6_10ecbplus	3	6	t	-
 6_10ecbplus	3	7	have	-
 6_10ecbplus	3	8	a	-
@@ -16282,7 +16282,7 @@
 11_2ecbplus	2	27	in	-
 11_2ecbplus	2	28	the	-
 11_2ecbplus	2	29	country	HUM28314574028416742
-11_2ecbplus	2	30		-
+11_2ecbplus	2	30	’	-
 11_2ecbplus	2	31	s	-
 11_2ecbplus	2	32	history	ACT17395488757228422
 11_2ecbplus	2	33	,	-
@@ -16386,7 +16386,7 @@
 13_10ecbplus	2	16	piece	-
 13_10ecbplus	2	17	of	-
 13_10ecbplus	2	18	Alaska	-
-13_10ecbplus	2	19		-
+13_10ecbplus	2	19	’	-
 13_10ecbplus	2	20	s	-
 13_10ecbplus	2	21	history	ACT17474262383670079
 13_10ecbplus	2	22	.	-
@@ -16508,9 +16508,9 @@
 13_4ecbplus	3	0	It	-
 13_4ecbplus	3	1	was	-
 13_4ecbplus	3	2	probably	-
-13_4ecbplus	3	3		-
+13_4ecbplus	3	3	“	-
 13_4ecbplus	3	4	chance	Singleton_ACT_28_13_4ecbplus
-13_4ecbplus	3	5		-
+13_4ecbplus	3	5	”	-
 13_4ecbplus	3	6	when	-
 13_4ecbplus	3	7	the	-
 13_4ecbplus	3	8	Wasilla	NON28318767695137921
@@ -17193,7 +17193,7 @@
 16_4ecbplus	0	4	Sheriff's	-
 16_4ecbplus	0	5	Department	-
 16_4ecbplus	0	6	deputy	HUM17479043832472136
-16_4ecbplus	0	7		-
+16_4ecbplus	0	7	—	-
 16_4ecbplus	0	8	a	-
 16_4ecbplus	0	9	recently	-
 16_4ecbplus	0	10	married	ACT17479399752410971
@@ -17201,7 +17201,7 @@
 16_4ecbplus	0	12	of	-
 16_4ecbplus	0	13	two	-
 16_4ecbplus	0	14	sons	Singleton_HUM_3_16_4ecbplus
-16_4ecbplus	0	15		-
+16_4ecbplus	0	15	—	-
 16_4ecbplus	0	16	died	ACT17479178103697007
 16_4ecbplus	0	17	after	-
 16_4ecbplus	0	18	a	-
@@ -17382,7 +17382,7 @@
 16_7ecbplus	3	39	.	-
 
 16_8ecbplus	0	0	Sheriff	-
-16_8ecbplus	0	1		-
+16_8ecbplus	0	1	’	-
 16_8ecbplus	0	2	s	-
 16_8ecbplus	0	3	Deputy	HUM17479043832472136
 16_8ecbplus	0	4	Shot	ACT17479094205244348
@@ -17396,7 +17396,7 @@
 16_8ecbplus	2	4	-	-
 16_8ecbplus	2	5	old	-
 16_8ecbplus	2	6	sheriff	-
-16_8ecbplus	2	7		-
+16_8ecbplus	2	7	’	-
 16_8ecbplus	2	8	s	-
 16_8ecbplus	2	9	deputy	HUM17479043832472136
 16_8ecbplus	2	10	working	ACT17630847280101553
@@ -17711,7 +17711,7 @@
 19_4ecbplus	0	21	witness	INTRA_HUM_40021_19_4ecbplus
 
 19_5ecbplus	0	0	'There	-
-19_5ecbplus	0	1		-
+19_5ecbplus	0	1	’	-
 19_5ecbplus	0	2	s	-
 19_5ecbplus	0	3	a	-
 19_5ecbplus	0	4	lot	-
@@ -17779,7 +17779,7 @@
 19_6ecbplus	3	39	Saturday	TIM17733648676843763
 19_6ecbplus	3	40	.	-
 
-19_6ecbplus	11	0		-
+19_6ecbplus	11	0	“	-
 19_6ecbplus	11	1	Tonight	TIM17733648676843763
 19_6ecbplus	11	2	was	-
 19_6ecbplus	11	3	a	-
@@ -17791,7 +17791,7 @@
 19_6ecbplus	11	9	a	-
 19_6ecbplus	11	10	riot	ACT17733054001869323
 19_6ecbplus	11	11	,	-
-19_6ecbplus	11	12		-
+19_6ecbplus	11	12	”	-
 19_6ecbplus	11	13	Williams	Singleton_HUM_24_19_6ecbplus
 19_6ecbplus	11	14	wrote	Singleton_ACT_30_19_6ecbplus
 19_6ecbplus	11	15	.	-
@@ -17833,7 +17833,7 @@
 19_7ecbplus	0	4	Persists	Singleton_ACT_4_19_7ecbplus
 19_7ecbplus	0	5	Over	-
 19_7ecbplus	0	6	Teenager	HUM17733560552295284
-19_7ecbplus	0	7		-
+19_7ecbplus	0	7	’	-
 19_7ecbplus	0	8	s	-
 19_7ecbplus	0	9	Killing	ACT17734003472118220
 19_7ecbplus	0	10	by	-
@@ -18555,7 +18555,7 @@
 22_11ecbplus	3	18	,	-
 22_11ecbplus	3	19	where	-
 22_11ecbplus	3	20	she	HUM18235680503915426
-22_11ecbplus	3	21		-
+22_11ecbplus	3	21	’	-
 22_11ecbplus	3	22	d	-
 22_11ecbplus	3	23	worked	ACT18237613730522793
 22_11ecbplus	3	24	for	-
@@ -18950,10 +18950,10 @@
 22_3ecbplus	0	24	-	HUM18238410304544482
 22_3ecbplus	0	25	workers	HUM18238410304544482
 
-22_4ecbplus	0	0		-
+22_4ecbplus	0	0	‘	-
 22_4ecbplus	0	1	Very	-
 22_4ecbplus	0	2	Spiritual	-
-22_4ecbplus	0	3		-
+22_4ecbplus	0	3	’	-
 22_4ecbplus	0	4	Muslim	-
 22_4ecbplus	0	5	Woman	HUM18235680503915426
 22_4ecbplus	0	6	Shoots	ACT18235541349528642
@@ -19157,7 +19157,7 @@
 22_8ecbplus	2	21	.	-
 
 22_8ecbplus	4	0	KYW	-
-22_8ecbplus	4	1		-
+22_8ecbplus	4	1	’	-
 22_8ecbplus	4	2	s	-
 22_8ecbplus	4	3	Pat	Singleton_HUM_28_22_8ecbplus
 22_8ecbplus	4	4	Loeb	Singleton_HUM_28_22_8ecbplus
@@ -19294,7 +19294,7 @@
 24_11ecbplus	2	1	and	-
 24_11ecbplus	2	2	watches	NON18316878143147711
 24_11ecbplus	2	3	worth	-
-24_11ecbplus	2	4	1	-
+24_11ecbplus	2	4	£1	-
 24_11ecbplus	2	5	.	-
 24_11ecbplus	2	6	7m	-
 24_11ecbplus	2	7	have	-
@@ -19564,7 +19564,7 @@
 24_4ecbplus	4	4	2m	NON18316939477367750
 24_4ecbplus	4	5	euros	NON18316939477367750
 24_4ecbplus	4	6	(	-
-24_4ecbplus	4	7	1	-
+24_4ecbplus	4	7	£1	-
 24_4ecbplus	4	8	.	-
 24_4ecbplus	4	9	7m	-
 24_4ecbplus	4	10	;	-
@@ -19586,7 +19586,7 @@
 24_5ecbplus	0	5	jewellery	LOC18316780390763009
 24_5ecbplus	0	6	store	LOC18316780390763009
 24_5ecbplus	0	7	for	-
-24_5ecbplus	0	8	2m	NON18316939477367750
+24_5ecbplus	0	8	€2m	NON18316939477367750
 
 24_5ecbplus	3	0	Ram	HUM18316922352936729
 24_5ecbplus	3	1	-	HUM18316922352936729
@@ -19601,7 +19601,7 @@
 24_5ecbplus	3	10	boutique	LOC18316780390763009
 24_5ecbplus	3	11	near	LOC18316780390763009
 24_5ecbplus	3	12	Place	LOC18316780390763009
-24_5ecbplus	3	13	Vendme	LOC18316780390763009
+24_5ecbplus	3	13	Vendôme	LOC18316780390763009
 24_5ecbplus	3	14	in	LOC18316780390763009
 24_5ecbplus	3	15	central	LOC18316780390763009
 24_5ecbplus	3	16	Paris	LOC18316780390763009
@@ -19616,7 +19616,7 @@
 24_5ecbplus	3	25	making	ACT18316723503733222
 24_5ecbplus	3	26	off	ACT18316723503733222
 24_5ecbplus	3	27	with	-
-24_5ecbplus	3	28	2	NON18316939477367750
+24_5ecbplus	3	28	€2	NON18316939477367750
 24_5ecbplus	3	29	million	NON18316939477367750
 24_5ecbplus	3	30	worth	-
 24_5ecbplus	3	31	of	-
@@ -19662,7 +19662,7 @@
 24_6ecbplus	3	1	and	-
 24_6ecbplus	3	2	watches	NON18316878143147711
 24_6ecbplus	3	3	worth	Singleton_ACT_35_24_6ecbplus
-24_6ecbplus	3	4	1	NON18316939477367750
+24_6ecbplus	3	4	£1	NON18316939477367750
 24_6ecbplus	3	5	.	NON18316939477367750
 24_6ecbplus	3	6	7m	NON18316939477367750
 24_6ecbplus	3	7	have	-
@@ -19712,7 +19712,7 @@
 24_7ecbplus	2	23	off	ACT18316723503733222
 24_7ecbplus	2	24	with	-
 24_7ecbplus	2	25	a	-
-24_7ecbplus	2	26	2	NON18316939477367750
+24_7ecbplus	2	26	€2	NON18316939477367750
 24_7ecbplus	2	27	million	NON18316939477367750
 24_7ecbplus	2	28	(	-
 24_7ecbplus	2	29	R26	-
@@ -20695,7 +20695,7 @@
 27_10ecbplus	2	20	of	-
 27_10ecbplus	2	21	the	-
 27_10ecbplus	2	22	company	HUM16627702263331271
-27_10ecbplus	2	23		-
+27_10ecbplus	2	23	’	-
 27_10ecbplus	2	24	s	-
 27_10ecbplus	2	25	in	Singleton_ACT_83_27_10ecbplus
 27_10ecbplus	2	26	-	Singleton_ACT_83_27_10ecbplus
@@ -21192,7 +21192,7 @@
 27_9ecbplus	0	6	Explorer	NON16628072497530110
 
 27_9ecbplus	1	0	It	-
-27_9ecbplus	1	1		-
+27_9ecbplus	1	1	’	-
 27_9ecbplus	1	2	s	-
 27_9ecbplus	1	3	not	-
 27_9ecbplus	1	4	Patch	Singleton_TIM_42_27_9ecbplus
@@ -22083,7 +22083,7 @@
 29_12ecbplus	0	6	Colts	HUM18524150423965861
 29_12ecbplus	0	7	despite	-
 29_12ecbplus	0	8	Charles	Singleton_HUM_39_29_12ecbplus
-29_12ecbplus	0	9		-
+29_12ecbplus	0	9	’	-
 29_12ecbplus	0	10	226	NON28594904184812905
 29_12ecbplus	0	11	yards	NON28594904184812905
 29_12ecbplus	0	12	rushing	ACT28594864890101940
@@ -22168,7 +22168,7 @@
 29_13ecbplus	2	7	best	-
 29_13ecbplus	2	8	game	ACT16977099887799938
 29_13ecbplus	2	9	they	HUM18263750557257525
-29_13ecbplus	2	10		-
+29_13ecbplus	2	10	’	-
 29_13ecbplus	2	11	ve	-
 29_13ecbplus	2	12	played	ACT28598469019689895
 29_13ecbplus	2	13	this	-
@@ -22447,7 +22447,7 @@
 29_5ecbplus	4	7	to	-
 29_5ecbplus	4	8	the	-
 29_5ecbplus	4	9	playoffs	ACT16976828207985668
-29_5ecbplus	4	10		-
+29_5ecbplus	4	10	–	-
 29_5ecbplus	4	11	and	-
 29_5ecbplus	4	12	breaking	ACT17015517190841928
 29_5ecbplus	4	13	Cam	HUM16978333005120136
@@ -22463,7 +22463,7 @@
 29_5ecbplus	4	23	-	HUM28602796625515803
 29_5ecbplus	4	24	year	HUM28602796625515803
 29_5ecbplus	4	25	player	HUM28602796625515803
-29_5ecbplus	4	26		-
+29_5ecbplus	4	26	–	-
 29_5ecbplus	4	27	it's	-
 29_5ecbplus	4	28	safe	Singleton_ACT_49_29_5ecbplus
 29_5ecbplus	4	29	to	-
@@ -22739,7 +22739,7 @@
 29_8ecbplus	3	12	owned	Singleton_ACT_17_29_8ecbplus
 29_8ecbplus	3	13	the	-
 29_8ecbplus	3	14	NFL	Singleton_ACT_18_29_8ecbplus
-29_8ecbplus	3	15		Singleton_ACT_18_29_8ecbplus
+29_8ecbplus	3	15	’	Singleton_ACT_18_29_8ecbplus
 29_8ecbplus	3	16	s	Singleton_ACT_18_29_8ecbplus
 29_8ecbplus	3	17	worst	Singleton_ACT_18_29_8ecbplus
 29_8ecbplus	3	18	record	Singleton_ACT_18_29_8ecbplus
@@ -22755,7 +22755,7 @@
 29_8ecbplus	3	28	playoffs	ACT16976828207985668
 29_8ecbplus	3	29	with	-
 29_8ecbplus	3	30	Sunday	TIM28601414770446778
-29_8ecbplus	3	31		-
+29_8ecbplus	3	31	’	-
 29_8ecbplus	3	32	s	-
 29_8ecbplus	3	33	win	ACT16976684395747580
 29_8ecbplus	3	34	.	-
@@ -23584,7 +23584,7 @@
 31_1ecbplus	1	0	McDermott	HUM17050506835932990
 31_1ecbplus	1	1	becomes	ACT28614969156794017
 31_1ecbplus	1	2	CU	HUM17050646930855993
-31_1ecbplus	1	3		-
+31_1ecbplus	1	3	’	-
 31_1ecbplus	1	4	s	-
 31_1ecbplus	1	5	all	-
 31_1ecbplus	1	6	-	-
@@ -23611,7 +23611,7 @@
 31_1ecbplus	2	16	of	-
 31_1ecbplus	2	17	the	-
 31_1ecbplus	2	18	Bluejays	HUM17050646930855993
-31_1ecbplus	2	19		-
+31_1ecbplus	2	19	’	-
 31_1ecbplus	2	20	Valley	ACT17050389329655175
 31_1ecbplus	2	21	tournament	ACT17050389329655175
 31_1ecbplus	2	22	opener	ACT17050375060246939
@@ -23623,7 +23623,7 @@
 31_1ecbplus	2	28	become	ACT28614969156794017
 31_1ecbplus	2	29	the	-
 31_1ecbplus	2	30	school	-
-31_1ecbplus	2	31		-
+31_1ecbplus	2	31	’	-
 31_1ecbplus	2	32	s	-
 31_1ecbplus	2	33	all	-
 31_1ecbplus	2	34	-	-
@@ -23638,7 +23638,7 @@
 31_1ecbplus	2	43	.	-
 
 31_2ecbplus	0	0	Ott	-
-31_2ecbplus	0	1		-
+31_2ecbplus	0	1	’	-
 31_2ecbplus	0	2	s	-
 31_2ecbplus	0	3	Thoughts	-
 31_2ecbplus	0	4	:	-
@@ -23653,7 +23653,7 @@
 31_2ecbplus	0	13	Drake	HUM17050657724986898
 
 31_2ecbplus	13	0	Creighton	HUM17050646930855993
-31_2ecbplus	13	1		-
+31_2ecbplus	13	1	’	-
 31_2ecbplus	13	2	s	-
 31_2ecbplus	13	3	win	ACT17050360599920138
 31_2ecbplus	13	4	over	-
@@ -23892,7 +23892,7 @@
 31_7ecbplus	3	1	broke	ACT17050421651630086
 31_7ecbplus	3	2	Rodney	HUM17050524992259008
 31_7ecbplus	3	3	Buford	HUM17050524992259008
-31_7ecbplus	3	4		-
+31_7ecbplus	3	4	’	-
 31_7ecbplus	3	5	s	-
 31_7ecbplus	3	6	school	-
 31_7ecbplus	3	7	scoring	Singleton_ACT_26_31_7ecbplus

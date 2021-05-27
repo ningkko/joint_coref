@@ -1,10 +1,13 @@
 import os
 import sys
 import json
+from builtins import print
+
 import torch
 import argparse
 import pickle as cPickle
 import logging
+import numpy as np
 
 import spacy
 from nltk.corpus import wordnet as wn
@@ -18,6 +21,7 @@ from collections import defaultdict
 from swirl_parsing import parse_swirl_output
 from allen_srl_reader import read_srl
 from create_bert_embeddings import *
+from create_elmo_embeddings import *
 from classes import Document, Sentence, Token, EventMention, EntityMention
 from extraction_utils import *
 
@@ -592,44 +596,50 @@ def stringify_keys(d):
             del d[key]
     return d
 
+def get_average_mention_embeddings(embedding, mention_indices):
+    embeddings = embedding[mention_indices[0], mention_indices[1]+1]
+    return np.mean(embeddings, axis=0)
 
-def set_embed_to_mention(mention, sent_embeddings):
+def set_embed_to_mention(mention, elmo_embeddings, bert_embeddings):
     '''
     Sets the Bert embeddings of a mention
     :param mention: event/entity mention object
     :param sent_embeddings: the embedding for each word in the sentence produced by Bert model
     :return:
     '''
-    head_index = int(mention.get_head_index())     # Bert embedding has pads
-    head_embeddings = sent_embeddings[head_index]
-    mention.head_embeddings = head_embeddings
+    head_index = int(mention.get_head_index())
+    mention_indices = mention.get_mention_index()  ## [start, end]
+    mention.head_elmo_embeddings = elmo_embeddings[head_index]
+    mention.head_bert_embeddings = bert_embeddings[head_index]
+    # mention.elmo_embeddings = get_average_mention_embeddings(elmo_embeddings, mention_indices)
+    # mention.bert_embeddings = get_average_mention_embeddings(bert_embeddings, mention_indices)
 
-
-def set_embeddings_to_mentions(embedder, sentence, set_pred_mentions):
+def set_embeddings_to_mentions(elmo_embedder, roberta_embedder, sentence, set_pred_mentions):
     '''
-     Sets the ELMo embeddings for all the mentions in the sentence
-    :param embedder: a wrapper object
+     Sets the embeddings for all the mentions in the sentence
+    :param elmo_embedder: a wrapper object
+    :param bert_embedder: a wrapper object
     :param sentence: a sentence object
     '''
-    embedding = embedder.get_embedding(sentence)
-    event_mentions = sentence.gold_event_mentions
-    entity_mentions = sentence.gold_entity_mentions
+    elmo_embedding = elmo_embedder.get_embedding(sentence)
+    roberta_embedding = roberta_embedder.get_embedding(sentence)
+    if len(roberta_embedding)!=len(elmo_embedding):
+        sys.exit("Length diff @ %s"%sentence.get_raw_sentence())
+
+    if set_pred_mentions:
+        event_mentions = sentence.pred_event_mentions
+        entity_mentions = sentence.pred_entity_mentions
+    else:
+        event_mentions = sentence.gold_event_mentions
+        entity_mentions = sentence.gold_entity_mentions
 
     for event in event_mentions:
-        set_embed_to_mention(event, embedding)
+        set_embed_to_mention(event, elmo_embedding, roberta_embedding)
     for entity in entity_mentions:
-        set_embed_to_mention(entity, embedding)
-
-    # Set the contextualized vector also for predicted mentions
-    if set_pred_mentions:
-        for event in sentence.pred_event_mentions:
-            set_embed_to_mention(event, embedding)  # set the head contextualized vector
-
-        for entity in sentence.pred_entity_mentions:
-            set_embed_to_mention(entity, embedding)  # set the head contextualized vector
+        set_embed_to_mention(entity, elmo_embedding, roberta_embedding)
 
 
-def load_embeddings(dataset, embedder, set_pred_mentions):
+def load_embeddings(dataset, elmo, bert, set_pred_mentions):
     '''
     Sets the ELMo embeddings for all the mentions in the split
     :param dataset: an object represents a split (train/dev/test)
@@ -639,7 +649,7 @@ def load_embeddings(dataset, embedder, set_pred_mentions):
     for topic_id, topic in dataset.topics.items():
         for doc_id, doc in topic.docs.items():
             for sent_id, sent in doc.get_sentences().items():
-                set_embeddings_to_mentions(embedder, sent, set_pred_mentions)
+                set_embeddings_to_mentions(elmo, bert, sent, set_pred_mentions)
 
 
 def main(args):
@@ -651,6 +661,7 @@ def main(args):
         Runs data processing scripts to turn intermediate data from (../intermid) into
         processed data ready to use in training and inference(saved in ../processed).
     """
+
     logger.info('Training data - loading event and entity mentions')
     training_data = load_gold_data(config_dict["train_text_file"],config_dict["train_event_mentions"],
                                    config_dict["train_entity_mentions"])
@@ -676,60 +687,61 @@ def main(args):
 
     check_predicted = True if config_dict["load_predicted_mentions"] else False
     write_dataset_statistics('test', test_set, check_predicted=check_predicted)
+    #
+    # if config_dict["use_srl"]:
+    #     logger.info('Loading SRL info')
+    #     if config_dict["use_allen_srl"]: # use the SRL system which is implemented in AllenNLP (currently - a deep BiLSTM model (He et al, 2017).)
+    #         srl_data = read_srl(config_dict["srl_output_path"])
+    #         logger.info('Training gold mentions - loading SRL info')
+    #         match_allen_srl_structures(train_set, srl_data, is_gold=True)
+    #         logger.info('Dev gold mentions - loading SRL info')
+    #         match_allen_srl_structures(dev_set, srl_data, is_gold=True)
+    #         logger.info('Test gold mentions - loading SRL info')
+    #         match_allen_srl_structures(test_set, srl_data, is_gold=True)
+    #         if config_dict["load_predicted_mentions"]:
+    #             logger.info('Test predicted mentions - loading SRL info')
+    #             match_allen_srl_structures(test_set, srl_data, is_gold=False)
+    #     else: # Use SwiRL SRL system (Surdeanu et al., 2007)
+    #         srl_data = parse_swirl_output(config_dict["srl_output_path"])
+    #         logger.info('Training gold mentions - loading SRL info')
+    #         load_srl_info(train_set, srl_data, is_gold=True)
+    #         logger.info('Dev gold mentions - loading SRL info')
+    #         load_srl_info(dev_set, srl_data, is_gold=True)
+    #         logger.info('Test gold mentions - loading SRL info')
+    #         load_srl_info(test_set, srl_data, is_gold=True)
+    #         if config_dict["load_predicted_mentions"]:
+    #             logger.info('Test predicted mentions - loading SRL info')
+    #             load_srl_info(test_set, srl_data, is_gold=False)
+    # if config_dict["use_dep"]:  # use dependency parsing
+    #     logger.info('Augmenting predicate-arguments structures using dependency parser')
+    #     logger.info('Training gold mentions - loading predicates and their arguments with dependency parser')
+    #     find_args_by_dependency_parsing(train_set, is_gold=True)
+    #     logger.info('Dev gold mentions - loading predicates and their arguments with dependency parser')
+    #     find_args_by_dependency_parsing(dev_set, is_gold=True)
+    #     logger.info('Test gold mentions - loading predicates and their arguments with dependency parser')
+    #     find_args_by_dependency_parsing(test_set, is_gold=True)
+    #     if config_dict["load_predicted_mentions"]:
+    #         logger.info('Test predicted mentions - loading predicates and their arguments with dependency parser')
+    #         find_args_by_dependency_parsing(test_set, is_gold=False)
+    # if config_dict["use_left_right_mentions"]:  # use left and right mentions heuristic
+    #     logger.info('Augmenting predicate-arguments structures using leftmost and rightmost entity mentions')
+    #     logger.info('Training gold mentions - loading predicates and their arguments ')
+    #     find_left_and_right_mentions(train_set, is_gold=True)
+    #     logger.info('Dev gold mentions - loading predicates and their arguments ')
+    #     find_left_and_right_mentions(dev_set, is_gold=True)
+    #     logger.info('Test gold mentions - loading predicates and their arguments ')
+    #     find_left_and_right_mentions(test_set, is_gold=True)
+    #     if config_dict["load_predicted_mentions"]:
+    #         logger.info('Test predicted mentions - loading predicates and their arguments ')
+    #         find_left_and_right_mentions(test_set, is_gold=False)
 
-    if config_dict["use_srl"]:
-        logger.info('Loading SRL info')
-        if config_dict["use_allen_srl"]: # use the SRL system which is implemented in AllenNLP (currently - a deep BiLSTM model (He et al, 2017).)
-            srl_data = read_srl(config_dict["srl_output_path"])
-            logger.info('Training gold mentions - loading SRL info')
-            match_allen_srl_structures(train_set, srl_data, is_gold=True)
-            logger.info('Dev gold mentions - loading SRL info')
-            match_allen_srl_structures(dev_set, srl_data, is_gold=True)
-            logger.info('Test gold mentions - loading SRL info')
-            match_allen_srl_structures(test_set, srl_data, is_gold=True)
-            if config_dict["load_predicted_mentions"]:
-                logger.info('Test predicted mentions - loading SRL info')
-                match_allen_srl_structures(test_set, srl_data, is_gold=False)
-        else: # Use SwiRL SRL system (Surdeanu et al., 2007)
-            srl_data = parse_swirl_output(config_dict["srl_output_path"])
-            logger.info('Training gold mentions - loading SRL info')
-            load_srl_info(train_set, srl_data, is_gold=True)
-            logger.info('Dev gold mentions - loading SRL info')
-            load_srl_info(dev_set, srl_data, is_gold=True)
-            logger.info('Test gold mentions - loading SRL info')
-            load_srl_info(test_set, srl_data, is_gold=True)
-            if config_dict["load_predicted_mentions"]:
-                logger.info('Test predicted mentions - loading SRL info')
-                load_srl_info(test_set, srl_data, is_gold=False)
-    if config_dict["use_dep"]:  # use dependency parsing
-        logger.info('Augmenting predicate-arguments structures using dependency parser')
-        logger.info('Training gold mentions - loading predicates and their arguments with dependency parser')
-        find_args_by_dependency_parsing(train_set, is_gold=True)
-        logger.info('Dev gold mentions - loading predicates and their arguments with dependency parser')
-        find_args_by_dependency_parsing(dev_set, is_gold=True)
-        logger.info('Test gold mentions - loading predicates and their arguments with dependency parser')
-        find_args_by_dependency_parsing(test_set, is_gold=True)
-        if config_dict["load_predicted_mentions"]:
-            logger.info('Test predicted mentions - loading predicates and their arguments with dependency parser')
-            find_args_by_dependency_parsing(test_set, is_gold=False)
-    if config_dict["use_left_right_mentions"]:  # use left and right mentions heuristic
-        logger.info('Augmenting predicate-arguments structures using leftmost and rightmost entity mentions')
-        logger.info('Training gold mentions - loading predicates and their arguments ')
-        find_left_and_right_mentions(train_set, is_gold=True)
-        logger.info('Dev gold mentions - loading predicates and their arguments ')
-        find_left_and_right_mentions(dev_set, is_gold=True)
-        logger.info('Test gold mentions - loading predicates and their arguments ')
-        find_left_and_right_mentions(test_set, is_gold=True)
-        if config_dict["load_predicted_mentions"]:
-            logger.info('Test predicted mentions - loading predicates and their arguments ')
-            find_left_and_right_mentions(test_set, is_gold=False)
+    elmo = ElmoEmbedding(config_dict["options_file"], config_dict["weight_file"])
+    roberta = RobertaEmbedding(layer_num=config_dict["embedding_layers"])
 
-    # if config_dict["load_Roberta"]:
-    #     embedder = Embedding(layer_num=config_dict["embedding_layers"])
-    #     logger.info("Loading embeddings...")
-    #     load_embeddings(train_set, embedder, set_pred_mentions=False)
-    #     load_embeddings(dev_set, embedder, set_pred_mentions=False)
-    #     load_embeddings(test_set, embedder, set_pred_mentions=True)
+    logger.info("Loading embeddings...")
+    load_embeddings(train_set, elmo, roberta, set_pred_mentions=False)
+    load_embeddings(dev_set, elmo, roberta,  set_pred_mentions=False)
+    load_embeddings(test_set, elmo, roberta, set_pred_mentions=True)
 
     logger.info('Storing processed data...')
     with open(os.path.join(args.output_path,'training_data'), 'wb') as f:

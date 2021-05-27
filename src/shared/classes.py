@@ -386,7 +386,12 @@ class Mention(object):
 
         self.model_representation = None
 
-        self.head_embeddings = None
+        ## only the head word
+        self.head_elmo_embeddings = None
+        self.head_roberta_embeddings = None
+        ##  the whole phrase
+        self.elmo_embeddings = None
+        self.roberta_embeddings = None
 
     def get_tokens(self):
         '''
@@ -403,6 +408,13 @@ class Mention(object):
         for token in self.tokens:
             if token.get_token() == self.mention_head or self.mention_head in token.get_token():
                 return token.token_id
+
+    def get_mention_index(self):
+        '''
+        Returns the token IDs of the mention'
+        '''
+        print( [self.start_offset, self.end_offset])
+        return [self.start_offset, self.end_offset]
 
     def __str__(self):
         return '{}_{}'.format(self.mention_str, self.gold_tag)
