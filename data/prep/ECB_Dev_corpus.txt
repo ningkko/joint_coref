@@ -3721,7 +3721,7 @@
 2_10ecbplus	3	6	Academy	ACT16239369414744113
 2_10ecbplus	3	7	Awards	ACT16239369414744113
 2_10ecbplus	3	8	is	-
-2_10ecbplus	3	9		-
+2_10ecbplus	3	9	…	-
 2_10ecbplus	3	10	Ellen	HUM16239999045287365
 2_10ecbplus	3	11	DeGeneres	HUM16239999045287365
 2_10ecbplus	3	12	.	-
@@ -3983,7 +3983,7 @@
 2_6ecbplus	0	3	Host	ACT16240564368961988
 2_6ecbplus	0	4	Next	TIM16246737301517512
 2_6ecbplus	0	5	Year	TIM16246737301517512
-2_6ecbplus	0	6		TIM16246737301517512
+2_6ecbplus	0	6	’	TIM16246737301517512
 2_6ecbplus	0	7	s	TIM16246737301517512
 2_6ecbplus	0	8	Oscars	ACT16239369414744113
 
@@ -4037,7 +4037,7 @@
 2_7ecbplus	2	6	to	-
 2_7ecbplus	2	7	host	ACT16240564368961988
 2_7ecbplus	2	8	the	-
-2_7ecbplus	2	9	Oscars	ACT16239369414744113
+2_7ecbplus	2	9	Oscars®	ACT16239369414744113
 2_7ecbplus	2	10	for	TIM16240238425752332
 2_7ecbplus	2	11	a	TIM16240238425752332
 2_7ecbplus	2	12	second	TIM16240238425752332
@@ -4053,7 +4053,7 @@
 2_7ecbplus	2	22	today	TIM16246750076381642
 2_7ecbplus	2	23	.	-
 
-2_7ecbplus	3	0		-
+2_7ecbplus	3	0	“	-
 2_7ecbplus	3	1	We	HUM16253644588390514
 2_7ecbplus	3	2	are	-
 2_7ecbplus	3	3	thrilled	ACT16255180757207639
@@ -4065,7 +4065,7 @@
 2_7ecbplus	3	9	the	-
 2_7ecbplus	3	10	Oscars	ACT16239369414744113
 2_7ecbplus	3	11	,	-
-2_7ecbplus	3	12		-
+2_7ecbplus	3	12	”	-
 2_7ecbplus	3	13	said	ACT16239842591150729
 2_7ecbplus	3	14	Zadan	HUM16253653237720124
 2_7ecbplus	3	15	and	-
@@ -5850,7 +5850,7 @@
 21_13ecbplus	1	57	and	-
 21_13ecbplus	1	58	the	-
 21_13ecbplus	1	59	woman	-
-21_13ecbplus	1	60		-
+21_13ecbplus	1	60	’	-
 21_13ecbplus	1	61	s	-
 21_13ecbplus	1	62	friend	Singleton_HUM_44_21_13ecbplus
 21_13ecbplus	1	63	said	Singleton_ACT_52_21_13ecbplus
@@ -6209,7 +6209,7 @@
 21_4ecbplus	4	44	told	ACT18006456740754703
 21_4ecbplus	4	45	1010	-
 21_4ecbplus	4	46	WINS	-
-21_4ecbplus	4	47		-
+21_4ecbplus	4	47	’	-
 21_4ecbplus	4	48	Glenn	Singleton_HUM_23_21_4ecbplus
 21_4ecbplus	4	49	Schuck	Singleton_HUM_23_21_4ecbplus
 21_4ecbplus	4	50	.	-
@@ -7328,7 +7328,7 @@
 23_9ecbplus	2	26	on	LOC18241156396879727
 23_9ecbplus	2	27	New	LOC18241156396879727
 23_9ecbplus	2	28	Zealand	LOC18241156396879727
-23_9ecbplus	2	29		LOC18241156396879727
+23_9ecbplus	2	29	’	LOC18241156396879727
 23_9ecbplus	2	30	s	LOC18241156396879727
 23_9ecbplus	2	31	South	LOC18241156396879727
 23_9ecbplus	2	32	Island	LOC18241156396879727
@@ -7825,7 +7825,7 @@
 35_10ecbplus	2	14	,	-
 35_10ecbplus	2	15	the	-
 35_10ecbplus	2	16	team	HUM17641874250660065
-35_10ecbplus	2	17		-
+35_10ecbplus	2	17	’	-
 35_10ecbplus	2	18	s	-
 35_10ecbplus	2	19	second	TIM16240238425752332
 35_10ecbplus	2	20	such	-
@@ -8050,7 +8050,7 @@
 35_4ecbplus	3	25	.	-
 
 35_5ecbplus	0	0	Chargers	HUM17641874250660065
-35_5ecbplus	0	1		-
+35_5ecbplus	0	1	’	-
 35_5ecbplus	0	2	Jamal	HUM17641893957687535
 35_5ecbplus	0	3	Williams	HUM17641893957687535
 35_5ecbplus	0	4	Arrested	ACT17641449769632537

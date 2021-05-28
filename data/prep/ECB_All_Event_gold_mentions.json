@@ -44559,7 +44559,7 @@
             17,
             18
         ],
-        "tokens_str": "NFL  s worst record"
+        "tokens_str": "NFL \u2019 s worst record"
     },
     {
         "coref_chain": "ACT16976816649304572",
@@ -58147,7 +58147,7 @@
         "tokens_number": [
             9
         ],
-        "tokens_str": "Oscars"
+        "tokens_str": "Oscars\u00ae"
     },
     {
         "coref_chain": "ACT16240564368961988",

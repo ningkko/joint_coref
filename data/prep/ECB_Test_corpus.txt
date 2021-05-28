@@ -8897,7 +8897,7 @@
 42_3ecbplus	18	13	portfolio	NON17772698552724557
 42_3ecbplus	18	14	with	-
 42_3ecbplus	18	15	the	-
-42_3ecbplus	18	16	BlackBerry	NON17772718856233321
+42_3ecbplus	18	16	BlackBerry®	NON17772718856233321
 42_3ecbplus	18	17	Q10	NON17772718856233321
 42_3ecbplus	18	18	.	-
 
@@ -8948,7 +8948,7 @@
 42_4ecbplus	7	13	portfolio	NON17772698552724557
 42_4ecbplus	7	14	with	-
 42_4ecbplus	7	15	the	-
-42_4ecbplus	7	16	BlackBerry	NON17772718856233321
+42_4ecbplus	7	16	BlackBerry�	NON17772718856233321
 42_4ecbplus	7	17	Q10	NON17772718856233321
 42_4ecbplus	7	18	.	-
 
@@ -9399,9 +9399,9 @@
 43_4ecbplus	0	9	energy	-
 43_4ecbplus	0	10	-	-
 43_4ecbplus	0	11	efficient	-
-43_4ecbplus	0	12		-
+43_4ecbplus	0	12	“	-
 43_4ecbplus	0	13	microservers	ACT18182652973066989
-43_4ecbplus	0	14		-
+43_4ecbplus	0	14	”	-
 
 43_4ecbplus	4	0	Advanced	HUM18264819130490380
 43_4ecbplus	4	1	Micro	HUM18264819130490380
@@ -9690,7 +9690,7 @@
 44_10ecbplus	3	15	completed	ACT18185052441852416
 44_10ecbplus	3	16	within	-
 44_10ecbplus	3	17	HP	HUM18184954911690041
-44_10ecbplus	3	18		-
+44_10ecbplus	3	18	’	-
 44_10ecbplus	3	19	s	-
 44_10ecbplus	3	20	first	-
 44_10ecbplus	3	21	fiscal	TIM18232685153332606

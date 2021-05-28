@@ -51007,7 +51007,7 @@
             15,
             16
         ],
-        "tokens_str": "an upmarket jewellery boutique near Place Vendme in central Paris"
+        "tokens_str": "an upmarket jewellery boutique near Place Vend\u00f4me in central Paris"
     },
     {
         "coref_chain": "NON18316889977087247",
@@ -51033,7 +51033,7 @@
         "tokens_number": [
             8
         ],
-        "tokens_str": "2m"
+        "tokens_str": "\u20ac2m"
     },
     {
         "coref_chain": "NON28443472157695723",
@@ -51074,7 +51074,7 @@
             28,
             29
         ],
-        "tokens_str": "2 million"
+        "tokens_str": "\u20ac2 million"
     },
     {
         "coref_chain": "HUM18316922352936729",
@@ -51243,7 +51243,7 @@
             5,
             6
         ],
-        "tokens_str": "1 . 7m"
+        "tokens_str": "\u00a31 . 7m"
     },
     {
         "coref_chain": "HUM18316765045288949",
@@ -51382,7 +51382,7 @@
             26,
             27
         ],
-        "tokens_str": "2 million"
+        "tokens_str": "\u20ac2 million"
     },
     {
         "coref_chain": "Singleton_HUM_17_24_8ecbplus",

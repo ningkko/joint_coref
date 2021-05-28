@@ -339,7 +339,7 @@ def read_ecb_plus_doc(selected_sent_list, doc_filename, doc_id, file_obj,extract
 
             if int(token.tok_id) not in token_numbers:
                 token_numbers.append(int(token.tok_id))
-                tokens_str.append(token.text.encode('ascii', 'ignore'))
+                tokens_str.append(token.text.encode('utf-8', 'ignore'))
                 # print(token.text.encode('ascii', 'ignore'))
                 # tokens_str.append(token.text)
 
@@ -380,7 +380,7 @@ def read_ecb_plus_doc(selected_sent_list, doc_filename, doc_id, file_obj,extract
         if prev_sent_id is None or prev_sent_id != sent_id:
             file_obj.write('\n')
             prev_sent_id = sent_id
-        text = token.text.encode('ascii', 'ignore')
+        text = token.text.encode('utf-8', 'ignore')
 
         if text == '' or text == '\t':
             text = '-'

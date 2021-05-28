@@ -15,7 +15,8 @@ def find_token_index(tokenized_text):
 
     for i in range(0, len(tokenized_text)):
         if "Ġ" in tokenized_text[i]:
-            output.append(current_word)  # store the previous word
+            if current_word:
+                output.append(current_word)  # store the previous word
             current_word = [i]  # start documenting the current one
         else:
             current_word.append(i)
@@ -31,7 +32,7 @@ def get_mean_embedding(embeddings):
     arrays = [np.array(x) for x in embeddings]
     return [np.mean(k) for k in zip(*arrays)]
 
-class Embedding(object):
+class RobertaEmbedding(object):
     '''
     A wrapper class for the ElmoEmbedder of Allen NLP
     '''
@@ -43,8 +44,6 @@ class Embedding(object):
         self.layer_num = -layer_num
         self.model.eval()
         logger.info('Roberta Embedding module loaded successfully')
-
-
 
     def get_embedding(self, sentence):
         '''
@@ -59,6 +58,7 @@ class Embedding(object):
 
         # Split the sentence into tokens.
         tokenized_text = self.tokenizer.tokenize(text)
+        print("Bert tokenized text: %s"%" ".join(tokenized_text))
         # Map the token strings to their vocabulary indices.
         indexed_tokens = self.tokenizer.convert_tokens_to_ids(tokenized_text)
 
@@ -95,7 +95,8 @@ class Embedding(object):
             else:
                 # print(token_index)
                 embeddings.append(token_vecs_sum[token_index[0]])
-        return token_vecs_sum
+
+        return embeddings
 
 
 

@@ -22482,7 +22482,7 @@
             16,
             17
         ],
-        "tokens_str": "BlackBerry Q10"
+        "tokens_str": "BlackBerry\u00ae Q10"
     },
     {
         "coref_chain": "NON17772698552724557",
@@ -22716,7 +22716,7 @@
             16,
             17
         ],
-        "tokens_str": "BlackBerry Q10"
+        "tokens_str": "BlackBerry\ufffd Q10"
     },
     {
         "coref_chain": "HUM18264838847289264",

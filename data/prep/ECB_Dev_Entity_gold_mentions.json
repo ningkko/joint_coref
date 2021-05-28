@@ -9629,7 +9629,7 @@
             6,
             7
         ],
-        "tokens_str": "Next Year  s"
+        "tokens_str": "Next Year \u2019 s"
     },
     {
         "coref_chain": "HUM16239999045287365",
@@ -18142,7 +18142,7 @@
             31,
             32
         ],
-        "tokens_str": "a ridge in Aoraki / Mt . Cook National Park on New Zealand  s South Island"
+        "tokens_str": "a ridge in Aoraki / Mt . Cook National Park on New Zealand \u2019 s South Island"
     },
     {
         "coref_chain": "TIM18241906891752760",

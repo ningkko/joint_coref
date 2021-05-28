@@ -6,7 +6,10 @@ See log: https://docs.google.com/document/d/1CdORk86nj1NRDXiw7dDjKZpw1IfP4NsgtXh
 python src/all_models/train_model.py --config_path train_config.json --out_dir models/no_head_embeddings
 
 ## build_feature and lemma baseline
-python3 data/feature/build_feature.py --config_path feature_config.json" --output_path "data/feature/output/"
+find . -name '*.DS_Store' -delete
+python src/data/make_dataset.py --ecb_path data/ECB+/ECB+/ --output_dir data/prep/ --data_setup 2 --selected_sentences_file data/ECB+/ECBplus_coreference_sentences.csv
+
+python src/features/build_features.py --config_path "build_features_config.json" --output_path "data/feature/"
 
 python3 models/lemma_baseline.py --config_path "lemma_baseline_config.json"
 
