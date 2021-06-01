@@ -40,7 +40,7 @@ class RobertaEmbedding(object):
         logger.info('Loading Roberta module')
         self.tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
         self.model = RobertaModel.from_pretrained('roberta-base',
-                                                  output_hidden_states = True)
+                                                  output_hidden_states=True)
         self.layer_num = -layer_num
         self.model.eval()
         logger.info('Roberta Embedding module loaded successfully')
@@ -54,7 +54,7 @@ class RobertaEmbedding(object):
         '''
 
         text = sentence.get_raw_sentence()
-        # print(text)
+        # text = sentence
 
         # Split the sentence into tokens.
         tokenized_text = self.tokenizer.tokenize(text)
@@ -94,7 +94,7 @@ class RobertaEmbedding(object):
                 embeddings.append(get_mean_embedding(token_vecs_sum[start_index:end_index]))
             else:
                 # print(token_index)
-                embeddings.append(token_vecs_sum[token_index[0]])
+                embeddings.append(token_vecs_sum[token_index[0]].tolist)
 
         return embeddings
 
