@@ -145,4 +145,4 @@ model
 models
 glove.6B
 elmo/
-data/ECB+/ECB+
+data/

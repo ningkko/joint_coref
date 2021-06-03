@@ -608,49 +608,124 @@ def set_embed_to_mention(mention, elmo_embeddings, bert_embeddings):
     :return:
     '''
     head_index = int(mention.get_head_index())
-    mention_indices = mention.get_mention_index()  ## [start, end]
+    # mention_indices = mention.get_mention_index()  ## [start, end]
     mention.head_elmo_embeddings = elmo_embeddings[head_index]
     mention.head_roberta_embeddings = bert_embeddings[head_index]
 
     # mention.elmo_embeddings = get_average_mention_embeddings(elmo_embeddings, mention_indices)
     # mention.bert_embeddings = get_average_mention_embeddings(bert_embeddings, mention_indices)
 
-def set_embeddings_to_mentions(elmo_embedder, roberta_embedder, sentence, set_pred_mentions):
-    '''
-     Sets the embeddings for all the mentions in the sentence
-    :param elmo_embedder: a wrapper object
-    :param bert_embedder: a wrapper object
-    :param sentence: a sentence object
-    '''
-    elmo_embedding = elmo_embedder.get_embedding(sentence)
-    roberta_embedding = roberta_embedder.get_embedding(sentence)
-    if len(roberta_embedding)!=len(elmo_embedding):
-        sys.exit("Length diff @ %s"%sentence.get_raw_sentence())
+def set_sentence_embeddings_and_doc_embeddings(elmo_embedder, roberta_embedder, doc):
+    """
 
-    if set_pred_mentions:
-        event_mentions = sentence.pred_event_mentions
-        entity_mentions = sentence.pred_entity_mentions
-    else:
-        event_mentions = sentence.gold_event_mentions
-        entity_mentions = sentence.gold_entity_mentions
+    """
+    bert_input = []
+    elmo_input = []
+    sentence_end_indices = []
+    i = 0   ## for indexing
+    sentences = []
+    for sent_id, sent in doc.get_sentences().items():
+        tokens = sent.get_tokens_strings()
+        bert_input.append(sent.get_raw_sentence())
+        elmo_input.extend(tokens)
+        i += len(tokens)
+        sentence_end_indices.append(i)
+        sentences.append(sent)
 
-    for event in event_mentions:
-        set_embed_to_mention(event, elmo_embedding, roberta_embedding)
-    for entity in entity_mentions:
-        set_embed_to_mention(entity, elmo_embedding, roberta_embedding)
+    elmo_doc_embedding = elmo_embedder.get_doc_embedding(elmo_input)
+    roberta_doc_embedding = roberta_embedder.get_doc_embedding(" ".join(bert_input))
+    if len(elmo_doc_embedding) != len(roberta_doc_embedding):
+        print("doc-wise embedding lengths unequal")
+        print(len(elmo_doc_embedding))
+        print(len(roberta_doc_embedding))
+    doc.set_elmo_embedding(elmo_doc_embedding)
+    doc.set_bert_embedding(roberta_doc_embedding)
+
+    ## split doc embeddings into by-sentence embeddings
+    # bert_inputs = []
+    # elmo_inputs = []
+    previous_index = 0
+    for end_index, sent in zip(sentence_end_indices[:-1], sentences[:-1]):
+        # bert_inputs.append(elmo_doc_embedding[previous_index:end_index+1])
+        # elmo_inputs.append(roberta_doc_embedding[previous_index:end_index+1])
+        if len(elmo_doc_embedding[previous_index:end_index+1]) != len(roberta_doc_embedding[previous_index:end_index+1]):
+            print("sentence-wise embedding lengths unequal")
+            print(len(elmo_doc_embedding[previous_index:end_index+1]))
+            print(len(roberta_doc_embedding[previous_index:end_index+1]))
+
+        sent.set_elmo_embedding(elmo_doc_embedding[previous_index:end_index+1])
+        sent.set_bert_embedding(roberta_doc_embedding[previous_index:end_index+1])
+        previous_index = end_index
+
+    ## add the last one
+    # bert_inputs.append(bert_input[previous_index:])
+    # elmo_inputs.append(elmo_input[previous_index:])
+    sentences[-1].set_elmo_embedding(elmo_doc_embedding[previous_index:])
+    sentences[-1].set_bert_embedding(roberta_doc_embedding[previous_index:])
+
+def set_embeddings_to_mentions(elmo_embedder, roberta_embedder, doc, set_pred_mentions):
+    '''
+     doc_wide version
+    '''
+    set_sentence_embeddings_and_doc_embeddings(elmo_embedder, roberta_embedder, doc)
+
+    for sent_id, sentence in doc.get_sentences().items():
+        if set_pred_mentions:
+            event_mentions = sentence.pred_event_mentions
+            entity_mentions = sentence.pred_entity_mentions
+        else:
+            event_mentions = sentence.gold_event_mentions
+            entity_mentions = sentence.gold_entity_mentions
+
+        for event in event_mentions:
+            set_embed_to_mention(event, sentence.elmo_embedding, sentence.bert_embedding)
+        for entity in entity_mentions:
+            set_embed_to_mention(entity, sentence.elmo_embedding, sentence.bert_embedding)
+
+# def set_embeddings_to_mentions(elmo_embedder, roberta_embedder, sentence, set_pred_mentions):
+#     '''
+#      Sets the embeddings for all the mentions in the sentence
+#     :param elmo_embedder: a wrapper object
+#     :param bert_embedder: a wrapper object
+#     :param sentence: a sentence object
+#     '''
+#     elmo_embedding = elmo_embedder.get_embedding(sentence)
+#     roberta_embedding = roberta_embedder.get_embedding(sentence)
+#     if len(roberta_embedding)!=len(elmo_embedding):
+#         sys.exit("Length diff @ %s"%sentence.get_raw_sentence())
+#
+#     if set_pred_mentions:
+#         event_mentions = sentence.pred_event_mentions
+#         entity_mentions = sentence.pred_entity_mentions
+#     else:
+#         event_mentions = sentence.gold_event_mentions
+#         entity_mentions = sentence.gold_entity_mentions
+#
+#     for event in event_mentions:
+#         set_embed_to_mention(event, elmo_embedding, roberta_embedding)
+#     for entity in entity_mentions:
+#         set_embed_to_mention(entity, elmo_embedding, roberta_embedding)
 
 
 def load_embeddings(dataset, elmo, bert, set_pred_mentions):
     '''
-    Sets the ELMo embeddings for all the mentions in the split
-    :param dataset: an object represents a split (train/dev/test)
-    :param embedder: a wrapper object
-    :return:
+    THis embeds a whole document
     '''
     for topic_id, topic in dataset.topics.items():
         for doc_id, doc in topic.docs.items():
-            for sent_id, sent in doc.get_sentences().items():
-                set_embeddings_to_mentions(elmo, bert, sent, set_pred_mentions)
+            set_embeddings_to_mentions(elmo, bert, doc, set_pred_mentions)
+
+# def load_embeddings(dataset, elmo, bert, set_pred_mentions):
+#     '''
+#     Sets the ELMo embeddings for all the mentions in the split
+#     :param dataset: an object represents a split (train/dev/test)
+#     :param embedder: a wrapper object
+#     :return:
+#     '''
+#     for topic_id, topic in dataset.topics.items():
+#         for doc_id, doc in topic.docs.items():
+#             for sent_id, sent in doc.get_sentences().items():
+#                 set_embeddings_to_mentions(elmo, bert, sent, set_pred_mentions)
 
 
 def main(args):

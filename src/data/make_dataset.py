@@ -555,6 +555,10 @@ def main():
         xml_to_sent_dict = read_selected_sentences(args.selected_sentences_file)
         parse_selected_sentences(xml_to_sent_dict=xml_to_sent_dict,parse_all=False,
                                  load_singletons=True,data_setup=2)
+    elif args.data_setup == 3:  # Reads the a reviewed subset of the ECB+ and no singletons (streamlining)
+        xml_to_sent_dict = read_selected_sentences(args.selected_sentences_file)
+        parse_selected_sentences(xml_to_sent_dict=xml_to_sent_dict, parse_all=False,
+                                 load_singletons=False, data_setup=3)
     logger.info('ECB+ Reading was done.')
 
 

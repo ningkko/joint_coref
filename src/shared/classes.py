@@ -54,6 +54,14 @@ class Document(object):
         '''
         self.doc_id = doc_name
         self.sentences = {}
+        self.elmo_embedding = None
+        self.bert_embedding = None
+
+    def set_elmo_embedding(self, embedding):
+        self.elmo_embedding = embedding
+
+    def set_bert_embedding(self, embedding):
+        self.bert_embedding = embedding
 
     def get_sentences(self):
         '''
@@ -138,6 +146,15 @@ class Sentence(object):
         self.gold_entity_mentions = [] # gold event mentions
         self.pred_event_mentions = []  # predicted event mentions
         self.pred_entity_mentions = []  # predicted entity mentions
+        self.elmo_embedding = None
+        self.bert_embedding = None
+
+    def set_elmo_embedding(self, embedding):
+        self.elmo_embedding = embedding
+
+    def set_bert_embedding(self, embedding):
+        self.bert_embedding = embedding
+
 
     def add_token(self, token):
         '''
@@ -413,7 +430,7 @@ class Mention(object):
         '''
         Returns the token IDs of the mention'
         '''
-        print( [self.start_offset, self.end_offset])
+        # print( [self.start_offset, self.end_offset])
         return [self.start_offset, self.end_offset]
 
     def __str__(self):

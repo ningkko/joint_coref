@@ -29,3 +29,15 @@ class ElmoEmbedding(object):
         output = np.average(embeddings, axis=0)
 
         return output
+
+    def get_doc_embedding(self, tokenized_doc):
+        '''
+        :param tokenized_doc: a list of tokens in a doc
+        :return: the averaged ELMo embeddings of each word in the sentences
+        '''
+        print("Elmo tokenized text: %s"%" ".join(tokenized_doc))
+
+        embeddings = self.embedder.embed_sentence(tokenized_doc)
+        output = np.average(embeddings, axis=0)
+
+        return output
