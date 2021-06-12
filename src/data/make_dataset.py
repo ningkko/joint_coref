@@ -513,11 +513,12 @@ def parse_selected_sentences(xml_to_sent_dict, parse_all, load_singletons,data_s
     dev_extracted_mentions = []
     test_extracted_mentions = []
 
+
     for doc in train_files:
-        read_ecb_plus_doc(doc[0], doc[1],doc[2],train_out,train_extracted_mentions, parse_all, load_singletons)
+        read_ecb_plus_doc(doc[0], doc[1],doc[2],train_out,train_extracted_mentions, parse_all, True)
 
     for doc in dev_files:
-        read_ecb_plus_doc(doc[0], doc[1], doc[2], dev_out, dev_extracted_mentions, parse_all, load_singletons)
+        read_ecb_plus_doc(doc[0], doc[1], doc[2], dev_out, dev_extracted_mentions, parse_all, True)
 
     for doc in test_files:
         read_ecb_plus_doc(doc[0], doc[1],doc[2],test_out,test_extracted_mentions, parse_all, load_singletons)

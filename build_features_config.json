@@ -1,15 +1,15 @@
 {
-  "train_text_file":"data/prep_no_singleton/ECB_Train_corpus.txt",
-  "dev_text_file":"data/prep_no_singleton/ECB_Dev_corpus.txt",
-  "test_text_file":"data/prep_no_singleton/ECB_Test_corpus.txt",
+  "train_text_file":"data/prep/ECB_Train_corpus.txt",
+  "dev_text_file":"data/prep/ECB_Dev_corpus.txt",
+  "test_text_file":"data/prep/ECB_Test_corpus.txt",
 
-  "train_event_mentions":"data/prep_no_singleton/ECB_Train_Event_gold_mentions.json",
-  "dev_event_mentions":"data/prep_no_singleton/ECB_Dev_Event_gold_mentions.json",
-  "test_event_mentions":"data/prep_no_singleton/ECB_Test_Event_gold_mentions.json",
+  "train_event_mentions":"data/prep/ECB_Train_Event_gold_mentions.json",
+  "dev_event_mentions":"data/prep/ECB_Dev_Event_gold_mentions.json",
+  "test_event_mentions":"data/prep/ECB_Test_Event_gold_mentions.json",
 
-  "train_entity_mentions":"data/prep_no_singleton/ECB_Train_Entity_gold_mentions.json",
-  "dev_entity_mentions":"data/prep_no_singleton/ECB_Dev_Entity_gold_mentions.json",
-  "test_entity_mentions":"data/prep_no_singleton/ECB_Test_Entity_gold_mentions.json",
+  "train_entity_mentions":"data/prep/ECB_Train_Entity_gold_mentions.json",
+  "dev_entity_mentions":"data/prep/ECB_Dev_Entity_gold_mentions.json",
+  "test_entity_mentions":"data/prep/ECB_Test_Entity_gold_mentions.json",
 
   "pred_event_mentions":"",
   "pred_entity_mentions":"",
